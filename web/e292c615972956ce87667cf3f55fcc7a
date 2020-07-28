@@ -1,0 +1,3336 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 25px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 14pt; font-style: normal; font-weight: bold; background-color: #ffffff; }
+tr.R1{ height: 21px; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C2{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; text-align: center; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R85C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R85C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 85px; }
+tr.R2 td.R2C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R24{ height: 71px; }
+tr.R24 td.R24C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R24 td.R24C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R24 td.R37C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R26{ height: 29px; }
+tr.R26 td.R26C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R26 td.R26C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R26 td.R50C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R26 td.R50C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R29{ height: 43px; }
+tr.R29 td.R29C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R29 td.R29C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R29 td.R40C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R29 td.R40C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R29 td.R58C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3{ height: 99px; }
+tr.R3 td.R3C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3 td.R3C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3 td.R44C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3 td.R86C3{ font-family: Arial; font-size: 8pt; font-style: normal; text-align: center; vertical-align: middle; }
+tr.R54{ height: 127px; }
+tr.R54 td.R54C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R54 td.R54C17{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R54 td.R54C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6{ height: 57px; }
+tr.R6 td.R23C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R6C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R6C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7{ height: 15px; }
+tr.R7 td.R16C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R7C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R7C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R8C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R7 td.R8C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R79{ height: 22px; }
+tr.R79 td.R79C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R79 td.R79C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R79 td.R79C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:100%; height:0px; " CELLSPACING=0>
+<COL WIDTH=31>
+<COL WIDTH=89>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=63>
+<COL>
+<TR CLASS=R0>
+<TD CLASS="R0C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;max-width:0px;">Обновление&nbsp;04.06.2020</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">День</SPAN></TD>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">Интервал</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Бердинских&nbsp;В.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Власова&nbsp;К.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Ефимова&nbsp;Н.М.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Зорин&nbsp;А.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Ильин&nbsp;Д.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Кайсин&nbsp;А.О.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Калинин&nbsp;А.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Конышев&nbsp;Д.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Коршунков&nbsp;В.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Костина&nbsp;Е.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Кустова&nbsp;Е.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Лицарев&nbsp;М.Ю.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Макарова&nbsp;А.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Машковцев&nbsp;А.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Машковцева&nbsp;В.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Мокерова&nbsp;Е.Ю.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Немчанинова&nbsp;Е.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Печенкин&nbsp;А.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Половникова&nbsp;М.Ю.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Росина&nbsp;М.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Рычкова&nbsp;О.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Садаков&nbsp;Д.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Сенников&nbsp;А.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Смольняк&nbsp;И.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Соловьева&nbsp;И.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Судовиков&nbsp;М.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Тарасов&nbsp;К.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Тимофеева&nbsp;Л.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Титова&nbsp;Е.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Трушкова&nbsp;И.Ю.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Целищев&nbsp;Н.Е.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Чучкалов&nbsp;А.В.</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;25.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-322 Новая история стран Европы и Америки Лекция  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-316 Новая и новейшая история стран Азии и Африки Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-211 Мировая политика Лекция  МОб-3201-01-00 МОб-3201-01-00, 01 подгруппа МОб-3201-01-00, 02 подгруппа МОб-3201-01-00, 03 подгруппа МОб-3201-01-00, 04 подгруппа МОб-3201-01-00, 05 подгруппа МОб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-457 История Древнего мира Лекция  ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа ПОДб-1205-58-00, 02 подгруппа ПОДб-1205-58-00, 03 подгруппа ПОДб-1205-58-00, 04 подгруппа ПОДб-1205-58-00, 05 подгруппа ПОДб-1205-58-00, 06 подгруппа ПОДб-1205-58-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">16-121 Историография отечественной истории Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-322 Новая история стран Европы и Америки Практическое занятие  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-214 Основы государственного управления и местного самоуправления Экзамен  ПТЛб-4201-51-00 (https://teams.microsoft.com/l/channel/19:cbae54027798494c9a6d4e94026071a5@thread.tacv2/conversations?groupId=ebec30a8-723c-4ba6-863c-7c913479b5da&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-211 История международных отношений Лекция  МОб-1201-01-00 МОб-1201-01-00, 01 подгруппа МОб-1201-01-00, 02 подгруппа МОб-1201-01-00, 03 подгруппа МОб-1201-01-00, 04 подгруппа МОб-1201-01-00, 05 подгруппа МОб-1201-01-00, 06 подгруппа МОб-1201-01-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-457 История Древнего мира Практическое занятие  ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа ПОДб-1205-58-00, 02 подгруппа ПОДб-1205-58-00, 03 подгруппа ПОДб-1205-58-00, 04 подгруппа ПОДб-1205-58-00, 05 подгруппа ПОДб-1205-58-00, 06 подгруппа ПОДб-1205-58-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-337 История Практическое занятие  ПЛб-1701-03-20 ПЛб-1701-03-20, 01 подгруппа ПЛб-1701-03-20, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-319 Историческая география Лекция  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">16-121 Историография отечественной истории Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-214 Протестное движение в России и мире Лекция  МОб-3201-01-00 МОб-3201-01-00, 01 подгруппа МОб-3201-01-00, 02 подгруппа МОб-3201-01-00, 03 подгруппа МОб-3201-01-00, 04 подгруппа МОб-3201-01-00, 05 подгруппа МОб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-457 Археология Лекция  ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа ПОДб-1205-58-00, 02 подгруппа ПОДб-1205-58-00, 03 подгруппа ПОДб-1205-58-00, 04 подгруппа ПОДб-1205-58-00, 05 подгруппа ПОДб-1205-58-00, 06 подгруппа ПОДб-1205-58-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-305 История Практическое занятие  ХТб-1503-07-00 ХТб-1503-07-00, 01 подгруппа ХТб-1503-07-00, 02 подгруппа ХТб-1503-07-00, 03 подгруппа ХТб-1503-07-00, 04 подгруппа ХТб-1503-07-00, 05 подгруппа ХТб-1503-07-00, 06 подгруппа ХТб-1503-07-00, 07 подгруппа ХТб-1503-07-00, 08 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-339 История Практическое занятие  ХТб-1502-07-00 ХТб-1502-07-00, 01 подгруппа ХТб-1502-07-00, 02 подгруппа ХТб-1502-07-00, 03 подгруппа ХТб-1502-07-00, 04 подгруппа ХТб-1502-07-00, 05 подгруппа ХТб-1502-07-00, 06 подгруппа ХТб-1502-07-00, 07 подгруппа ХТб-1502-07-00, 08 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-311 История экономики Лекция  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-310 История Практическое занятие  ГГб-1501-51-00 ГГб-1501-51-00, 01 подгруппа ГГб-1501-51-00, 02 подгруппа ГГб-1501-51-00, 03 подгруппа ГГб-1501-51-00, 04 подгруппа ГГб-1501-51-00, 05 подгруппа ГГб-1501-51-00, 06 подгруппа ГГб-1501-51-00, 07 подгруппа ГГб-1501-51-00, 08 подгруппа ГГб-1502-51-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-214 Протестное движение в России и мире Практическое занятие  МОб-3201-01-00 МОб-3201-01-00, 01 подгруппа МОб-3201-01-00, 02 подгруппа МОб-3201-01-00, 03 подгруппа МОб-3201-01-00, 04 подгруппа МОб-3201-01-00, 05 подгруппа МОб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;26.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-319 История России с древнейших времён до начала XVII века Практическое занятие  ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа ПОДб-1205-58-00, 02 подгруппа ПОДб-1205-58-00, 03 подгруппа ПОДб-1205-58-00, 04 подгруппа ПОДб-1205-58-00, 05 подгруппа ПОДб-1205-58-00, 06 подгруппа ПОДб-1205-58-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-214 История России ХХ века Лекция  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 Новая история стран Европы и Америки Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">2-206 История Практическое занятие  ТХОб-1801-01-00 ТХОб-1801-01-00, 01 подгруппа ТХОб-1801-01-00, 02 подгруппа ТХОб-1801-01-00, 03 подгруппа ТХОб-1801-01-00, 04 подгруппа ТХОб-1801-01-00, 05 подгруппа ТХОб-1801-01-00, 06 подгруппа ТХОб-1801-01-00, 07 подгруппа ТХОб-1801-01-00, 08 подгруппа ТХОб-1801-01-00, 09 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-319 История России с древнейших времён до начала XVII века Практическое занятие  ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа ПОДб-1205-58-00, 02 подгруппа ПОДб-1205-58-00, 03 подгруппа ПОДб-1205-58-00, 04 подгруппа ПОДб-1205-58-00, 05 подгруппа ПОДб-1205-58-00, 06 подгруппа ПОДб-1205-58-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-214 Историография отечественной истории Практическое занятие  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-334 Новая история стран Европы и Америки Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-328 История России ХIХ века Лекция  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">21-264 Археология и этнология Практическое занятие  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-316 Новая и новейшая история стран Азии и Африки Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-316 Современные международные отношения Практическое занятие  МОб-2201-01-00 МОб-2201-01-00, 01 подгруппа МОб-2201-01-00, 02 подгруппа МОб-2201-01-00, 03 подгруппа МОб-2201-01-00, 04 подгруппа МОб-2201-01-00, 05 подгруппа МОб-2201-01-00, 06 подгруппа МОб-2201-01-00, 07 подгруппа МОб-2202-01-00 МОб-2202-01-00, 01 подгруппа МОб-2202-01-00, 02 подгруппа МОб-2202-01-00, 03 подгруппа МОб-2202-01-00, 04 подгруппа МОб-2202-01-00, 05 подгруппа МОб-2202-01-00, 06 подгруппа МОб-2202-01-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">1-422 История Практическое занятие  БТб-2102-03-00 БТб-2102-03-00, 01 подгруппа БТб-2102-03-00, 02 подгруппа БТб-2102-03-00, 03 подгруппа БТб-2102-03-00, 04 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-267 История России Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-335 История России Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-214 История России ХХ века Практическое занятие  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-334 История Средних веков Лекция  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-221 История России до начала ХVII века Лекция  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-267 История России Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-335 История России Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-214 История (история России, всеобщая история) Практическое занятие  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа</TD>
+<TD CLASS="R3C2">14-319 Историография отечественной истории Лекция  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-221 История России до начала ХVII века Практическое занятие  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;27.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-214 История политических учений Лекция  МОб-1201-01-00 МОб-1201-01-00, 01 подгруппа МОб-1201-01-00, 02 подгруппа МОб-1201-01-00, 03 подгруппа МОб-1201-01-00, 04 подгруппа МОб-1201-01-00, 05 подгруппа МОб-1201-01-00, 06 подгруппа МОб-1201-01-00, 07 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">21-264 Архивоведение Практическое занятие  ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-322 Теория и методика обучения истории Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-219 Политическая социология Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-214 История политических учений Практическое занятие  МОб-1201-01-00 МОб-1201-01-00, 01 подгруппа МОб-1201-01-00, 02 подгруппа МОб-1201-01-00, 03 подгруппа МОб-1201-01-00, 04 подгруппа МОб-1201-01-00, 05 подгруппа МОб-1201-01-00, 06 подгруппа МОб-1201-01-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">21-264 Архивоведение Лекция  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-322 Теория и методика обучения истории Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-210 Новая и новейшая история стран Азии и Африки Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">21-264 Архивоведение Практическое занятие  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-221 История России ХIХ века Практическое занятие  ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-221 История России ХIХ века Практическое занятие  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R23C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;28.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-222 Новая история стран Европы и Америки Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R24>
+<TD CLASS="R24C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-218 Современные политические системы Консультация  ПТЛб-4201-51-00 (https://teams.microsoft.com/l/channel/19:71309a87153d43a888e6d690cd01ebd0@thread.tacv2/conversations?groupId=1bddda33-0ccc-4be7-815d-f71a16d8728a&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">15-251 История Зачет  ПЛб-1701-03-20 ПЛб-1701-03-20, 01 подгруппа ПЛб-1701-03-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:07db863d8e584bb58f4faa9b0b0b7f0d@thread.tacv2/conversations?groupId=4d59d579-f3db-4753-90c2-938af2fd2919&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-324 История Средних веков Практическое занятие  ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-214 Политическая история стран Азии и Африки Лекция  МОб-1201-01-00 МОб-1201-01-00, 01 подгруппа МОб-1201-01-00, 02 подгруппа МОб-1201-01-00, 03 подгруппа МОб-1201-01-00, 04 подгруппа МОб-1201-01-00, 05 подгруппа МОб-1201-01-00, 06 подгруппа МОб-1201-01-00, 07 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R24>
+<TD CLASS="R24C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">15-251 История Зачет  ПЛб-1701-03-20 ПЛб-1701-03-20, 01 подгруппа ПЛб-1701-03-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:07db863d8e584bb58f4faa9b0b0b7f0d@thread.tacv2/conversations?groupId=4d59d579-f3db-4753-90c2-938af2fd2919&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-208 Проектная деятельность по методике обучения обществознанию Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-324 История Средних веков Практическое занятие  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-214 Тайм-менеджмент Практическое занятие  МОб-1201-01-00 МОб-1201-01-00, 01 подгруппа МОб-1201-01-00, 02 подгруппа МОб-1201-01-00, 03 подгруппа МОб-1201-01-00, 04 подгруппа МОб-1201-01-00, 05 подгруппа МОб-1201-01-00, 06 подгруппа МОб-1201-01-00, 07 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R26>
+<TD CLASS="R26C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">14-221 Теория и методика обучения обществознанию Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R29>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">14-222 Источниковедение истории стран Европы и Северной Америки в новое и новейшее время Практическое занятие  ИСм-1202-52-00 ИСм-1202-52-00, 01 подгруппа ИСм-1202-52-00, 02 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R23C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;29.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-221 Историческая география Практическое занятие  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-210 Политическая социология Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-214 Современные политические системы Экзамен  ПТЛб-4201-51-00 (https://teams.microsoft.com/l/channel/19:49b44ab939c44075b1e5a73d40618496@thread.tacv2/conversations?groupId=08ef1be9-5611-4ba0-b996-d8e0bb13fde5&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-319 История России Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 Историческая география Практическое занятие  ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">17-267 История российской дипломатии Лекция  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-403 Миротворчество в современном мире: теория и практика Лекция  МОб-3201-01-00 МОб-3201-01-00, 01 подгруппа МОб-3201-01-00, 02 подгруппа МОб-3201-01-00, 03 подгруппа МОб-3201-01-00, 04 подгруппа МОб-3201-01-00, 05 подгруппа МОб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 Политическая социология Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-334 Археология Практическое занятие  ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа ПОДб-1205-58-00, 02 подгруппа ПОДб-1205-58-00, 03 подгруппа ПОДб-1205-58-00, 04 подгруппа ПОДб-1205-58-00, 05 подгруппа ПОДб-1205-58-00, 06 подгруппа ПОДб-1205-58-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-221 Классические языки в системе исторического знания Практическое занятие  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-319 История России Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-267 История российской дипломатии Практическое занятие  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">16-403 Миротворчество в современном мире: теория и практика Практическое занятие  МОб-3201-01-00 МОб-3201-01-00, 01 подгруппа МОб-3201-01-00, 02 подгруппа МОб-3201-01-00, 03 подгруппа МОб-3201-01-00, 04 подгруппа МОб-3201-01-00, 05 подгруппа МОб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-210 Новая и новейшая история стран Азии и Африки Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-209 Протестное движение в России и мире Лекция  МОб-3201-01-00 МОб-3201-01-00, 01 подгруппа МОб-3201-01-00, 02 подгруппа МОб-3201-01-00, 03 подгруппа МОб-3201-01-00, 04 подгруппа МОб-3201-01-00, 05 подгруппа МОб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 Историография всеобщей истории Лекция  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 История Древнего мира Практическое занятие  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">19-257 История (история России, всеобщая история) Зачет  ФКб-1701-51-20 ФКб-1701-51-20, 01 подгруппа ФКб-1701-51-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:2c5f4648511241749d7294e62b40b893@thread.tacv2/conversations?groupId=863ad2b8-7921-4532-a9b0-124457e38ce3&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-247 Проектная деятельность по методике обучения истории Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-300 История Практическое занятие  ПТКс-1801-02-00 ПТКс-1801-02-00, 01 подгруппа ПТКс-1801-02-00, 02 подгруппа ПТКс-1801-02-00, 03 подгруппа ПТКс-1801-02-00, 04 подгруппа ПТКс-1801-02-00, 05 подгруппа ПТКс-1801-02-00, 06 подгруппа ПТКс-1801-02-00, 07 подгруппа ПТКс-1801-02-00, 08 подгруппа ПТКс-1801-02-00, 09 подгруппа</TD>
+<TD CLASS="R2C2">14-208 Основы государственного управления и местного самоуправления Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-209 Протестное движение в России и мире Практическое занятие  МОб-3201-01-00 МОб-3201-01-00, 01 подгруппа МОб-3201-01-00, 02 подгруппа МОб-3201-01-00, 03 подгруппа МОб-3201-01-00, 04 подгруппа МОб-3201-01-00, 05 подгруппа МОб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-210 Историография всеобщей истории Практическое занятие  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">19-257 История (история России, всеобщая история) Зачет  ФКб-1701-51-20 ФКб-1701-51-20, 01 подгруппа ФКб-1701-51-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:2c5f4648511241749d7294e62b40b893@thread.tacv2/conversations?groupId=863ad2b8-7921-4532-a9b0-124457e38ce3&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-247 Проектная деятельность по методике обучения истории Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R24>
+<TD CLASS="R37C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;30.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R24C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-202 История (история России, всеобщая история) Практическое занятие  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-221 Теория и методика обучения обществознанию Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-211 Классические языки в системе исторического знания Лекция  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-268 История России Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-202 История (история России, всеобщая история) Практическое занятие  ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-221 Теория и методика обучения обществознанию Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-211 Классические языки в системе исторического знания Практическое занятие  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-268 История России Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-202 История (история России, всеобщая история) Практическое занятие  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-221 Проектная деятельность по методике обучения истории Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R29>
+<TD CLASS="R40C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2">14-221 Проектная деятельность по методике обучения истории Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R44C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;01.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-219 История России Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-211 Историография отечественной истории Лекция  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-332 Новая история стран Европы и Америки Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2">14-221 История Средних веков Лекция  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-214 История политических учений Практическое занятие  МОб-1201-01-00 МОб-1201-01-00, 01 подгруппа МОб-1201-01-00, 02 подгруппа МОб-1201-01-00, 03 подгруппа МОб-1201-01-00, 04 подгруппа МОб-1201-01-00, 05 подгруппа МОб-1201-01-00, 06 подгруппа МОб-1201-01-00, 07 подгруппа</TD>
+<TD CLASS="R3C2">14-221 Сравнительная политология Консультация  ПТЛб-4201-51-00 (https://teams.microsoft.com/l/channel/19:78c996116bb7438baf8a354ee935b978@thread.tacv2/conversations?groupId=a72d15a8-5923-491f-b7e7-a830507a9a30&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-457 История Древнего мира Практическое занятие  ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа ПОДб-1205-58-00, 02 подгруппа ПОДб-1205-58-00, 03 подгруппа ПОДб-1205-58-00, 04 подгруппа ПОДб-1205-58-00, 05 подгруппа ПОДб-1205-58-00, 06 подгруппа ПОДб-1205-58-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-219 История России Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-211 Историография отечественной истории Практическое занятие  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">16-408 История экономики Практическое занятие  ЭКНб-3604-05-24 ЭКНб-3604-05-24, 01 подгруппа ЭКНб-3604-05-24, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-311 Новая и новейшая история стран Азии и Африки Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-214 Подготовка и сдача государственного экзамена Консультация перед государственным экзаменом  ПТЛб-4202-51-00 (https://teams.microsoft.com/l/channel/19:071126a433e842a886cfd8a54c703e75@thread.tacv2/conversations?groupId=136aca0d-3148-4dc2-868b-641080c09639&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-211 Теория и методика обучения обществознанию Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-408 История экономики Практическое занятие  ЭКНб-3604-05-24 ЭКНб-3604-05-24, 01 подгруппа ЭКНб-3604-05-24, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-114 История России до начала ХVII века Лекция  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">17-457 Политическая история стран Азии и Африки Лекция  МОб-1201-01-00 МОб-1201-01-00, 01 подгруппа МОб-1201-01-00, 02 подгруппа МОб-1201-01-00, 03 подгруппа МОб-1201-01-00, 04 подгруппа МОб-1201-01-00, 05 подгруппа МОб-1201-01-00, 06 подгруппа МОб-1201-01-00, 07 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-305 История Практическое занятие  ХТб-1503-07-00 ХТб-1503-07-00, 01 подгруппа ХТб-1503-07-00, 02 подгруппа ХТб-1503-07-00, 03 подгруппа ХТб-1503-07-00, 04 подгруппа ХТб-1503-07-00, 05 подгруппа ХТб-1503-07-00, 06 подгруппа ХТб-1503-07-00, 07 подгруппа ХТб-1503-07-00, 08 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-339 История Практическое занятие  ХТб-1502-07-00 ХТб-1502-07-00, 01 подгруппа ХТб-1502-07-00, 02 подгруппа ХТб-1502-07-00, 03 подгруппа ХТб-1502-07-00, 04 подгруппа ХТб-1502-07-00, 05 подгруппа ХТб-1502-07-00, 06 подгруппа ХТб-1502-07-00, 07 подгруппа ХТб-1502-07-00, 08 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-211 Проектная деятельность по методике обучения истории Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2">14-222 Новая история стран Европы и Америки Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-208 История России до начала ХVII века Практическое занятие  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-310 История Практическое занятие  ГГб-1501-51-00 ГГб-1501-51-00, 01 подгруппа ГГб-1501-51-00, 02 подгруппа ГГб-1501-51-00, 03 подгруппа ГГб-1501-51-00, 04 подгруппа ГГб-1501-51-00, 05 подгруппа ГГб-1501-51-00, 06 подгруппа ГГб-1501-51-00, 07 подгруппа ГГб-1501-51-00, 08 подгруппа ГГб-1502-51-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R26>
+<TD CLASS="R26C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">14-219 Археология Практическое занятие  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">15-339 История России Практическое занятие  СДОб-1702-51-20 СДОб-1702-51-20, 01 подгруппа СДОб-1702-51-20, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R26>
+<TD CLASS="R26C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R26C2">14-210 Политическая история СССР Лекция  ИСм-1201-01-00 ИСм-1201-01-00, 01 подгруппа ИСм-1201-01-00, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">14-219 Археология Практическое занятие  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R26>
+<TD CLASS="R50C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R50C2">14-210 Политическая история СССР Практическое занятие  ИСм-1201-01-00 ИСм-1201-01-00, 01 подгруппа ИСм-1201-01-00, 02 подгруппа</TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;02.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-214 История России ХХ века Лекция  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-311 Новая история стран Европы и Америки Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-322 Теория и история дипломатии Практическое занятие  МОб-1201-01-00 МОб-1201-01-00, 01 подгруппа МОб-1201-01-00, 02 подгруппа МОб-1201-01-00, 03 подгруппа МОб-1201-01-00, 04 подгруппа МОб-1201-01-00, 05 подгруппа МОб-1201-01-00, 06 подгруппа МОб-1201-01-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-219 Сравнительная политология Экзамен  ПТЛб-4201-51-00 (https://teams.microsoft.com/l/channel/19:ab6e432e77974e849728aaadc38f1e57@thread.tacv2/conversations?groupId=da99ccfd-1eb0-4c28-817e-e83cdfaba4fe&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2">17-267 Археология Практическое занятие  ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа ПОДб-1205-58-00, 02 подгруппа ПОДб-1205-58-00, 03 подгруппа ПОДб-1205-58-00, 04 подгруппа ПОДб-1205-58-00, 05 подгруппа ПОДб-1205-58-00, 06 подгруппа ПОДб-1205-58-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-331 История России Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">17-152 История (история России, всеобщая история) Практическое занятие  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-206 История (история России, всеобщая история) Практическое занятие  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа МКб-1301-51-00, 02 подгруппа МКб-1301-51-00, 03 подгруппа МКб-1301-51-00, 04 подгруппа МКб-1301-51-00, 05 подгруппа МКб-1301-51-00, 06 подгруппа МКб-1301-51-00, 07 подгруппа МКб-1301-51-00, 08 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-214 Новая история стран Европы и Америки Лекция  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-322 Основы государственного управления и местного самоуправления Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">14-311 История экономики Практическое занятие  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-208 Документационное обеспечение и делопроизводство в государственном и муниципальном управлении Лекция  ГМб-2601-01-24 ГМб-2602-51-24</TD>
+<TD CLASS="R2C2">21-264 Археология и этнология Практическое занятие  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-319 Современные международные отношения Практическое занятие  МОб-2201-01-00 МОб-2201-01-00, 01 подгруппа МОб-2201-01-00, 02 подгруппа МОб-2201-01-00, 03 подгруппа МОб-2201-01-00, 04 подгруппа МОб-2201-01-00, 05 подгруппа МОб-2201-01-00, 06 подгруппа МОб-2201-01-00, 07 подгруппа МОб-2202-01-00 МОб-2202-01-00, 01 подгруппа МОб-2202-01-00, 02 подгруппа МОб-2202-01-00, 03 подгруппа МОб-2202-01-00, 04 подгруппа МОб-2202-01-00, 05 подгруппа МОб-2202-01-00, 06 подгруппа МОб-2202-01-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-121 История Древнего мира Лекция  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-268 История России Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-152 История (история России, всеобщая история) Практическое занятие  ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа</TD>
+<TD CLASS="R3C2">14-322 История России Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">17-457 Историческая география Практическое занятие  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-211 История России ХХ века Практическое занятие  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-309 История экономики Практическое занятие  ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-214 Подготовка и сдача государственного экзамена Государственный экзамен  ПТЛб-4202-51-00 (https://teams.microsoft.com/l/channel/19:e703f78f85914c38a56cbf80541386a2@thread.tacv2/conversations?groupId=10812ca9-84ba-4c74-8604-25efdfec6dc7&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-218 Этнология народов России Лекция  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R54>
+<TD CLASS="R54C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">1-313 История (история России, всеобщая история) Практическое занятие  ГСб-1801-04-00 ГСб-1801-04-00, 01 подгруппа ГСб-1801-04-00, 02 подгруппа ГСб-1801-04-00, 03 подгруппа ГСб-1801-04-00, 04 подгруппа ГСб-1801-04-00, 05 подгруппа ГСб-1801-04-00, 06 подгруппа ГСб-1801-04-00, 07 подгруппа ГСб-1801-04-00, 08 подгруппа ГСб-1801-04-00, 09 подгруппа</TD>
+<TD CLASS="R54C2">14-121 История Древнего мира Практическое занятие  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">16-212 История (история России, всеобщая история) Практическое занятие  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C17">17-457 Историческая география Практическое занятие  ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа<BR>16-207 История (история России, всеобщая история) Практическое занятие  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа МКб-1301-51-00, 02 подгруппа МКб-1301-51-00, 03 подгруппа МКб-1301-51-00, 04 подгруппа МКб-1301-51-00, 05 подгруппа МКб-1301-51-00, 06 подгруппа МКб-1301-51-00, 07 подгруппа МКб-1301-51-00, 08 подгруппа</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">14-322 Основы государственного управления и местного самоуправления Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">14-218 Этнология народов России Практическое занятие  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R24>
+<TD CLASS="R24C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">2-207 История (история России, всеобщая история) Практическое занятие  КИб-1801-51-00 КИб-1801-51-00, 01 подгруппа КИб-1801-51-00, 02 подгруппа КИб-1801-51-00, 03 подгруппа КИб-1801-51-00, 04 подгруппа КИб-1801-51-00, 05 подгруппа КИб-1801-51-00, 06 подгруппа КИб-1801-51-00, 07 подгруппа КИб-1801-51-00, 08 подгруппа КИб-1801-51-00, 09 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-322 Проектная деятельность по методике обучения обществознанию Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R29>
+<TD CLASS="R58C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;03.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R40C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2"><SPAN></SPAN></TD>
+<TD CLASS="R40C2">17-457 Новая и новейшая история стран Азии и Африки Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R24>
+<TD CLASS="R24C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-219 Консультация перед государственным экзаменом  МОб-4201-01-00 МОб-4201-01-00, 01 подгруппа МОб-4201-01-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:3fb2cc661a7545de97d63ee6dae98ea5@thread.tacv2/conversations?groupId=d812cfa5-03c8-440c-9132-6e67a1ea082e&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2">14-202 Политическая культура Практическое занятие  ПОб-4704-63-20</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-214 Консультация перед государственным экзаменом  ПОДб-5202-58-00 ПОДб-5202-58-00, 01 подгруппа ПОДб-5202-58-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:fefaf2021a354a52874c18665f5564af@thread.tacv2/conversations?groupId=b38d31dd-0d18-4243-a2e1-c205690f2606&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">17-457 Новая и новейшая история стран Азии и Африки Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-316 Мировая политика Практическое занятие  МОб-3201-01-00 МОб-3201-01-00, 01 подгруппа МОб-3201-01-00, 02 подгруппа МОб-3201-01-00, 03 подгруппа МОб-3201-01-00, 04 подгруппа МОб-3201-01-00, 05 подгруппа МОб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2">14-202 Политическая культура Зачет  ПОб-4704-63-20 (https://teams.microsoft.com/l/channel/19:223c8e5131b04b7dbe21bf037dbb877b@thread.tacv2/conversations?groupId=f2ef0f77-53f3-4f3f-bde4-c13e5804e7f6&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-214 История Древнего мира Практическое занятие  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-211 История России Практическое занятие  СДОб-1701-51-20 СДОб-1701-51-20, 01 подгруппа СДОб-1701-51-20, 02 подгруппа</TD>
+<TD CLASS="R2C2">14-309 История России Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-319 История российской дипломатии Лекция  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-214 История Древнего мира Практическое занятие  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-309 История России Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-316 Архивоведение Практическое занятие  ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R3C2">14-319 История российской дипломатии Практическое занятие  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2">4-602 История Практическое занятие  Бб-2101-01-00 Бб-2101-01-00, 01 подгруппа Бб-2101-01-00, 02 подгруппа Бб-2101-01-00, 03 подгруппа Бб-2101-01-00, 04 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-316 Архивоведение Практическое занятие  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R23C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;04.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-219 Теория и методика обучения истории Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-331 История России ХIХ века Практическое занятие  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-247 Классические языки в системе исторического знания Лекция  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-219 Теория и методика обучения истории Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-331 История России ХIХ века Лекция  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R3C2">14-219 Государственный экзамен  МОб-4201-01-00 МОб-4201-01-00, 01 подгруппа МОб-4201-01-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:cbf9ad2c55904ad49d518489662f8e13@thread.tacv2/conversations?groupId=1a28a208-5604-45dd-9ea2-30c7d93ff229&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-214 Государственный экзамен  ПОДб-5202-58-00 ПОДб-5202-58-00, 01 подгруппа ПОДб-5202-58-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:59f3b2088a154597a6c2eb4fbeac45e2@thread.tacv2/conversations?groupId=71c9988f-7d75-4036-84e0-4971e402bf24&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R24>
+<TD CLASS="R24C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-211 Мировая политика Практическое занятие  МОб-3201-01-00 МОб-3201-01-00, 01 подгруппа МОб-3201-01-00, 02 подгруппа МОб-3201-01-00, 03 подгруппа МОб-3201-01-00, 04 подгруппа МОб-3201-01-00, 05 подгруппа МОб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-218 Прикладная политология Консультация  ПТЛб-4201-51-00 (https://teams.microsoft.com/l/channel/19:decabd3b7f914a0e962a7ef7ddfbdf94@thread.tacv2/conversations?groupId=2cc24cb2-ed37-4fc4-9e70-9a3122961ff5&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-334 Историография отечественной истории Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-208 История Средних веков Практическое занятие  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-331 История России ХIХ века Практическое занятие  ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R24C2">14-219 Государственный экзамен  МОб-4201-01-00 МОб-4201-01-00, 01 подгруппа МОб-4201-01-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:cbf9ad2c55904ad49d518489662f8e13@thread.tacv2/conversations?groupId=1a28a208-5604-45dd-9ea2-30c7d93ff229&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-210 Этнология народов России Практическое занятие  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R24C2">14-214 Государственный экзамен  ПОДб-5202-58-00 ПОДб-5202-58-00, 01 подгруппа ПОДб-5202-58-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:59f3b2088a154597a6c2eb4fbeac45e2@thread.tacv2/conversations?groupId=71c9988f-7d75-4036-84e0-4971e402bf24&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-222 Современные международные отношения Лекция  МОб-2201-01-00 МОб-2201-01-00, 01 подгруппа МОб-2201-01-00, 02 подгруппа МОб-2201-01-00, 03 подгруппа МОб-2201-01-00, 04 подгруппа МОб-2201-01-00, 05 подгруппа МОб-2201-01-00, 06 подгруппа МОб-2201-01-00, 07 подгруппа МОб-2202-01-00 МОб-2202-01-00, 01 подгруппа МОб-2202-01-00, 02 подгруппа МОб-2202-01-00, 03 подгруппа МОб-2202-01-00, 04 подгруппа МОб-2202-01-00, 05 подгруппа МОб-2202-01-00, 06 подгруппа МОб-2202-01-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-214 Историография всеобщей истории Практическое занятие  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-308 История (история России, всеобщая история) Лекция  АФКб-1701-51-24 АФКб-1701-51-24, 01 подгруппа АФКб-1701-51-24, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-334 Историография отечественной истории Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-208 История Средних веков Практическое занятие  ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-219 Государственный экзамен  МОб-4201-01-00 МОб-4201-01-00, 01 подгруппа МОб-4201-01-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:cbf9ad2c55904ad49d518489662f8e13@thread.tacv2/conversations?groupId=1a28a208-5604-45dd-9ea2-30c7d93ff229&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-210 Этнология народов России Практическое занятие  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R24>
+<TD CLASS="R24C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-331 История (история России, всеобщая история) Практическое занятие  КИб-1801-51-00 КИб-1801-51-00, 01 подгруппа КИб-1801-51-00, 02 подгруппа КИб-1801-51-00, 03 подгруппа КИб-1801-51-00, 04 подгруппа КИб-1801-51-00, 05 подгруппа КИб-1801-51-00, 06 подгруппа КИб-1801-51-00, 07 подгруппа КИб-1801-51-00, 08 подгруппа КИб-1801-51-00, 09 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-308 История (история России, всеобщая история) Практическое занятие  АФКб-1701-51-24 АФКб-1701-51-24, 01 подгруппа АФКб-1701-51-24, 02 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;05.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-116 История России Зачет  СДОб-1701-51-20 СДОб-1701-51-20, 01 подгруппа СДОб-1701-51-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:bd2d4559fe5241baa06ce7c490b346bb@thread.tacv2/conversations?groupId=128dd9a6-12fc-4011-a52d-c855d14ec781&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-311 Тайм-менеджмент Практическое занятие  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R24>
+<TD CLASS="R24C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-218 Прикладная политология Экзамен  ПТЛб-4201-51-00 (https://teams.microsoft.com/l/channel/19:b905e2f5b89147f19b460539395ab5c4@thread.tacv2/conversations?groupId=7a8748b3-4f04-41aa-be0c-f583f4d57496&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">17-267 История России Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">15-116 История России Зачет  СДОб-1701-51-20 СДОб-1701-51-20, 01 подгруппа СДОб-1701-51-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:bd2d4559fe5241baa06ce7c490b346bb@thread.tacv2/conversations?groupId=128dd9a6-12fc-4011-a52d-c855d14ec781&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">16-119в Документационное обеспечение и делопроизводство в государственном и муниципальном управлении Практическое занятие  ГМб-2601-01-24</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-214 Государственный экзамен  ПОДб-5202-58-00 ПОДб-5202-58-00, 01 подгруппа ПОДб-5202-58-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:59f3b2088a154597a6c2eb4fbeac45e2@thread.tacv2/conversations?groupId=71c9988f-7d75-4036-84e0-4971e402bf24&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2">14-311 Политическая социология Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R24>
+<TD CLASS="R24C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">17-267 История России Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-202 Теория и методика обучения обществознанию Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-247 Политическая история стран Азии и Африки Практическое занятие  МОб-1201-01-00 МОб-1201-01-00, 01 подгруппа МОб-1201-01-00, 02 подгруппа МОб-1201-01-00, 03 подгруппа МОб-1201-01-00, 04 подгруппа МОб-1201-01-00, 05 подгруппа МОб-1201-01-00, 06 подгруппа МОб-1201-01-00, 07 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">16-119в Документационное обеспечение и делопроизводство в государственном и муниципальном управлении Практическое занятие  ГМб-2601-01-24</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">14-214 Государственный экзамен  ПОДб-5202-58-00 ПОДб-5202-58-00, 01 подгруппа ПОДб-5202-58-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:59f3b2088a154597a6c2eb4fbeac45e2@thread.tacv2/conversations?groupId=71c9988f-7d75-4036-84e0-4971e402bf24&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R24C2">14-319 Политические процессы на постсоветском пространстве Лекция  МОб-3201-01-00 МОб-3201-01-00, 01 подгруппа МОб-3201-01-00, 02 подгруппа МОб-3201-01-00, 03 подгруппа МОб-3201-01-00, 04 подгруппа МОб-3201-01-00, 05 подгруппа МОб-3201-01-00, 06 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-403 История Практическое занятие  БТб-2101-02-00 БТб-2101-02-00, 01 подгруппа БТб-2101-02-00, 02 подгруппа БТб-2101-02-00, 03 подгруппа</TD>
+<TD CLASS="R2C2">14-222 История Древнего мира Практическое занятие  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R2C2">14-322 Источниковедение Лекция  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-324 История России Зачет  СДОб-1702-51-20 СДОб-1702-51-20, 01 подгруппа СДОб-1702-51-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:44306a1ad03942dfa98b57bd9a4fd09a@thread.tacv2/conversations?groupId=8c0f3a4e-cfd4-47c1-b895-ea53ec0cd896&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 Теория и методика обучения обществознанию Практическое занятие  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-319 Политические процессы на постсоветском пространстве Практическое занятие  МОб-3201-01-00 МОб-3201-01-00, 01 подгруппа МОб-3201-01-00, 02 подгруппа МОб-3201-01-00, 03 подгруппа МОб-3201-01-00, 04 подгруппа МОб-3201-01-00, 05 подгруппа МОб-3201-01-00, 06 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-403 История Практическое занятие  БТб-2101-02-00 БТб-2101-02-00, 01 подгруппа БТб-2101-02-00, 02 подгруппа БТб-2101-02-00, 03 подгруппа</TD>
+<TD CLASS="R2C2">14-222 История Древнего мира Практическое занятие  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R2C2">14-322 Источниковедение Практическое занятие  ИСб-3201-01-00 ИСб-3201-01-00, 01 подгруппа ИСб-3201-01-00, 02 подгруппа ИСб-3201-01-00, 03 подгруппа ИСб-3201-01-00, 04 подгруппа ИСб-3201-01-00, 05 подгруппа ИСб-3201-01-00, 06 подгруппа ИСб-3202-01-00 ИСб-3202-01-00, 01 подгруппа ИСб-3202-01-00, 02 подгруппа ИСб-3202-01-00, 03 подгруппа ИСб-3202-01-00, 04 подгруппа ИСб-3202-01-00, 05 подгруппа ИСб-3202-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-324 История России Зачет  СДОб-1702-51-20 СДОб-1702-51-20, 01 подгруппа СДОб-1702-51-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:44306a1ad03942dfa98b57bd9a4fd09a@thread.tacv2/conversations?groupId=8c0f3a4e-cfd4-47c1-b895-ea53ec0cd896&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-316 Проектная деятельность по методике обучения истории Лекция  ПОДб-4202-58-00 ПОДб-4202-58-00, 01 подгруппа ПОДб-4202-58-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R79>
+<TD CLASS="R79C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;06.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R79C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R26>
+<TD CLASS="R26C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">14-319 История России с древнейших времён до начала XVII века Лекция  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R26>
+<TD CLASS="R26C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">14-319 История России с древнейших времён до начала XVII века Практическое занятие  ПОб-1201-58-20 ПОб-1201-58-20, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R79>
+<TD CLASS="R79C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R79>
+<TD CLASS="R79C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R79>
+<TD CLASS="R79C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD CLASS="R79C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R85C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD CLASS="R85C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R86C3"><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:99px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

@@ -1,0 +1,1229 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 25px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 14pt; font-style: normal; font-weight: bold; background-color: #ffffff; }
+tr.R1{ height: 21px; }
+tr.R1 td.R16C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R16C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R16C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C2{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; text-align: center; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R22C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R1 td.R22C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R12{ height: 43px; }
+tr.R12 td.R12C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R12 td.R12C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R12 td.R15C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R12 td.R15C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 30px; }
+tr.R2 td.R2C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R30{ height: 24px; }
+tr.R30 td.R30C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R30 td.R30C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R30 td.R30C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R30 td.R43C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R30 td.R43C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R32{ height: 23px; }
+tr.R32 td.R32C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R32 td.R32C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R32 td.R36C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R32 td.R36C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R60{ height: 239px; }
+tr.R60 td.R60C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R60 td.R60C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R62{ height: 71px; }
+tr.R62 td.R62C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R62 td.R62C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R62 td.R72C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R66{ height: 57px; }
+tr.R66 td.R66C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R66 td.R66C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7{ height: 29px; }
+tr.R7 td.R23C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R7C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R7C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R8C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R7 td.R8C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R86{ height: 99px; }
+tr.R86 td.R86C3{ font-family: Arial; font-size: 8pt; font-style: normal; text-align: center; vertical-align: middle; }
+tr.R9{ height: 15px; }
+tr.R9 td.R29C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R9 td.R29C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R9 td.R9C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R9 td.R9C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R9 td.R9C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:100%; height:0px; " CELLSPACING=0>
+<COL WIDTH=31>
+<COL WIDTH=89>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=63>
+<COL>
+<TR CLASS=R0>
+<TD CLASS="R0C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;max-width:0px;">Обновление&nbsp;07.05.2020</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">День</SPAN></TD>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">Интервал</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Исупова&nbsp;Н.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Исупова&nbsp;Н.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Исупова&nbsp;Т.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Кузьмина&nbsp;М.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Мамаева&nbsp;Е.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Перевозчикова&nbsp;М.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Подлевских&nbsp;М.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Харунжева&nbsp;Е.В.</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;27.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;28.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">14-140 Информатика и информационная безопасность Лабораторная работа  ПОДб-1205-58-00 ПОДб-1205-58-00, 02 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R12C2">16-415 Профессиональные компьютерные программы Лекция  ТРб-3601-01-00 ТРб-3601-01-00, 01 подгруппа ТРб-3601-01-00, 02 подгруппа ТРб-3601-01-00, 03 подгруппа</TD>
+<TD CLASS="R12C2">14-140 Информатика и информационная безопасность Лабораторная работа  ПОДб-1207-64-00 ПОДб-1207-64-00, 01 подгруппа</TD>
+<TD CLASS="R12C2">16-400 Профессиональные компьютерные программы Лекция  МНб-3601-04-00 МНб-3601-04-00, 01 подгруппа МНб-3601-04-00, 02 подгруппа МНб-3601-04-00, 03 подгруппа МНб-3601-04-00, 04 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">1-113 Информационные технологии в сфере безопасности Лабораторная работа  ТБм-1801-01-00 ТБм-1801-01-00, 01 подгруппа ТБм-1801-01-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">1-113 Информационные технологии в сфере безопасности Лабораторная работа  ТБм-1801-01-00 ТБм-1801-01-00, 01 подгруппа ТБм-1801-01-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;29.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R22C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R23C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;30.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">14-130 Профессиональные компьютерные программы Лабораторная работа  МНб-3601-04-00 МНб-3601-04-00, 01 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">14-130 Профессиональные компьютерные программы Лабораторная работа  МНб-3601-04-00 МНб-3601-04-00, 01 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">14-130 Профессиональные компьютерные программы Лабораторная работа  МНб-3601-04-00 МНб-3601-04-00, 02 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">16-400 Методы защиты информации Лекция  ИНб-2601-01-00 ИНб-2601-01-00, 01 подгруппа ИНб-2601-01-00, 02 подгруппа ИНб-2601-01-00, 03 подгруппа ИНб-2601-01-00, 04 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">14-130 Профессиональные компьютерные программы Лабораторная работа  МНб-3601-04-00 МНб-3601-04-00, 02 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">16-400 Методы защиты информации Практическое занятие  ИНб-2601-01-00 ИНб-2601-01-00, 01 подгруппа ИНб-2601-01-00, 02 подгруппа ИНб-2601-01-00, 03 подгруппа ИНб-2601-01-00, 04 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;01.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;02.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R43C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;04.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;05.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;06.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R12C2">16-415 Профессиональные компьютерные программы Лабораторная работа  ТРб-3601-01-00 ТРб-3601-01-00, 01 подгруппа ТРб-3601-01-00, 02 подгруппа ТРб-3601-01-00, 03 подгруппа</TD>
+<TD CLASS="R12C2">15-122 Информатика и информационная безопасность Лабораторная работа  ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R60>
+<TD CLASS="R60C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R60C2">16-415 Профессиональные компьютерные программы Лабораторная работа  ТРб-3601-01-00 ТРб-3601-01-00, 01 подгруппа ТРб-3601-01-00, 02 подгруппа ТРб-3601-01-00, 03 подгруппа</TD>
+<TD CLASS="R60C2">15-311 Информатика и информационная безопасность Лекция  ПОДб-1201-01-00 ПОДб-1201-01-00, 01 подгруппа ПОДб-1201-01-00, 02 подгруппа ПОДб-1201-01-00, 03 подгруппа ПОДб-1201-01-00, 04 подгруппа ПОДб-1201-01-00, 05 подгруппа ПОДб-1201-01-00, 06 подгруппа ПОДб-1201-01-00, 07 подгруппа ПОДб-1201-01-00, 08 подгруппа ПОДб-1202-01-00 ПОДб-1202-01-00, 02 подгруппа ПОДб-1203-51-00 ПОДб-1203-51-00, 01 подгруппа ПОДб-1203-51-00, 02 подгруппа ПОДб-1203-51-00, 03 подгруппа ПОДб-1203-51-00, 04 подгруппа ПОДб-1203-51-00, 05 подгруппа ПОДб-1203-51-00, 06 подгруппа ПОДб-1203-51-00, 07 подгруппа ПОДб-1203-51-00, 08 подгруппа ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа ПОДб-1205-58-00, 02 подгруппа ПОДб-1205-58-00, 03 подгруппа ПОДб-1205-58-00, 04 подгруппа ПОДб-1205-58-00, 05 подгруппа ПОДб-1205-58-00, 06 подгруппа ПОДб-1205-58-00, 07 подгруппа ПОДб-1207-64-00 ПОДб-1207-64-00, 01 подгруппа ПОДб-1207-64-00, 02 подгруппа ПОДб-1207-64-00, 03 подгруппа ПОДб-1207-64-00, 04 подгруппа ПОДб-1207-64-00, 05 подгруппа ПОДб-1207-64-00, 06 подгруппа ПОДб-1207-64-00, 07 подгруппа</TD>
+<TD CLASS="R60C2"><SPAN></SPAN></TD>
+<TD CLASS="R60C2"><SPAN></SPAN></TD>
+<TD CLASS="R60C2"><SPAN></SPAN></TD>
+<TD CLASS="R60C2"><SPAN></SPAN></TD>
+<TD CLASS="R60C2"><SPAN></SPAN></TD>
+<TD CLASS="R60C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">15-122 Информатика и информационная безопасность Лабораторная работа  ПОДб-1205-58-00 ПОДб-1205-58-00, 02 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R62>
+<TD CLASS="R62C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2">14-130 Информатика и информационная безопасность Практическое занятие  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа ПОДб-1303-60-00, 02 подгруппа ПОДб-1303-60-00, 03 подгруппа ПОДб-1303-60-00, 04 подгруппа ПОДб-1303-60-00, 05 подгруппа ПОДб-1303-60-00, 06 подгруппа ПОДб-1303-60-00, 07 подгруппа ПОДб-1303-60-00, 08 подгруппа</TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R23C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;07.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">15-122 Информатика и информационная безопасность Лабораторная работа  ПОДб-1201-01-00 ПОДб-1201-01-00, 01 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R66>
+<TD CLASS="R66C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R66C2">15-127 Информатика и информационная безопасность Лабораторная работа  ПОДб-1203-51-00 ПОДб-1203-51-00, 01 подгруппа</TD>
+<TD CLASS="R66C2"><SPAN></SPAN></TD>
+<TD CLASS="R66C2">15-122 Информатика и информационная безопасность Лабораторная работа  ПОДб-1201-01-00 ПОДб-1201-01-00, 02 подгруппа ПОДб-1202-01-00 ПОДб-1202-01-00, 02 подгруппа</TD>
+<TD CLASS="R66C2"><SPAN></SPAN></TD>
+<TD CLASS="R66C2"><SPAN></SPAN></TD>
+<TD CLASS="R66C2"><SPAN></SPAN></TD>
+<TD CLASS="R66C2">16-419 Методы моделирования и прогнозирования экономики Практическое занятие  ЭКНб-3602-05-00 ЭКНб-3602-05-00, 01 подгруппа ЭКНб-3602-05-00, 02 подгруппа ЭКНб-3602-05-00, 03 подгруппа ЭКНб-3602-05-00, 04 подгруппа ЭКНб-3602-05-00, 05 подгруппа ЭКНб-3602-05-00, 06 подгруппа</TD>
+<TD CLASS="R66C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R12C2">15-127 Информатика и информационная безопасность Лабораторная работа  ПОДб-1203-51-00 ПОДб-1203-51-00, 02 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">15-122 Цифровые технологии в образовании Практическое занятие  ПОДб-1701-62-00 ПОДб-1701-62-00, 01 подгруппа ПОДб-1701-62-00, 02 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">15-122 Цифровые технологии в образовании Практическое занятие  ППОб-1701-01-00 ППОб-1701-01-00, 01 подгруппа ППОб-1701-01-00, 02 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R62>
+<TD CLASS="R72C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;08.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R62C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2">14-130 Информатика и информационная безопасность Практическое занятие  ПОДб-1301-03-00 ПОДб-1301-03-00, 01 подгруппа ПОДб-1301-03-00, 02 подгруппа ПОДб-1301-03-00, 03 подгруппа ПОДб-1301-03-00, 04 подгруппа ПОДб-1301-03-00, 05 подгруппа ПОДб-1301-03-00, 06 подгруппа ПОДб-1301-03-00, 07 подгруппа ПОДб-1301-03-00, 08 подгруппа</TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD CLASS="R62C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">15-122 Цифровые технологии в образовании Лабораторная работа  ПОДб-1101-53-00 ПОДб-1101-53-00, 02 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">15-122 Цифровые технологии в образовании Лабораторная работа  ПОДб-1101-53-00 ПОДб-1101-53-00, 02 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">15-122 Цифровые технологии в образовании Лабораторная работа  ПОДб-1101-53-00 ПОДб-1101-53-00, 01 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">15-122 Цифровые технологии в образовании Лабораторная работа  ПОДб-1101-53-00 ПОДб-1101-53-00, 01 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">16-419 Цифровые технологии в проектировании процесса предметного обучения Лекция  ПОм-1302-63-00</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">16-419 Цифровые технологии в проектировании процесса предметного обучения Лабораторная работа  ПОм-1302-63-00</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;09.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R86>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R86C3"><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:99px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

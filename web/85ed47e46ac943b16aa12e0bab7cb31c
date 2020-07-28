@@ -1,0 +1,2004 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 25px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 14pt; font-style: normal; font-weight: bold; background-color: #ffffff; }
+tr.R1{ height: 21px; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C2{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; text-align: center; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11{ height: 43px; }
+tr.R11 td.R11C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R11C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R29C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R11 td.R29C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 15px; }
+tr.R2 td.R2C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R43C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R2 td.R43C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R32{ height: 85px; }
+tr.R32 td.R32C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R32 td.R32C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R48{ height: 127px; }
+tr.R48 td.R48C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R48 td.R48C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5{ height: 29px; }
+tr.R5 td.R15C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R5 td.R15C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R5 td.R16C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R5C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R5C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6{ height: 57px; }
+tr.R6 td.R30C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R68C11{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R6C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R6C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R8C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R6 td.R8C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R86{ height: 99px; }
+tr.R86 td.R86C3{ font-family: Arial; font-size: 8pt; font-style: normal; text-align: center; vertical-align: middle; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:100%; height:0px; " CELLSPACING=0>
+<COL WIDTH=31>
+<COL WIDTH=89>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=63>
+<COL>
+<TR CLASS=R0>
+<TD CLASS="R0C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;max-width:0px;">Обновление&nbsp;25.03.2020</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">День</SPAN></TD>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">Интервал</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Алешкин&nbsp;А.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Баев&nbsp;К.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Беляев&nbsp;А.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Бузиков&nbsp;Ш.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Вахрушева&nbsp;О.М.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Велегжанинов&nbsp;И.О.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Дегтерев&nbsp;Б.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Зыкин&nbsp;А.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Кудяшев&nbsp;Н.П.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Кузнецова&nbsp;Д.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Мальцева&nbsp;А.Б.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Митенев&nbsp;Ю.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Михайловская&nbsp;С.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Мусихина&nbsp;Т.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Соловьева&nbsp;И.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Солонщиков&nbsp;П.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Флегентов&nbsp;И.В.</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;16.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3803-03-00 ЭиЭб-3803-03-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3803-03-00 ЭиЭб-3803-03-00, 02 подгруппа</TD>
+<TD CLASS="R6C2">1-114 Экологическая экспертиза, оценка воздействия на окружающую среду и сертификация Лекция  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2">1-531 Экспертиза потенциально опасных объектов и прогнозирование чрезвычайных ситуаций Лекция  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-530 Управление системами безопасности Лекция  ТБм-2801-01-00</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3806-09-00 ЭиЭб-3806-09-00, 01 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-114 Экологическая экспертиза, оценка воздействия на окружающую среду и сертификация Лекция  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2">1-531 Безопасность труда Практическое занятие  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3806-09-00 ЭиЭб-3806-09-00, 01 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">1-114 Экологическая экспертиза, оценка воздействия на окружающую среду и сертификация Практическое занятие  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R8C2">1-531 Экспертиза условий труда и аттестация персонала Лекция  ТБм-2801-01-00</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;17.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-516 Градостроительная экология Лекция  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">8-105 Восстановление водных объектов Лекция  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-422 Градостроительная экология Практическое занятие  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Восстановление водных объектов Практическое занятие  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-206 Основы теплоснабжения и промышленной вентиляции Лекция  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-514 Производственная безопасность Лекция  ТБб-4801-01-00 ТБб-4801-01-00, 01 подгруппа ТБб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">6-311 Расчет и конструирование аппаратов очистки воды Лекция  ПВб-4801-03-00</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-530 Управление системами безопасности Практическое занятие  ТБм-2801-01-00</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-515 Производственная безопасность Лабораторная работа  ТБб-4801-01-00 ТБб-4801-01-00, 01 подгруппа ТБб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">8-105 Расчет и конструирование аппаратов очистки воды Практическое занятие  ПВб-4801-03-00</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">1-530 Управление системами безопасности Практическое занятие  ТБм-2801-01-00</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">1-515 Производственная безопасность Лабораторная работа  ТБб-4801-01-00 ТБб-4801-01-00, 01 подгруппа ТБб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;18.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИВТб-3302-03-00 ИВТб-3302-03-00, 01 подгруппа ИВТб-3302-03-00, 02 подгруппа ИВТб-3302-03-00, 03 подгруппа ИВТб-3302-03-00, 04 подгруппа ИВТб-3302-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИВТб-3302-03-00 ИВТб-3302-03-00, 01 подгруппа ИВТб-3302-03-00, 02 подгруппа ИВТб-3302-03-00, 03 подгруппа ИВТб-3302-03-00, 04 подгруппа ИВТб-3302-03-00, 05 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;19.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-521 Безопасность труда Лекция  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  МРб-3801-01-00 МРб-3801-01-00, 01 подгруппа МРб-3801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-521 Экспертиза потенциально опасных объектов и прогнозирование чрезвычайных ситуаций Практическое занятие  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-516 Производственная санитария и гигиена труда Лекция  ТБб-4801-01-00 ТБб-4801-01-00, 01 подгруппа ТБб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  МРб-3801-01-00 МРб-3801-01-00, 01 подгруппа МРб-3801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-514 Специальная оценка условий труда и сертификация работ Лекция  ТБм-1801-01-00 ТБм-1801-01-00, 01 подгруппа ТБм-1801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2">1-521 Надежность технических систем и техногенный риск Лекция  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">1-516 Производственная санитария и гигиена труда Практическое занятие  ТБб-4801-01-00 ТБб-4801-01-00, 01 подгруппа ТБб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">1-514 Специальная оценка условий труда и сертификация работ Практическое занятие  ТБм-1801-01-00 ТБм-1801-01-00, 01 подгруппа ТБм-1801-01-00, 02 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;20.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Организация и технология работ по природообустройству и водопользованию Лекция  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Организация и технология работ по природообустройству и водопользованию Практическое занятие  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-311 Инженерные сети Лекция  ГСб-4801-01-00 ГСб-4801-01-00, 01 подгруппа ГСб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3805-07-00 ЭиЭб-3805-07-00, 01 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">1-420 Инженерные сети Практическое занятие  ГСб-4801-01-00 ГСб-4801-01-00, 01 подгруппа ГСб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">8-105 Метрология, стандартизация и сертификация Лекция  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3805-07-00 ЭиЭб-3805-07-00, 01 подгруппа</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R32C2">6-206 Гидротехнические сооружения Лекция  ПВб-4801-03-00</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">1-516 Экология городской среды Лекция  СТб-3802-12-00 СТб-3802-12-00, 01 подгруппа СТб-3802-12-00, 02 подгруппа СТб-3802-12-00, 03 подгруппа СТб-3802-12-00, 04 подгруппа СТб-3802-12-00, 05 подгруппа</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">8-105 Метрология, стандартизация и сертификация Лекция  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3802-02-00 ЭиЭб-3802-02-00, 01 подгруппа</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2">6-206 Гидротехнические сооружения Лекция  ПВб-4801-03-00</TD>
+<TD CLASS="R6C2">8-105 Основы теплоснабжения и промышленной вентиляции Практическое занятие  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3802-02-00 ЭиЭб-3802-02-00, 01 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Основы теплоснабжения и промышленной вентиляции Практическое занятие  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-515 Безопасность жизнедеятельности Лабораторная работа  ИВТб-3303-03-00 ИВТб-3303-03-00, 01 подгруппа ИВТб-3303-03-00, 02 подгруппа ИВТб-3303-03-00, 03 подгруппа ИВТб-3303-03-00, 04 подгруппа ИВТб-3303-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">1-515 Безопасность жизнедеятельности Лабораторная работа  ИВТб-3303-03-00 ИВТб-3303-03-00, 01 подгруппа ИВТб-3303-03-00, 02 подгруппа ИВТб-3303-03-00, 03 подгруппа ИВТб-3303-03-00, 04 подгруппа ИВТб-3303-03-00, 05 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">1-533 Безопасность жизнедеятельности Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;21.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R6C2">8-105 Безопасность технологии водоснабжения и водоотведения Лабораторная работа  ТБб-2801-01-00 ТБб-2801-01-00, 01 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-521 Физиология человека Лекция  ТБб-1801-01-00 ТБб-1801-01-00, 01 подгруппа ТБб-1801-01-00, 02 подгруппа ТБб-1801-01-00, 03 подгруппа ТБб-1801-01-00, 04 подгруппа ТБб-1801-01-00, 05 подгруппа ТБб-1801-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-515 Производственная санитария и гигиена труда Лабораторная работа  ТБб-4801-01-00 ТБб-4801-01-00, 01 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2">8-105 Безопасность технологии водоснабжения и водоотведения Лабораторная работа  ТБб-2801-01-00 ТБб-2801-01-00, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-515 Производственная санитария и гигиена труда Лабораторная работа  ТБб-4801-01-00 ТБб-4801-01-00, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R6C2">6-210 Безопасность технологии водоснабжения и водоотведения Лекция  ТБб-2801-01-00 ТБб-2801-01-00, 01 подгруппа ТБб-2801-01-00, 02 подгруппа ТБб-2801-01-00, 03 подгруппа ТБб-2801-01-00, 04 подгруппа ТБб-2801-01-00, 05 подгруппа ТБб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-515 Производственная санитария и гигиена труда Практическое занятие  ТБб-4801-01-00 ТБб-4801-01-00, 01 подгруппа ТБб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2">6-311 Улучшение качества природных вод Лекция  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R11C2">8-105 Безопасность технологии водоснабжения и водоотведения Лабораторная работа  ТБб-2801-01-00 ТБб-2801-01-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-515 Производственная санитария и гигиена труда Лабораторная работа  ТБб-4801-01-00 ТБб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R11C2">6-311 Улучшение качества природных вод Лекция  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R5C2">8-105 Безопасность технологии водоснабжения и водоотведения Лабораторная работа  ТБб-2801-01-00 ТБб-2801-01-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-515 Производственная санитария и гигиена труда Лабораторная работа  ТБб-4801-01-00 ТБб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R43C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;23.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2">6-307 Гидротехнические сооружения Лабораторная работа  ПВб-4801-03-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2">6-307 Гидротехнические сооружения Лабораторная работа  ПВб-4801-03-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-515 Безопасность жизнедеятельности Практическое занятие  БТб-2102-03-00 БТб-2102-03-00, 01 подгруппа БТб-2102-03-00, 02 подгруппа БТб-2102-03-00, 03 подгруппа БТб-2102-03-00, 04 подгруппа</TD>
+<TD CLASS="R11C2">1-533 Безопасность жизнедеятельности Практическое занятие  БТб-2101-02-00 БТб-2101-02-00, 01 подгруппа БТб-2101-02-00, 02 подгруппа БТб-2101-02-00, 03 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-515 Безопасность жизнедеятельности Практическое занятие  БТб-2102-03-00 БТб-2102-03-00, 01 подгруппа БТб-2102-03-00, 02 подгруппа БТб-2102-03-00, 03 подгруппа БТб-2102-03-00, 04 подгруппа</TD>
+<TD CLASS="R11C2">1-533 Безопасность жизнедеятельности Практическое занятие  БТб-2101-02-00 БТб-2101-02-00, 01 подгруппа БТб-2101-02-00, 02 подгруппа БТб-2101-02-00, 03 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3803-03-00 ЭиЭб-3803-03-00, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R48>
+<TD CLASS="R48C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2">6-204 Инженерные системы зданий и сооружений Лекция  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3803-03-00 ЭиЭб-3803-03-00, 01 подгруппа</TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2">1-531 Производственная безопасность Практическое занятие  ТБб-4801-01-00 ТБб-4801-01-00, 01 подгруппа ТБб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD CLASS="R48C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3806-09-00 ЭиЭб-3806-09-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-531 Специальная оценка условий труда и сертификация работ Лабораторная работа  ТБм-1801-01-00 ТБм-1801-01-00, 01 подгруппа ТБм-1801-01-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3806-09-00 ЭиЭб-3806-09-00, 02 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">1-531 Специальная оценка условий труда и сертификация работ Лабораторная работа  ТБм-1801-01-00 ТБм-1801-01-00, 01 подгруппа ТБм-1801-01-00, 02 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;24.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R6C2">6-307 Гидротехнические сооружения Лабораторная работа  ПВб-4801-03-00</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИНБс-3301-01-00 ИНБс-3301-01-00, 01 подгруппа ИНБс-3301-01-00, 02 подгруппа ИНБс-3301-01-00, 03 подгруппа ИНБс-3301-01-00, 04 подгруппа ИНБс-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R6C2">6-307 Гидротехнические сооружения Лабораторная работа  ПВб-4801-03-00</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Санитарно-техническое оборудование зданий Лекция  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИНБс-3301-01-00 ИНБс-3301-01-00, 01 подгруппа ИНБс-3301-01-00, 02 подгруппа ИНБс-3301-01-00, 03 подгруппа ИНБс-3301-01-00, 04 подгруппа ИНБс-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Санитарно-техническое оборудование зданий Практическое занятие  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-516 Климатология и энергообеспечение поселений Лекция  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Инженерные системы зданий и сооружений Практическое занятие  СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-516 Климатология и энергообеспечение поселений Практическое занятие  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-515 Безопасность труда Лабораторная работа  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-516 Климатология и энергообеспечение поселений Практическое занятие  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3804-03-00 ЭиЭб-3804-03-00, 01 подгруппа ЭиЭб-3804-03-00, 02 подгруппа ЭиЭб-3804-03-00, 03 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-515 Безопасность труда Лабораторная работа  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2">1-530 Техника безопасности и охрана труда на производстве Лекция  ИНб-2601-01-00 ИНб-2601-01-00, 01 подгруппа ИНб-2601-01-00, 02 подгруппа ИНб-2601-01-00, 03 подгруппа ИНб-2601-01-00, 04 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3804-03-00 ЭиЭб-3804-03-00, 01 подгруппа ЭиЭб-3804-03-00, 02 подгруппа ЭиЭб-3804-03-00, 03 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">4-605 Экспертиза условий труда и аттестация персонала Практическое занятие  ТБм-2801-01-00</TD>
+<TD CLASS="R11C2">1-515 Техника безопасности и охрана труда на производстве Практическое занятие  ИНб-2601-01-00 ИНб-2601-01-00, 01 подгруппа ИНб-2601-01-00, 02 подгруппа ИНб-2601-01-00, 03 подгруппа ИНб-2601-01-00, 04 подгруппа</TD>
+<TD CLASS="R11C2">8-105 Проектная деятельность Лабораторная работа  ТБм-1801-01-00 ТБм-1801-01-00, 01 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">4-605 Экспертиза условий труда и аттестация персонала Практическое занятие  ТБм-2801-01-00</TD>
+<TD CLASS="R8C2">1-521 Надежность технических систем и техногенный риск Практическое занятие  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R8C2">8-105 Проектная деятельность Лабораторная работа  ТБм-1801-01-00 ТБм-1801-01-00, 01 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;25.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-515 Безопасность жизнедеятельности Практическое занятие  ЭБс-1601-01-00 ЭБс-1601-01-00, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИВТб-3301-03-00 ИВТб-3301-03-00, 01 подгруппа ИВТб-3301-03-00, 02 подгруппа ИВТб-3301-03-00, 03 подгруппа ИВТб-3301-03-00, 04 подгруппа ИВТб-3301-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-515 Безопасность жизнедеятельности Практическое занятие  ЭБс-1602-01-00 ЭБс-1602-01-00, 01 подгруппа ЭБс-1602-01-00, 02 подгруппа ЭБс-1602-01-00, 03 подгруппа ЭБс-1602-01-00, 04 подгруппа ЭБс-1602-01-00, 05 подгруппа ЭБс-1602-01-00, 06 подгруппа ЭБс-1602-01-00, 07 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИВТб-3301-03-00 ИВТб-3301-03-00, 01 подгруппа ИВТб-3301-03-00, 02 подгруппа ИВТб-3301-03-00, 03 подгруппа ИВТб-3301-03-00, 04 подгруппа ИВТб-3301-03-00, 05 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">1-515 Безопасность жизнедеятельности Практическое занятие  ЭБс-1601-01-00 ЭБс-1601-01-00, 02 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;26.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Основы теплоснабжения и промышленной вентиляции Лабораторная работа  ТБб-3801-01-00 ТБб-3801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-515 Метрология, стандартизация и сертификация Лабораторная работа  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3805-07-00 ЭиЭб-3805-07-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-531 Производственная безопасность Практическое занятие  ТБб-4801-01-00 ТБб-4801-01-00, 01 подгруппа ТБб-4801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Основы теплоснабжения и промышленной вентиляции Лабораторная работа  ТБб-3801-01-00 ТБб-3801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-515 Метрология, стандартизация и сертификация Лабораторная работа  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3805-07-00 ЭиЭб-3805-07-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Санитарно-техническое оборудование зданий Лабораторная работа  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R68C11">1-515 Метрология, стандартизация и сертификация Лабораторная работа  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа<BR>1-515_ Метрология, стандартизация и сертификация Лабораторная работа  ТБб-3801-01-00 ТБб-3801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3802-02-00 ЭиЭб-3802-02-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Санитарно-техническое оборудование зданий Лабораторная работа  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R68C11">1-515 Метрология, стандартизация и сертификация Лабораторная работа  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа<BR>1-515_ Метрология, стандартизация и сертификация Лабораторная работа  ТБб-3801-01-00 ТБб-3801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3802-02-00 ЭиЭб-3802-02-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ТиТб-3801-01-00 ТиТб-3801-01-00, 01 подгруппа ТиТб-3801-01-00, 02 подгруппа ТиТб-3801-01-00, 03 подгруппа ТиТб-3801-01-00, 04 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">8-105 Проектная деятельность Лабораторная работа  ТБм-1801-01-00 ТБм-1801-01-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ТиТб-3801-01-00 ТиТб-3801-01-00, 01 подгруппа ТиТб-3801-01-00, 02 подгруппа ТиТб-3801-01-00, 03 подгруппа ТиТб-3801-01-00, 04 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">8-105 Проектная деятельность Лабораторная работа  ТБм-1801-01-00 ТБм-1801-01-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;27.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-211 Основы теплоснабжения и промышленной вентиляции Лабораторная работа  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа</TD>
+<TD CLASS="R6C2">8-105 Организация и технология работ по природообустройству и водопользованию Лекция  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3801-01-00 ЭиЭб-3801-01-00, 01 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R6C2">6-307 Безопасность технологии водоснабжения и водоотведения Практическое занятие  ТБб-2801-01-00 ТБб-2801-01-00, 01 подгруппа ТБб-2801-01-00, 02 подгруппа ТБб-2801-01-00, 03 подгруппа ТБб-2801-01-00, 04 подгруппа ТБб-2801-01-00, 05 подгруппа ТБб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2">8-211 Основы теплоснабжения и промышленной вентиляции Лабораторная работа  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа</TD>
+<TD CLASS="R6C2">8-105 Организация и технология работ по природообустройству и водопользованию Практическое занятие  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3801-01-00 ЭиЭб-3801-01-00, 01 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3801-01-00 ЭиЭб-3801-01-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-204 Расчет и конструирование аппаратов очистки воды Лекция  ПВб-4801-03-00</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Инженерные системы зданий и сооружений Практическое занятие  СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-516 Экология городской среды Практическое занятие  СТб-3802-12-00 СТб-3802-12-00, 01 подгруппа СТб-3802-12-00, 02 подгруппа СТб-3802-12-00, 03 подгруппа СТб-3802-12-00, 04 подгруппа СТб-3802-12-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ЭиЭб-3801-01-00 ЭиЭб-3801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-531 Безопасность труда Лекция  ТБб-3801-01-00 ТБб-3801-01-00, 01 подгруппа ТБб-3801-01-00, 02 подгруппа ТБб-3801-01-00, 03 подгруппа ТБб-3801-01-00, 04 подгруппа ТБб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">8-105 Расчет и конструирование аппаратов очистки воды Практическое занятие  ПВб-4801-03-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-516 Экология городской среды Практическое занятие  СТб-3802-12-00 СТб-3802-12-00, 01 подгруппа СТб-3802-12-00, 02 подгруппа СТб-3802-12-00, 03 подгруппа СТб-3802-12-00, 04 подгруппа СТб-3802-12-00, 05 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИКТб-3301-01-00 ИКТб-3301-01-00, 01 подгруппа ИКТб-3301-01-00, 02 подгруппа ИКТб-3301-01-00, 03 подгруппа ИКТб-3301-01-00, 04 подгруппа ИКТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">1-533 Безопасность жизнедеятельности Лабораторная работа  ИКТб-3301-01-00 ИКТб-3301-01-00, 01 подгруппа ИКТб-3301-01-00, 02 подгруппа ИКТб-3301-01-00, 03 подгруппа ИКТб-3301-01-00, 04 подгруппа ИКТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;28.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-435 Проектная деятельность Лабораторная работа  ТБм-2801-01-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-435 Проектная деятельность Лабораторная работа  ТБм-2801-01-00</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-211 Улучшение качества природных вод Практическое занятие  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-211 Улучшение качества природных вод Лабораторная работа  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-105 Инженерные системы зданий и сооружений Практическое занятие  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-516 Физиология человека Лабораторная работа  ТБб-1801-01-00 ТБб-1801-01-00, 01 подгруппа ТБб-1801-01-00, 02 подгруппа ТБб-1801-01-00, 03 подгруппа ТБб-1801-01-00, 04 подгруппа ТБб-1801-01-00, 05 подгруппа ТБб-1801-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">8-211 Улучшение качества природных вод Лабораторная работа  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-516 Физиология человека Лабораторная работа  ТБб-1801-01-00 ТБб-1801-01-00, 01 подгруппа ТБб-1801-01-00, 02 подгруппа ТБб-1801-01-00, 03 подгруппа ТБб-1801-01-00, 04 подгруппа ТБб-1801-01-00, 05 подгруппа ТБб-1801-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-516 Физиология человека Практическое занятие  ТБб-1801-01-00 ТБб-1801-01-00, 01 подгруппа ТБб-1801-01-00, 02 подгруппа ТБб-1801-01-00, 03 подгруппа ТБб-1801-01-00, 04 подгруппа ТБб-1801-01-00, 05 подгруппа ТБб-1801-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R86>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R86C3"><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:99px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

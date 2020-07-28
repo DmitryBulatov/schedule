@@ -1,0 +1,2552 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 25px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 14pt; font-style: normal; font-weight: bold; background-color: #ffffff; }
+tr.R1{ height: 21px; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C2{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; text-align: center; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11{ height: 57px; }
+tr.R11 td.R11C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R11C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R72C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R12{ height: 113px; }
+tr.R12 td.R12C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R12 td.R12C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R15{ height: 15px; }
+tr.R15 td.R15C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R15 td.R15C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R15 td.R20C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R15 td.R20C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R17{ height: 225px; }
+tr.R17 td.R17C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R17 td.R17C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R18{ height: 211px; }
+tr.R18 td.R18C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R18 td.R18C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 43px; }
+tr.R2 td.R2C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3{ height: 351px; }
+tr.R3 td.R16C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3 td.R3C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3 td.R3C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R30{ height: 24px; }
+tr.R30 td.R30C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R30 td.R30C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R30 td.R30C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R30 td.R43C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R30 td.R43C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R32{ height: 23px; }
+tr.R32 td.R32C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R32 td.R32C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R32 td.R36C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R32 td.R36C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R4{ height: 29px; }
+tr.R4 td.R4C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R4 td.R4C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R4 td.R8C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R4 td.R8C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R4 td.R9C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R44{ height: 30px; }
+tr.R44 td.R44C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R44 td.R44C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R44 td.R44C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R59{ height: 71px; }
+tr.R59 td.R59C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R59 td.R59C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R86{ height: 99px; }
+tr.R86 td.R86C3{ font-family: Arial; font-size: 8pt; font-style: normal; text-align: center; vertical-align: middle; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:100%; height:0px; " CELLSPACING=0>
+<COL WIDTH=31>
+<COL WIDTH=89>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=63>
+<COL>
+<TR CLASS=R0>
+<TD CLASS="R0C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;max-width:0px;">Обновление&nbsp;07.05.2020</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">День</SPAN></TD>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">Интервал</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Адамович&nbsp;Т.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Береснева&nbsp;Е.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Варанкина&nbsp;В.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Даровских&nbsp;Л.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Зайцев&nbsp;М.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Калинина&nbsp;Л.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Клековкина&nbsp;Е.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Кошелева&nbsp;Е.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Петухов&nbsp;Д.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Резник&nbsp;Е.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Сазанов&nbsp;А.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Скугорева&nbsp;С.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Соловьёва&nbsp;Е.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Сырчина&nbsp;Н.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Товстик&nbsp;Е.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Ушакова&nbsp;Ю.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Фокина&nbsp;А.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Фоминых&nbsp;Е.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Ханжина&nbsp;Е.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Чернявский&nbsp;В.Б.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Чиркова&nbsp;Л.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Шилова&nbsp;З.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Ярмоленко&nbsp;А.С.</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;27.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2">15-327 Инструментальные методы анализа Лабораторная работа  ЛДб-2501-01-00 ЛДб-2501-01-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-341 Инструментальные методы анализа Лабораторная работа  ХТб-2501-07-00 ХТб-2501-07-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">15-418 Биохимия Лабораторная работа  ХТб-2501-07-00 ХТб-2501-07-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-311 Применение хроматографических методов исследования Лекция  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа СЭс-4902-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">15-343 Неорганическая химия (углубленный курс) Лекция  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа ХМб-2501-53-00, 02 подгруппа ХМб-2501-53-00, 03 подгруппа ХМб-2501-53-00, 04 подгруппа ХМб-2501-53-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2">15-327 Инструментальные методы анализа Лабораторная работа  ЛДб-2501-01-00 ЛДб-2501-01-00, 01 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-343 Математика Лекция  ГГб-1501-51-00 ГГб-1501-51-00, 01 подгруппа ГГб-1501-51-00, 02 подгруппа ГГб-1501-51-00, 03 подгруппа ГГб-1501-51-00, 04 подгруппа ГГб-1501-51-00, 05 подгруппа ГГб-1501-51-00, 06 подгруппа ГГб-1501-51-00, 07 подгруппа ГГб-1501-51-00, 08 подгруппа ГГб-1502-51-00 ЛДб-1501-01-00 ЛДб-1501-01-00, 01 подгруппа ЛДб-1501-01-00, 02 подгруппа ЛДб-1501-01-00, 03 подгруппа ЛДб-1501-01-00, 04 подгруппа ЛДб-1501-01-00, 05 подгруппа ЛДб-1501-01-00, 06 подгруппа ЛДб-1501-01-00, 07 подгруппа ЛДб-1501-01-00, 08 подгруппа ПОДб-1501-05-00 ПОДб-1501-05-00, 01 подгруппа ПОДб-1501-05-00, 02 подгруппа ПОДб-1501-05-00, 03 подгруппа ПОДб-1501-05-00, 04 подгруппа ПОДб-1501-05-00, 05 подгруппа ПОДб-1501-05-00, 06 подгруппа ПОДб-1501-05-00, 07 подгруппа ПОДб-1501-05-00, 08 подгруппа ХМб-1501-53-00 ХМб-1501-53-00, 01 подгруппа ХМб-1501-53-00, 02 подгруппа ХМб-1501-53-00, 03 подгруппа ХМб-1501-53-00, 04 подгруппа ХМб-1501-53-00, 05 подгруппа ХМб-1501-53-00, 06 подгруппа ХМб-1501-53-00, 07 подгруппа ХМб-1501-53-00, 08 подгруппа ХТб-1501-07-00 ХТб-1501-07-00, 01 подгруппа ХТб-1501-07-00, 02 подгруппа ХТб-1501-07-00, 03 подгруппа ХТб-1501-07-00, 04 подгруппа ХТб-1501-07-00, 05 подгруппа ХТб-1501-07-00, 06 подгруппа ХТб-1501-07-00, 07 подгруппа ХТб-1501-07-00, 08 подгруппа ХТб-1502-07-00 ХТб-1502-07-00, 01 подгруппа ХТб-1502-07-00, 02 подгруппа ХТб-1502-07-00, 03 подгруппа ХТб-1502-07-00, 04 подгруппа ХТб-1502-07-00, 05 подгруппа ХТб-1502-07-00, 06 подгруппа ХТб-1502-07-00, 07 подгруппа ХТб-1502-07-00, 08 подгруппа ХТб-1503-07-00 ХТб-1503-07-00, 01 подгруппа ХТб-1503-07-00, 02 подгруппа ХТб-1503-07-00, 03 подгруппа ХТб-1503-07-00, 04 подгруппа ХТб-1503-07-00, 05 подгруппа ХТб-1503-07-00, 06 подгруппа ХТб-1503-07-00, 07 подгруппа ХТб-1503-07-00, 08 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-341 Инструментальные методы анализа Лабораторная работа  ХТб-2501-07-00 ХТб-2501-07-00, 01 подгруппа</TD>
+<TD CLASS="R3C2">15-418 Биохимия Лабораторная работа  ХТб-2501-07-00 ХТб-2501-07-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-405 Химическая технология Экзамен  ХМб-4501-53-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">1-313 Применение хроматографических методов исследования Лекция  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа СЭс-4902-02-00, 02 подгруппа</TD>
+<TD CLASS="R3C2">15-339 Неорганическая химия (углубленный курс) Лекция  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа ХМб-2501-53-00, 02 подгруппа ХМб-2501-53-00, 03 подгруппа ХМб-2501-53-00, 04 подгруппа ХМб-2501-53-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R4C2">15-327 Инструментальные методы анализа Лабораторная работа  ЛДб-2501-01-00 ЛДб-2501-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-418 Биохимия Лабораторная работа  ХТб-2501-07-00 ХТб-2501-07-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-405 Химическая технология Экзамен  ХМб-4501-53-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">1-313 Аналитическая химия Лекция  ПОДб-2101-53-00 ПОДб-2101-53-00, 01 подгруппа ПОДб-2101-53-00, 02 подгруппа ПОДб-2101-53-00, 03 подгруппа</TD>
+<TD CLASS="R4C2">15-341 Инструментальные методы анализа Лабораторная работа  ПОДб-2501-69-00 ПОДб-2501-69-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R4C2">15-327 Инструментальные методы анализа Лабораторная работа  ЛДб-2501-01-00 ЛДб-2501-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-418 Биохимия Лабораторная работа  ХТб-2501-07-00 ХТб-2501-07-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-405 Химическая технология Лабораторная работа  ХМб-3501-53-00</TD>
+<TD CLASS="R4C2">1-234 Физическая и коллоидная химия Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 01 подгруппа</TD>
+<TD CLASS="R4C2">15-341 Инструментальные методы анализа Лабораторная работа  ПОДб-2501-69-00 ПОДб-2501-69-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-416 Биохимия Лабораторная работа  ХТб-2502-07-00 ХТб-2502-07-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-405 Химическая технология Лабораторная работа  ХМб-3501-53-00</TD>
+<TD CLASS="R4C2">1-234 Физическая и коллоидная химия Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-416 Биохимия Лабораторная работа  ХТб-2502-07-00 ХТб-2502-07-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">1-234 Физическая и коллоидная химия Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">1-234 Физическая и коллоидная химия Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 02 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;28.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R4C2">15-327 Инструментальные методы анализа Лабораторная работа  ГГб-2501-51-00 ГГб-2501-51-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-418 Биохимия Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-416 Биохимия Лабораторная работа  ПОДб-2501-69-00 ПОДб-2501-69-00, 02 подгруппа</TD>
+<TD CLASS="R4C2">15-419 Неорганическая химия (углубленный курс) Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа</TD>
+<TD CLASS="R4C2">15-430 Общая химическая технология Лекция  ХМс-4501-53-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-339 Аналитическая химия Лекция  ПОДб-3101-53-00 ПОДб-3101-53-00, 01 подгруппа ПОДб-3101-53-00, 02 подгруппа ПОДб-3101-53-00, 03 подгруппа</TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ПОДб-1501-05-00 ПОДб-1501-05-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2">15-327 Инструментальные методы анализа Лабораторная работа  ГГб-2501-51-00 ГГб-2501-51-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">15-423 Неорганическая химия Лекция  ПОДб-1101-53-00 ПОДб-1101-53-00, 01 подгруппа ПОДб-1101-53-00, 02 подгруппа ПОДб-1101-53-00, 03 подгруппа ПОДб-1101-53-00, 04 подгруппа ПОДб-1101-53-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-418 Биохимия Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">15-331 Коллоидная химия Лабораторная работа  ХМс-4501-53-00</TD>
+<TD CLASS="R2C2">15-416 Биохимия Лабораторная работа  ПОДб-2501-69-00 ПОДб-2501-69-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">15-419 Неорганическая химия (углубленный курс) Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">15-339 Судебная экспертиза стекла и изделий из него Лекция  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа СЭс-4902-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-234 Физическая и коллоидная химия Лабораторная работа  ХТб-2501-07-00 ХТб-2501-07-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-407 Неорганическая химия Лабораторная работа  ПОДб-1501-05-00 ПОДб-1501-05-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-337 Высокомолекулярные соединения Лекция  ХМб-3501-53-00</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2">15-327 Инструментальные методы анализа Лабораторная работа  ГГб-2501-51-00 ГГб-2501-51-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-331 Коллоидная химия Лабораторная работа  ХМс-4501-53-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-419 Неорганическая химия (углубленный курс) Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 02 подгруппа</TD>
+<TD CLASS="R11C2">15-339 Судебная экспертиза стекла и изделий из него Практическое занятие  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа СЭс-4902-02-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-234 Физическая и коллоидная химия Лабораторная работа  ХТб-2501-07-00 ХТб-2501-07-00, 01 подгруппа</TD>
+<TD CLASS="R11C2">15-341 Инструментальные методы анализа Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа</TD>
+<TD CLASS="R11C2">15-407 Неорганическая химия Лабораторная работа  ХМб-1501-53-00 ХМб-1501-53-00, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-437 Математика Практическое занятие  ХТб-1502-07-00 ХТб-1502-07-00, 01 подгруппа ХТб-1502-07-00, 02 подгруппа ХТб-1502-07-00, 03 подгруппа ХТб-1502-07-00, 04 подгруппа ХТб-1502-07-00, 05 подгруппа ХТб-1502-07-00, 06 подгруппа ХТб-1502-07-00, 07 подгруппа ХТб-1502-07-00, 08 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-410 Высокомолекулярные соединения Лабораторная работа  ХМб-3501-53-00</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R12C2">15-327 Инструментальные методы анализа Лабораторная работа  ГГб-2501-51-00 ГГб-2501-51-00, 02 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">15-419 Неорганическая химия (углубленный курс) Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 02 подгруппа</TD>
+<TD CLASS="R12C2">15-416 Биохимия Лабораторная работа  ПОДб-2501-69-00 ПОДб-2501-69-00, 01 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">1-128 Физическая и коллоидная химия Лекция  ХТб-2501-07-00 ХТб-2501-07-00, 01 подгруппа ХТб-2501-07-00, 02 подгруппа ХТб-2501-07-00, 03 подгруппа ХТб-2501-07-00, 04 подгруппа ХТб-2501-07-00, 05 подгруппа ХТб-2502-07-00 ХТб-2502-07-00, 01 подгруппа ХТб-2502-07-00, 02 подгруппа ХТб-2502-07-00, 03 подгруппа ХТб-2502-07-00, 04 подгруппа ХТб-2502-07-00, 05 подгруппа ХТб-2502-07-00, 06 подгруппа ХТб-2503-07-00 ХТб-2503-07-00, 01 подгруппа ХТб-2503-07-00, 02 подгруппа ХТб-2503-07-00, 03 подгруппа ХТб-2503-07-00, 04 подгруппа ХТб-2503-07-00, 05 подгруппа</TD>
+<TD CLASS="R12C2">15-341 Инструментальные методы анализа Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа</TD>
+<TD CLASS="R12C2">15-407 Неорганическая химия Лабораторная работа  ХМб-1501-53-00 ХМб-1501-53-00, 01 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-416 Биохимия Лабораторная работа  ПОДб-2501-69-00 ПОДб-2501-69-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">1-234 Физическая и коллоидная химия Лабораторная работа  ХТб-2501-07-00 ХТб-2501-07-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ХМб-1501-53-00 ХМб-1501-53-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">1-234 Физическая и коллоидная химия Лабораторная работа  ХТб-2501-07-00 ХТб-2501-07-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ХМб-1501-53-00 ХМб-1501-53-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;29.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-343 Неорганическая химия Лекция  ГГб-1501-51-00 ГГб-1501-51-00, 01 подгруппа ГГб-1501-51-00, 02 подгруппа ГГб-1501-51-00, 03 подгруппа ГГб-1501-51-00, 04 подгруппа ГГб-1501-51-00, 05 подгруппа ГГб-1501-51-00, 06 подгруппа ГГб-1501-51-00, 07 подгруппа ГГб-1501-51-00, 08 подгруппа ГГб-1502-51-00 ЛДб-1501-01-00 ЛДб-1501-01-00, 01 подгруппа ЛДб-1501-01-00, 02 подгруппа ЛДб-1501-01-00, 03 подгруппа ЛДб-1501-01-00, 04 подгруппа ЛДб-1501-01-00, 05 подгруппа ЛДб-1501-01-00, 06 подгруппа ЛДб-1501-01-00, 07 подгруппа ЛДб-1501-01-00, 08 подгруппа ПОДб-1501-05-00 ПОДб-1501-05-00, 01 подгруппа ПОДб-1501-05-00, 02 подгруппа ПОДб-1501-05-00, 03 подгруппа ПОДб-1501-05-00, 04 подгруппа ПОДб-1501-05-00, 05 подгруппа ПОДб-1501-05-00, 06 подгруппа ПОДб-1501-05-00, 07 подгруппа ПОДб-1501-05-00, 08 подгруппа ХМб-1501-53-00 ХМб-1501-53-00, 01 подгруппа ХМб-1501-53-00, 02 подгруппа ХМб-1501-53-00, 03 подгруппа ХМб-1501-53-00, 04 подгруппа ХМб-1501-53-00, 05 подгруппа ХМб-1501-53-00, 06 подгруппа ХМб-1501-53-00, 07 подгруппа ХМб-1501-53-00, 08 подгруппа ХТб-1501-07-00 ХТб-1501-07-00, 01 подгруппа ХТб-1501-07-00, 02 подгруппа ХТб-1501-07-00, 03 подгруппа ХТб-1501-07-00, 04 подгруппа ХТб-1501-07-00, 05 подгруппа ХТб-1501-07-00, 06 подгруппа ХТб-1501-07-00, 07 подгруппа ХТб-1501-07-00, 08 подгруппа ХТб-1502-07-00 ХТб-1502-07-00, 01 подгруппа ХТб-1502-07-00, 02 подгруппа ХТб-1502-07-00, 03 подгруппа ХТб-1502-07-00, 04 подгруппа ХТб-1502-07-00, 05 подгруппа ХТб-1502-07-00, 06 подгруппа ХТб-1502-07-00, 07 подгруппа ХТб-1502-07-00, 08 подгруппа ХТб-1503-07-00 ХТб-1503-07-00, 01 подгруппа ХТб-1503-07-00, 02 подгруппа ХТб-1503-07-00, 03 подгруппа ХТб-1503-07-00, 04 подгруппа ХТб-1503-07-00, 05 подгруппа ХТб-1503-07-00, 06 подгруппа ХТб-1503-07-00, 07 подгруппа ХТб-1503-07-00, 08 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-423 Избранные главы современной химии Консультация  ХМб-4501-53-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-405 Общая химическая технология Лабораторная работа  ХМс-4501-53-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-410 Биохимия Практическое занятие  ХТб-2501-07-00 ХТб-2501-07-00, 01 подгруппа ХТб-2501-07-00, 02 подгруппа ХТб-2501-07-00, 03 подгруппа ХТб-2501-07-00, 04 подгруппа ХТб-2501-07-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R17>
+<TD CLASS="R17C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R17C2">15-343 Инструментальные методы анализа Лекция  ГГб-2501-51-00 ГГб-2501-51-00, 01 подгруппа ГГб-2501-51-00, 02 подгруппа ГГб-2501-51-00, 03 подгруппа ГГб-2501-51-00, 04 подгруппа ЛДб-2501-01-00 ЛДб-2501-01-00, 01 подгруппа ЛДб-2501-01-00, 02 подгруппа ЛДб-2501-01-00, 03 подгруппа ПОДб-2501-69-00 ПОДб-2501-69-00, 01 подгруппа ПОДб-2501-69-00, 02 подгруппа ПОДб-2501-69-00, 03 подгруппа ПОДб-2501-69-00, 04 подгруппа ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа ХМб-2501-53-00, 02 подгруппа ХМб-2501-53-00, 03 подгруппа ХМб-2501-53-00, 04 подгруппа ХМб-2501-53-00, 05 подгруппа ХТб-2501-07-00 ХТб-2501-07-00, 01 подгруппа ХТб-2501-07-00, 02 подгруппа ХТб-2501-07-00, 03 подгруппа ХТб-2501-07-00, 04 подгруппа ХТб-2501-07-00, 05 подгруппа ХТб-2502-07-00 ХТб-2502-07-00, 01 подгруппа ХТб-2502-07-00, 02 подгруппа ХТб-2502-07-00, 03 подгруппа ХТб-2502-07-00, 04 подгруппа ХТб-2502-07-00, 05 подгруппа ХТб-2502-07-00, 06 подгруппа ХТб-2503-07-00 ХТб-2503-07-00, 01 подгруппа ХТб-2503-07-00, 02 подгруппа ХТб-2503-07-00, 03 подгруппа ХТб-2503-07-00, 04 подгруппа ХТб-2503-07-00, 05 подгруппа</TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2">15-423 Строение вещества Лекция  ХМс-3501-53-00 ХМс-3501-53-00, 01 подгруппа ХМс-3501-53-00, 02 подгруппа ХМс-3501-53-00, 03 подгруппа ХМс-3501-53-00, 04 подгруппа</TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2">15-405 Общая химическая технология Лабораторная работа  ХМс-4501-53-00</TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1502-07-00 ХТб-1502-07-00, 01 подгруппа</TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2">15-337 Математика Практическое занятие  ПОДб-1501-05-00 ПОДб-1501-05-00, 01 подгруппа ПОДб-1501-05-00, 02 подгруппа ПОДб-1501-05-00, 03 подгруппа ПОДб-1501-05-00, 04 подгруппа ПОДб-1501-05-00, 05 подгруппа ПОДб-1501-05-00, 06 подгруппа ПОДб-1501-05-00, 07 подгруппа ПОДб-1501-05-00, 08 подгруппа</TD>
+<TD CLASS="R17C2">15-434 Математика Практическое занятие  ЛДб-1501-01-00 ЛДб-1501-01-00, 01 подгруппа ЛДб-1501-01-00, 02 подгруппа ЛДб-1501-01-00, 03 подгруппа ЛДб-1501-01-00, 04 подгруппа ЛДб-1501-01-00, 05 подгруппа ЛДб-1501-01-00, 06 подгруппа ЛДб-1501-01-00, 07 подгруппа ЛДб-1501-01-00, 08 подгруппа</TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R18>
+<TD CLASS="R18C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R18C2">15-423 Экологический мониторинг Лекция  ХМс-4501-53-00</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">15-343 Биохимия Лекция  ГГб-2501-51-00 ГГб-2501-51-00, 01 подгруппа ГГб-2501-51-00, 02 подгруппа ГГб-2501-51-00, 03 подгруппа ГГб-2501-51-00, 04 подгруппа ЛДб-2501-01-00 ЛДб-2501-01-00, 01 подгруппа ЛДб-2501-01-00, 02 подгруппа ЛДб-2501-01-00, 03 подгруппа ПОДб-2501-69-00 ПОДб-2501-69-00, 01 подгруппа ПОДб-2501-69-00, 02 подгруппа ПОДб-2501-69-00, 03 подгруппа ПОДб-2501-69-00, 04 подгруппа ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа ХМб-2501-53-00, 02 подгруппа ХМб-2501-53-00, 03 подгруппа ХМб-2501-53-00, 04 подгруппа ХМб-2501-53-00, 05 подгруппа ХТб-2501-07-00 ХТб-2501-07-00, 01 подгруппа ХТб-2501-07-00, 02 подгруппа ХТб-2501-07-00, 03 подгруппа ХТб-2501-07-00, 04 подгруппа ХТб-2501-07-00, 05 подгруппа ХТб-2502-07-00 ХТб-2502-07-00, 01 подгруппа ХТб-2502-07-00, 02 подгруппа ХТб-2502-07-00, 03 подгруппа ХТб-2502-07-00, 04 подгруппа ХТб-2502-07-00, 05 подгруппа ХТб-2502-07-00, 06 подгруппа ХТб-2503-07-00 ХТб-2503-07-00, 01 подгруппа ХТб-2503-07-00, 02 подгруппа ХТб-2503-07-00, 03 подгруппа ХТб-2503-07-00, 04 подгруппа ХТб-2503-07-00, 05 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">15-331 Физическая химия Лабораторная работа  ХМс-3501-53-00 ХМс-3501-53-00, 01 подгруппа ХМс-3501-53-00, 02 подгруппа ХМс-3501-53-00, 03 подгруппа ХМс-3501-53-00, 04 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1502-07-00 ХТб-1502-07-00, 01 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">15-337 Математика Практическое занятие  ПОДб-1501-05-00 ПОДб-1501-05-00, 01 подгруппа ПОДб-1501-05-00, 02 подгруппа ПОДб-1501-05-00, 03 подгруппа ПОДб-1501-05-00, 04 подгруппа ПОДб-1501-05-00, 05 подгруппа ПОДб-1501-05-00, 06 подгруппа ПОДб-1501-05-00, 07 подгруппа ПОДб-1501-05-00, 08 подгруппа</TD>
+<TD CLASS="R18C2">15-434 Математика Практическое занятие  ХМб-1501-53-00 ХМб-1501-53-00, 01 подгруппа ХМб-1501-53-00, 02 подгруппа ХМб-1501-53-00, 03 подгруппа ХМб-1501-53-00, 04 подгруппа ХМб-1501-53-00, 05 подгруппа ХМб-1501-53-00, 06 подгруппа ХМб-1501-53-00, 07 подгруппа ХМб-1501-53-00, 08 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-418 Химические основы биологических процессов Лабораторная работа  ХМс-4501-53-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-331 Физическая химия Лабораторная работа  ХМс-3501-53-00 ХМс-3501-53-00, 01 подгруппа ХМс-3501-53-00, 02 подгруппа ХМс-3501-53-00, 03 подгруппа ХМс-3501-53-00, 04 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-403 Химические основы токсикологии Лабораторная работа  ХМб-3501-53-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R20C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2">15-403 Химические основы токсикологии Лабораторная работа  ХМб-3501-53-00</TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R20C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2">15-339 Экология Практическое занятие  ХТа-3501-04-00</TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2">15-423 Аналитическая химия Лекция  ХМа-3501-03-00</TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">15-339 Экология Лекция  ХТа-3501-04-00</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">15-403 Аналитическая химия Практическое занятие  ХМа-3501-03-00</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;30.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2">15-327 Инструментальные методы анализа Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-419 Неорганическая химия Лабораторная работа  ЛДб-1501-01-00 ЛДб-1501-01-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-414 Химия и анализ пищевых продуктов Лабораторная работа  ХМс-3501-53-00 ХМс-3501-53-00, 01 подгруппа ХМс-3501-53-00, 02 подгруппа ХМс-3501-53-00, 03 подгруппа ХМс-3501-53-00, 04 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1502-07-00 ХТб-1502-07-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">15-416 Биохимия Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2">15-327 Инструментальные методы анализа Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-419 Неорганическая химия Лабораторная работа  ГГб-1501-51-00 ГГб-1501-51-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">15-418 Биохимия Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-341 Инструментальные методы анализа Лабораторная работа  ХТб-2502-07-00 ХТб-2502-07-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-414 Химия и анализ пищевых продуктов Лабораторная работа  ХМс-3501-53-00 ХМс-3501-53-00, 01 подгруппа ХМс-3501-53-00, 02 подгруппа ХМс-3501-53-00, 03 подгруппа ХМс-3501-53-00, 04 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1502-07-00 ХТб-1502-07-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">15-416 Биохимия Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-419 Неорганическая химия Лабораторная работа  ЛДб-1501-01-00 ЛДб-1501-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">15-418 Биохимия Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-331 Физическая химия Лабораторная работа  ХМс-3501-53-00 ХМс-3501-53-00, 01 подгруппа ХМс-3501-53-00, 02 подгруппа ХМс-3501-53-00, 03 подгруппа ХМс-3501-53-00, 04 подгруппа</TD>
+<TD CLASS="R2C2">15-341 Инструментальные методы анализа Лабораторная работа  ХТб-2502-07-00 ХТб-2502-07-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-339 Биохимия Практическое занятие  ГГб-2501-51-00 ГГб-2501-51-00, 01 подгруппа ГГб-2501-51-00, 02 подгруппа ГГб-2501-51-00, 03 подгруппа ГГб-2501-51-00, 04 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-406 Фармацевтическая химия Лабораторная работа  ХМб-3501-53-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1503-07-00 ХТб-1503-07-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">15-416 Биохимия Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-419 Неорганическая химия Лабораторная работа  ГГб-1501-51-00 ГГб-1501-51-00, 02 подгруппа ГГб-1502-51-00</TD>
+<TD CLASS="R11C2">15-423 Избранные главы современной химии Экзамен  ХМб-4501-53-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-331 Физическая химия Лабораторная работа  ХМс-3501-53-00 ХМс-3501-53-00, 01 подгруппа ХМс-3501-53-00, 02 подгруппа ХМс-3501-53-00, 03 подгруппа ХМс-3501-53-00, 04 подгруппа</TD>
+<TD CLASS="R11C2">15-341 Аналитическая химия Лабораторная работа  ПОДб-2101-53-00 ПОДб-2101-53-00, 01 подгруппа ПОДб-2101-53-00, 02 подгруппа ПОДб-2101-53-00, 03 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1503-07-00 ХТб-1503-07-00, 01 подгруппа</TD>
+<TD CLASS="R11C2">15-416 Биохимия Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-324 Математика Практическое занятие  ХТб-1501-07-00 ХТб-1501-07-00, 01 подгруппа ХТб-1501-07-00, 02 подгруппа ХТб-1501-07-00, 03 подгруппа ХТб-1501-07-00, 04 подгруппа ХТб-1501-07-00, 05 подгруппа ХТб-1501-07-00, 06 подгруппа ХТб-1501-07-00, 07 подгруппа ХТб-1501-07-00, 08 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-423 Избранные главы современной химии Экзамен  ХМб-4501-53-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-341 Аналитическая химия Лабораторная работа  ПОДб-2101-53-00 ПОДб-2101-53-00, 01 подгруппа ПОДб-2101-53-00, 02 подгруппа ПОДб-2101-53-00, 03 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-339 Химическая технология Лекция  ХМб-3501-53-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1501-07-00 ХТб-1501-07-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">15-327 Инструментальные методы анализа Лабораторная работа  ХТб-2502-07-00 ХТб-2502-07-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-423 Избранные главы современной химии Экзамен  ХМб-4501-53-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1501-07-00 ХТб-1501-07-00, 01 подгруппа</TD>
+<TD CLASS="R4C2">15-327 Инструментальные методы анализа Лабораторная работа  ХТб-2502-07-00 ХТб-2502-07-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;01.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;02.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R43C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R44>
+<TD CLASS="R44C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;04.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R44C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R44>
+<TD CLASS="R44C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R44>
+<TD CLASS="R44C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R44>
+<TD CLASS="R44C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R44>
+<TD CLASS="R44C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;05.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;06.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R3C2">15-327 Инструментальные методы анализа Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 02 подгруппа</TD>
+<TD CLASS="R3C2">15-343 Неорганическая химия Лекция  ГГб-1501-51-00 ГГб-1501-51-00, 01 подгруппа ГГб-1501-51-00, 02 подгруппа ГГб-1501-51-00, 03 подгруппа ГГб-1501-51-00, 04 подгруппа ГГб-1501-51-00, 05 подгруппа ГГб-1501-51-00, 06 подгруппа ГГб-1501-51-00, 07 подгруппа ГГб-1501-51-00, 08 подгруппа ГГб-1502-51-00 ЛДб-1501-01-00 ЛДб-1501-01-00, 01 подгруппа ЛДб-1501-01-00, 02 подгруппа ЛДб-1501-01-00, 03 подгруппа ЛДб-1501-01-00, 04 подгруппа ЛДб-1501-01-00, 05 подгруппа ЛДб-1501-01-00, 06 подгруппа ЛДб-1501-01-00, 07 подгруппа ЛДб-1501-01-00, 08 подгруппа ПОДб-1501-05-00 ПОДб-1501-05-00, 01 подгруппа ПОДб-1501-05-00, 02 подгруппа ПОДб-1501-05-00, 03 подгруппа ПОДб-1501-05-00, 04 подгруппа ПОДб-1501-05-00, 05 подгруппа ПОДб-1501-05-00, 06 подгруппа ПОДб-1501-05-00, 07 подгруппа ПОДб-1501-05-00, 08 подгруппа ХМб-1501-53-00 ХМб-1501-53-00, 01 подгруппа ХМб-1501-53-00, 02 подгруппа ХМб-1501-53-00, 03 подгруппа ХМб-1501-53-00, 04 подгруппа ХМб-1501-53-00, 05 подгруппа ХМб-1501-53-00, 06 подгруппа ХМб-1501-53-00, 07 подгруппа ХМб-1501-53-00, 08 подгруппа ХТб-1501-07-00 ХТб-1501-07-00, 01 подгруппа ХТб-1501-07-00, 02 подгруппа ХТб-1501-07-00, 03 подгруппа ХТб-1501-07-00, 04 подгруппа ХТб-1501-07-00, 05 подгруппа ХТб-1501-07-00, 06 подгруппа ХТб-1501-07-00, 07 подгруппа ХТб-1501-07-00, 08 подгруппа ХТб-1502-07-00 ХТб-1502-07-00, 01 подгруппа ХТб-1502-07-00, 02 подгруппа ХТб-1502-07-00, 03 подгруппа ХТб-1502-07-00, 04 подгруппа ХТб-1502-07-00, 05 подгруппа ХТб-1502-07-00, 06 подгруппа ХТб-1502-07-00, 07 подгруппа ХТб-1502-07-00, 08 подгруппа ХТб-1503-07-00 ХТб-1503-07-00, 01 подгруппа ХТб-1503-07-00, 02 подгруппа ХТб-1503-07-00, 03 подгруппа ХТб-1503-07-00, 04 подгруппа ХТб-1503-07-00, 05 подгруппа ХТб-1503-07-00, 06 подгруппа ХТб-1503-07-00, 07 подгруппа ХТб-1503-07-00, 08 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-423 Биологическая химия Лекция  ПОДб-4101-53-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">15-341 Инструментальные методы анализа Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R59>
+<TD CLASS="R59C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R59C2">15-327 Инструментальные методы анализа Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 02 подгруппа</TD>
+<TD CLASS="R59C2"><SPAN></SPAN></TD>
+<TD CLASS="R59C2"><SPAN></SPAN></TD>
+<TD CLASS="R59C2"><SPAN></SPAN></TD>
+<TD CLASS="R59C2">15-423 Строение вещества Практическое занятие  ХМс-3501-53-00 ХМс-3501-53-00, 01 подгруппа ХМс-3501-53-00, 02 подгруппа ХМс-3501-53-00, 03 подгруппа ХМс-3501-53-00, 04 подгруппа</TD>
+<TD CLASS="R59C2"><SPAN></SPAN></TD>
+<TD CLASS="R59C2"><SPAN></SPAN></TD>
+<TD CLASS="R59C2">15-403 Аналитическая химия Лабораторная работа  ПОДб-3101-53-00 ПОДб-3101-53-00, 02 подгруппа</TD>
+<TD CLASS="R59C2"><SPAN></SPAN></TD>
+<TD CLASS="R59C2">15-421 Коллоидная химия Лекция  ХМс-4501-53-00</TD>
+<TD CLASS="R59C2">15-418 Биологическая химия Лабораторная работа  ПОДб-4101-53-00</TD>
+<TD CLASS="R59C2"><SPAN></SPAN></TD>
+<TD CLASS="R59C2">15-410 Биохимия Практическое занятие  ПОДб-2501-69-00 ПОДб-2501-69-00, 01 подгруппа ПОДб-2501-69-00, 02 подгруппа ПОДб-2501-69-00, 03 подгруппа ПОДб-2501-69-00, 04 подгруппа</TD>
+<TD CLASS="R59C2"><SPAN></SPAN></TD>
+<TD CLASS="R59C2"><SPAN></SPAN></TD>
+<TD CLASS="R59C2"><SPAN></SPAN></TD>
+<TD CLASS="R59C2">15-341 Инструментальные методы анализа Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа</TD>
+<TD CLASS="R59C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1502-07-00 ХТб-1502-07-00, 02 подгруппа</TD>
+<TD CLASS="R59C2"><SPAN></SPAN></TD>
+<TD CLASS="R59C2">15-310 Математика Практическое занятие  ХТб-1503-07-00 ХТб-1503-07-00, 01 подгруппа ХТб-1503-07-00, 02 подгруппа ХТб-1503-07-00, 03 подгруппа ХТб-1503-07-00, 04 подгруппа ХТб-1503-07-00, 05 подгруппа ХТб-1503-07-00, 06 подгруппа ХТб-1503-07-00, 07 подгруппа ХТб-1503-07-00, 08 подгруппа</TD>
+<TD CLASS="R59C2">15-430 Математика Практическое занятие  ХТб-1501-07-00 ХТб-1501-07-00, 01 подгруппа ХТб-1501-07-00, 02 подгруппа ХТб-1501-07-00, 03 подгруппа ХТб-1501-07-00, 04 подгруппа ХТб-1501-07-00, 05 подгруппа ХТб-1501-07-00, 06 подгруппа ХТб-1501-07-00, 07 подгруппа ХТб-1501-07-00, 08 подгруппа</TD>
+<TD CLASS="R59C2">15-434 Математика Практическое занятие  ГГб-1501-51-00 ГГб-1501-51-00, 01 подгруппа ГГб-1501-51-00, 02 подгруппа ГГб-1501-51-00, 03 подгруппа ГГб-1501-51-00, 04 подгруппа ГГб-1501-51-00, 05 подгруппа ГГб-1501-51-00, 06 подгруппа ГГб-1501-51-00, 07 подгруппа ГГб-1501-51-00, 08 подгруппа ГГб-1502-51-00</TD>
+<TD CLASS="R59C2">15-343 Высокомолекулярные соединения Лекция  ХМб-3501-53-00</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R18>
+<TD CLASS="R18C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R18C2">15-421 Экологический мониторинг Практическое занятие  ХМс-4501-53-00</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">15-343 Биохимия Лекция  ГГб-2501-51-00 ГГб-2501-51-00, 01 подгруппа ГГб-2501-51-00, 02 подгруппа ГГб-2501-51-00, 03 подгруппа ГГб-2501-51-00, 04 подгруппа ЛДб-2501-01-00 ЛДб-2501-01-00, 01 подгруппа ЛДб-2501-01-00, 02 подгруппа ЛДб-2501-01-00, 03 подгруппа ПОДб-2501-69-00 ПОДб-2501-69-00, 01 подгруппа ПОДб-2501-69-00, 02 подгруппа ПОДб-2501-69-00, 03 подгруппа ПОДб-2501-69-00, 04 подгруппа ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа ХМб-2501-53-00, 02 подгруппа ХМб-2501-53-00, 03 подгруппа ХМб-2501-53-00, 04 подгруппа ХМб-2501-53-00, 05 подгруппа ХТб-2501-07-00 ХТб-2501-07-00, 01 подгруппа ХТб-2501-07-00, 02 подгруппа ХТб-2501-07-00, 03 подгруппа ХТб-2501-07-00, 04 подгруппа ХТб-2501-07-00, 05 подгруппа ХТб-2502-07-00 ХТб-2502-07-00, 01 подгруппа ХТб-2502-07-00, 02 подгруппа ХТб-2502-07-00, 03 подгруппа ХТб-2502-07-00, 04 подгруппа ХТб-2502-07-00, 05 подгруппа ХТб-2502-07-00, 06 подгруппа ХТб-2503-07-00 ХТб-2503-07-00, 01 подгруппа ХТб-2503-07-00, 02 подгруппа ХТб-2503-07-00, 03 подгруппа ХТб-2503-07-00, 04 подгруппа ХТб-2503-07-00, 05 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">15-403 Аналитическая химия Лабораторная работа  ПОДб-3101-53-00 ПОДб-3101-53-00, 02 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">15-418 Биологическая химия Лабораторная работа  ПОДб-4101-53-00</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">15-339 Химия и анализ пищевых продуктов Лекция  ХМс-3501-53-00 ХМс-3501-53-00, 01 подгруппа ХМс-3501-53-00, 02 подгруппа ХМс-3501-53-00, 03 подгруппа ХМс-3501-53-00, 04 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1502-07-00 ХТб-1502-07-00, 02 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">15-310 Математика Практическое занятие  ХТб-1503-07-00 ХТб-1503-07-00, 01 подгруппа ХТб-1503-07-00, 02 подгруппа ХТб-1503-07-00, 03 подгруппа ХТб-1503-07-00, 04 подгруппа ХТб-1503-07-00, 05 подгруппа ХТб-1503-07-00, 06 подгруппа ХТб-1503-07-00, 07 подгруппа ХТб-1503-07-00, 08 подгруппа</TD>
+<TD CLASS="R18C2">15-430 Математика Практическое занятие  ХТб-1501-07-00 ХТб-1501-07-00, 01 подгруппа ХТб-1501-07-00, 02 подгруппа ХТб-1501-07-00, 03 подгруппа ХТб-1501-07-00, 04 подгруппа ХТб-1501-07-00, 05 подгруппа ХТб-1501-07-00, 06 подгруппа ХТб-1501-07-00, 07 подгруппа ХТб-1501-07-00, 08 подгруппа</TD>
+<TD CLASS="R18C2">15-434 Математика Практическое занятие  ГГб-1501-51-00 ГГб-1501-51-00, 01 подгруппа ГГб-1501-51-00, 02 подгруппа ГГб-1501-51-00, 03 подгруппа ГГб-1501-51-00, 04 подгруппа ГГб-1501-51-00, 05 подгруппа ГГб-1501-51-00, 06 подгруппа ГГб-1501-51-00, 07 подгруппа ГГб-1501-51-00, 08 подгруппа ГГб-1502-51-00</TD>
+<TD CLASS="R18C2">15-410 Высокомолекулярные соединения Лабораторная работа  ХМб-3501-53-00</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-418 Химические основы биологических процессов Лабораторная работа  ХМс-4501-53-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-341 Аналитическая химия Лабораторная работа  ПОДб-2101-53-00 ПОДб-2101-53-00, 01 подгруппа ПОДб-2101-53-00, 02 подгруппа ПОДб-2101-53-00, 03 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-418 Химические основы биологических процессов Лабораторная работа  ХМс-4501-53-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-341 Аналитическая химия Лабораторная работа  ПОДб-2101-53-00 ПОДб-2101-53-00, 01 подгруппа ПОДб-2101-53-00, 02 подгруппа ПОДб-2101-53-00, 03 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R20C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD CLASS="R20C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;07.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-419 Неорганическая химия Лабораторная работа  ГГб-1501-51-00 ГГб-1501-51-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1503-07-00 ХТб-1503-07-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-423 Теория и методика обучения химии Лабораторная работа  ПОДб-4101-53-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-419 Неорганическая химия Лабораторная работа  ГГб-1501-51-00 ГГб-1501-51-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-339 Химические основы токсикологии Лекция  ХМб-3501-53-00</TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1503-07-00 ХТб-1503-07-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-423 Теория и методика обучения химии Лабораторная работа  ПОДб-4101-53-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-419 Неорганическая химия Лабораторная работа  ГГб-1501-51-00 ГГб-1501-51-00, 02 подгруппа ГГб-1502-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-343 Физическая химия Лекция  ХМб-3501-53-00 ХМс-3501-53-00 ХМс-3501-53-00, 01 подгруппа ХМс-3501-53-00, 02 подгруппа ХМс-3501-53-00, 03 подгруппа ХМс-3501-53-00, 04 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-414 Проектная деятельность Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1501-07-00 ХТб-1501-07-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R4C2">15-322 Проектная деятельность Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-419 Неорганическая химия Лабораторная работа  ГГб-1501-51-00 ГГб-1501-51-00, 02 подгруппа ГГб-1502-51-00</TD>
+<TD CLASS="R4C2">15-423 Химические основы биологических процессов Лекция  ХМс-4501-53-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-414 Проектная деятельность Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа</TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1501-07-00 ХТб-1501-07-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R4C2">15-414 Проектная деятельность Лабораторная работа  ХМб-2501-53-00 ХМб-2501-53-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-423 Химические основы биологических процессов Лекция  ХМс-4501-53-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ХМб-1501-53-00 ХМб-1501-53-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ХМб-1501-53-00 ХМб-1501-53-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R72C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;08.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-327 Инструментальные методы анализа Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1503-07-00 ХТб-1503-07-00, 01 подгруппа</TD>
+<TD CLASS="R11C2">15-410 Биохимия Практическое занятие  ХТб-2502-07-00 ХТб-2502-07-00, 01 подгруппа ХТб-2502-07-00, 02 подгруппа ХТб-2502-07-00, 03 подгруппа ХТб-2502-07-00, 04 подгруппа ХТб-2502-07-00, 05 подгруппа ХТб-2502-07-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-434 Математика Практическое занятие  ЛДб-1501-01-00 ЛДб-1501-01-00, 01 подгруппа ЛДб-1501-01-00, 02 подгруппа ЛДб-1501-01-00, 03 подгруппа ЛДб-1501-01-00, 04 подгруппа ЛДб-1501-01-00, 05 подгруппа ЛДб-1501-01-00, 06 подгруппа ЛДб-1501-01-00, 07 подгруппа ЛДб-1501-01-00, 08 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-419 Неорганическая химия Лабораторная работа  ПОДб-1101-53-00 ПОДб-1101-53-00, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-327 Инструментальные методы анализа Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-410 Биохимия Практическое занятие  ЛДб-2501-01-00 ЛДб-2501-01-00, 01 подгруппа ЛДб-2501-01-00, 02 подгруппа ЛДб-2501-01-00, 03 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-235 Применение хроматографических методов исследования Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 02 подгруппа</TD>
+<TD CLASS="R11C2">15-343 Неорганическая химия (углубленный курс) Лекция  ХМб-2501-53-00 ХМб-2501-53-00, 01 подгруппа ХМб-2501-53-00, 02 подгруппа ХМб-2501-53-00, 03 подгруппа ХМб-2501-53-00, 04 подгруппа ХМб-2501-53-00, 05 подгруппа</TD>
+<TD CLASS="R11C2">15-407 Неорганическая химия Лабораторная работа  ХТб-1503-07-00 ХТб-1503-07-00, 01 подгруппа</TD>
+<TD CLASS="R11C2">15-414 Судебная экспертиза стекла и изделий из него Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа</TD>
+<TD CLASS="R11C2">15-264 Математика Практическое занятие  ХТб-1502-07-00 ХТб-1502-07-00, 01 подгруппа ХТб-1502-07-00, 02 подгруппа ХТб-1502-07-00, 03 подгруппа ХТб-1502-07-00, 04 подгруппа ХТб-1502-07-00, 05 подгруппа ХТб-1502-07-00, 06 подгруппа ХТб-1502-07-00, 07 подгруппа ХТб-1502-07-00, 08 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-434 Математика Практическое занятие  ЛДб-1501-01-00 ЛДб-1501-01-00, 01 подгруппа ЛДб-1501-01-00, 02 подгруппа ЛДб-1501-01-00, 03 подгруппа ЛДб-1501-01-00, 04 подгруппа ЛДб-1501-01-00, 05 подгруппа ЛДб-1501-01-00, 06 подгруппа ЛДб-1501-01-00, 07 подгруппа ЛДб-1501-01-00, 08 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-419 Неорганическая химия Лабораторная работа  ПОДб-1101-53-00 ПОДб-1101-53-00, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-421 Кристаллохимия Лабораторная работа  ХМс-3501-53-00 ХМс-3501-53-00, 01 подгруппа ХМс-3501-53-00, 02 подгруппа ХМс-3501-53-00, 03 подгруппа ХМс-3501-53-00, 04 подгруппа</TD>
+<TD CLASS="R11C2">1-311 Физическая и коллоидная химия Лекция  ПОДб-4101-53-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-405 Общая химическая технология Лабораторная работа  ХМс-4501-53-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-235 Применение хроматографических методов исследования Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 02 подгруппа</TD>
+<TD CLASS="R11C2">15-341 Инструментальные методы анализа Лабораторная работа  ПОДб-2501-69-00 ПОДб-2501-69-00, 01 подгруппа</TD>
+<TD CLASS="R11C2">15-407 Неорганическая химия Лабораторная работа  ПОДб-1501-05-00 ПОДб-1501-05-00, 02 подгруппа</TD>
+<TD CLASS="R11C2">15-414 Судебная экспертиза стекла и изделий из него Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа</TD>
+<TD CLASS="R11C2">15-264 Математика Практическое занятие  ХТб-1502-07-00 ХТб-1502-07-00, 01 подгруппа ХТб-1502-07-00, 02 подгруппа ХТб-1502-07-00, 03 подгруппа ХТб-1502-07-00, 04 подгруппа ХТб-1502-07-00, 05 подгруппа ХТб-1502-07-00, 06 подгруппа ХТб-1502-07-00, 07 подгруппа ХТб-1502-07-00, 08 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-434 Математика Практическое занятие  ХМб-1501-53-00 ХМб-1501-53-00, 01 подгруппа ХМб-1501-53-00, 02 подгруппа ХМб-1501-53-00, 03 подгруппа ХМб-1501-53-00, 04 подгруппа ХМб-1501-53-00, 05 подгруппа ХМб-1501-53-00, 06 подгруппа ХМб-1501-53-00, 07 подгруппа ХМб-1501-53-00, 08 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-419 Неорганическая химия Лабораторная работа  ПОДб-1101-53-00 ПОДб-1101-53-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">1-231 Физическая и коллоидная химия Лабораторная работа  ПОДб-4101-53-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-327 Инструментальные методы анализа Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-339 Общая химическая технология Лекция  ХМс-4501-53-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-341 Инструментальные методы анализа Лабораторная работа  ПОДб-2501-69-00 ПОДб-2501-69-00, 01 подгруппа</TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ПОДб-1501-05-00 ПОДб-1501-05-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-419 Неорганическая химия Лабораторная работа  ПОДб-1101-53-00 ПОДб-1101-53-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">1-231 Физическая и коллоидная химия Лабораторная работа  ПОДб-4101-53-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-327 Инструментальные методы анализа Лабораторная работа  ХТб-2503-07-00 ХТб-2503-07-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ХМб-1501-53-00 ХМб-1501-53-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">15-407 Неорганическая химия Лабораторная работа  ХМб-1501-53-00 ХМб-1501-53-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;09.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R30>
+<TD CLASS="R30C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD CLASS="R30C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R86>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R86C3"><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:99px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

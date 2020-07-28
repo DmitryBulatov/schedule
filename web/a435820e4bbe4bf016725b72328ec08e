@@ -1,0 +1,2364 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 25px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 14pt; font-style: normal; font-weight: bold; background-color: #ffffff; }
+tr.R1{ height: 21px; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C2{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; text-align: center; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11{ height: 29px; }
+tr.R11 td.R11C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R11C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R29C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R11 td.R29C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R11 td.R30C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R12{ height: 127px; }
+tr.R12 td.R12C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R12 td.R12C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14{ height: 43px; }
+tr.R14 td.R14C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14 td.R14C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14 td.R15C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R14 td.R15C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R14 td.R69C10{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R18{ height: 15px; }
+tr.R18 td.R18C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R18 td.R18C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R18 td.R23C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 57px; }
+tr.R2 td.R22C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R2 td.R22C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R2 td.R22C8{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C18{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5{ height: 85px; }
+tr.R5 td.R44C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R5C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R5C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R8C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R5 td.R8C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R7{ height: 71px; }
+tr.R7 td.R51C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R67C18{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R7C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R7C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R86{ height: 99px; }
+tr.R86 td.R86C3{ font-family: Arial; font-size: 8pt; font-style: normal; text-align: center; vertical-align: middle; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:100%; height:0px; " CELLSPACING=0>
+<COL WIDTH=31>
+<COL WIDTH=89>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=63>
+<COL>
+<TR CLASS=R0>
+<TD CLASS="R0C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;max-width:0px;">Обновление&nbsp;04.06.2020</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">День</SPAN></TD>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">Интервал</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Башлачева&nbsp;А.П.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Булычев&nbsp;Л.Л.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Вахрушев&nbsp;В.Ю.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Голованова&nbsp;Т.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Земцов&nbsp;М.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Кашина&nbsp;Е.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Костылев&nbsp;Е.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Кузьминых&nbsp;М.М.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Ланских&nbsp;В.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Ланских&nbsp;Ю.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Лялин&nbsp;С.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Мершина&nbsp;И.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Нижегородова&nbsp;М.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Перминов&nbsp;А.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Поздин&nbsp;В.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Провалов&nbsp;В.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Родионов&nbsp;К.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Сандаков&nbsp;С.Ю.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Семеновых&nbsp;В.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Стариков&nbsp;А.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Шмакова&nbsp;Н.А.</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;25.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C18">2-202 Интеллектуальные системы и технологии Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа<BR>2-202_ Интеллектуальные системы и технологии Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-101 Электромагнитные устройства автоматики Лекция  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2">2-407 Профессиональные компьютерные программы Лекция  СВб-3601-01-00 СВб-3601-01-00, 01 подгруппа СВб-3601-01-00, 02 подгруппа СВб-3601-01-00, 03 подгруппа СВб-3601-01-00, 04 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-419 Стандартизация, сертификация и управление качеством программного обеспечения Лабораторная работа  БИб-3601-01-00 БИб-3601-01-00, 01 подгруппа</TD>
+<TD CLASS="R2C18">2-202 Интеллектуальные системы и технологии Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа<BR>2-202_ Интеллектуальные системы и технологии Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-405 Математические методы анализа данных Лекция  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа ИТб-3301-01-00, 02 подгруппа ИТб-3301-01-00, 03 подгруппа ИТб-3301-01-00, 04 подгруппа ИТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-419 Стандартизация, сертификация и управление качеством программного обеспечения Лабораторная работа  БИб-3601-01-00 БИб-3601-01-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">2-202 Программирование и основы алгоритмизации Лабораторная работа  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-201 Профессиональные компьютерные программы Зачет  ИНб-3601-01-00 ИНб-3601-01-00, 01 подгруппа ИНб-3601-01-00, 02 подгруппа ИНб-3601-01-00, 03 подгруппа ИНб-3601-01-00, 04 подгруппа (https://teams.microsoft.com/l/channel/19:e15ac8b8161745d88e49c01a8ad5053d@thread.tacv2/conversations?groupId=8dc9b848-fe22-4cd5-a3b1-481cac9296cc&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-419 Стандартизация, сертификация и управление качеством программного обеспечения Лабораторная работа  БИб-3601-01-00 БИб-3601-01-00, 02 подгруппа</TD>
+<TD CLASS="R5C2">2-202 Программирование и основы алгоритмизации Лабораторная работа  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-203 Электротехника и электроника Практическое занятие  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-419 Стандартизация, сертификация и управление качеством программного обеспечения Лабораторная работа  БИб-3601-01-00 БИб-3601-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2">2-101 Проектирование компонент ИС Лекция  ИТб-2301-01-00 ИТб-2301-01-00, 01 подгруппа ИТб-2301-01-00, 02 подгруппа ИТб-2301-01-00, 03 подгруппа ИТб-2301-01-00, 04 подгруппа ИТб-2301-01-00, 05 подгруппа ИТб-2302-01-00 ИТб-2302-01-00, 01 подгруппа ИТб-2302-01-00, 02 подгруппа ИТб-2302-01-00, 03 подгруппа ИТб-2302-01-00, 04 подгруппа ИТб-2302-01-00, 05 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">2-201 Программная инженерия Практическое занятие  ПИб-3301-01-00 ПИб-3301-01-00, 01 подгруппа ПИб-3301-01-00, 02 подгруппа ПИб-3301-01-00, 03 подгруппа ПИб-3301-01-00, 04 подгруппа ПИб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">2-409 Интеллектуальный анализ данных Лекция  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">2-202 Микропроцессорные устройства систем управления Лекция  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2">2-101 Проектирование компонент ИС Практическое занятие  ИТб-2301-01-00 ИТб-2301-01-00, 01 подгруппа ИТб-2301-01-00, 02 подгруппа ИТб-2301-01-00, 03 подгруппа ИТб-2301-01-00, 04 подгруппа ИТб-2301-01-00, 05 подгруппа ИТб-2302-01-00 ИТб-2302-01-00, 01 подгруппа ИТб-2302-01-00, 02 подгруппа ИТб-2302-01-00, 03 подгруппа ИТб-2302-01-00, 04 подгруппа ИТб-2302-01-00, 05 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">2-201 Программная инженерия Практическое занятие  ПИб-3301-01-00 ПИб-3301-01-00, 01 подгруппа ПИб-3301-01-00, 02 подгруппа ПИб-3301-01-00, 03 подгруппа ПИб-3301-01-00, 04 подгруппа ПИб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">2-405 Интеллектуальный анализ данных Лекция  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">2-202 Микропроцессорные устройства систем управления Практическое занятие  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;26.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-403 Системный анализ и исследование операций Лекция  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа ИТб-3301-01-00, 02 подгруппа ИТб-3301-01-00, 03 подгруппа ИТб-3301-01-00, 04 подгруппа ИТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-407 Микропроцессорные устройства систем управления Лекция  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-419 Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-51-24</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-403 Системный анализ и исследование операций Практическое занятие  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа ИТб-3301-01-00, 02 подгруппа ИТб-3301-01-00, 03 подгруппа ИТб-3301-01-00, 04 подгруппа ИТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-407 Микропроцессорные устройства систем управления Лекция  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-201 Электромагнитные устройства автоматики Лабораторная работа  УТб-2301-02-00 УТб-2301-02-00, 02 подгруппа</TD>
+<TD CLASS="R11C2">16-419 Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-51-24</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-315 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-20 УПб-3601-01-20, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">2-201 Электромагнитные устройства автоматики Лабораторная работа  УТб-2301-02-00 УТб-2301-02-00, 02 подгруппа</TD>
+<TD CLASS="R12C2">16-419 Профессиональные компьютерные программы Лабораторная работа  ГМб-3602-51-24</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">16-315 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-20 УПб-3601-01-20, 01 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">2-405 Информационные технологии Лекция  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа ИТб-1301-01-00, 02 подгруппа ИТб-1301-01-00, 03 подгруппа ИТб-1301-01-00, 04 подгруппа ИТб-1301-01-00, 05 подгруппа ИТб-1301-01-00, 06 подгруппа ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа ИТб-1302-01-00, 02 подгруппа ИТб-1302-01-00, 03 подгруппа ИТб-1302-01-00, 04 подгруппа ИТб-1302-01-00, 05 подгруппа ИТб-1302-01-00, 06 подгруппа УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-419 Профессиональные компьютерные программы Лабораторная работа  ГМб-3602-51-24</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-405 Информационные технологии Практическое занятие  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа ИТб-1301-01-00, 02 подгруппа ИТб-1301-01-00, 03 подгруппа ИТб-1301-01-00, 04 подгруппа ИТб-1301-01-00, 05 подгруппа ИТб-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-201 Интеллектуальный анализ данных Лабораторная работа  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">5-113 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-64 УПб-3602-01-64</TD>
+<TD CLASS="R14C2">2-405 Разработка распределенных систем обработки информации и управления Лекция  УТм-1301-01-00 УТм-1301-01-00, 01 подгруппа УТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">2-201 Интеллектуальный анализ данных Лабораторная работа  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">5-113 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-64 УПб-3602-01-64</TD>
+<TD CLASS="R15C2">2-405 Разработка распределенных систем обработки информации и управления Лекция  УТм-1301-01-00 УТм-1301-01-00, 01 подгруппа УТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;27.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-309 Техническая и конструкторская графика Практическое занятие  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2">14-104 Программная инженерия Лекция  ПИб-3301-01-00 ПИб-3301-01-00, 01 подгруппа ПИб-3301-01-00, 02 подгруппа ПИб-3301-01-00, 03 подгруппа ПИб-3301-01-00, 04 подгруппа ПИб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Информационные технологии Лабораторная работа  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-202 Информационные технологии Лабораторная работа  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R18>
+<TD CLASS="R18C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-408 Профессиональные компьютерные программы Лекция  СВб-3601-01-00 СВб-3601-01-00, 01 подгруппа СВб-3601-01-00, 02 подгруппа СВб-3601-01-00, 03 подгруппа СВб-3601-01-00, 04 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R18>
+<TD CLASS="R18C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C18">2-201 Проектирование компонент ИС Лабораторная работа  ИТб-2301-01-00 ИТб-2301-01-00, 01 подгруппа<BR>2-201_ Проектирование компонент ИС Лабораторная работа  ИТб-2301-01-00 ИТб-2301-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-113 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-64 УПб-3602-01-64</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Микропроцессорные устройства систем управления Лекция  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R22C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C8">2-201 Проектирование компонент ИС Лабораторная работа  ИТб-2301-01-00 ИТб-2301-01-00, 01 подгруппа<BR>2-201_ Проектирование компонент ИС Лабораторная работа  ИТб-2301-01-00 ИТб-2301-01-00, 02 подгруппа</TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2">2-202 Микропроцессорные устройства систем управления Практическое занятие  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R18>
+<TD CLASS="R23C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;28.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R18C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-209 Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-51-24</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-140 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-24 УПб-3601-01-24, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">2-407 Технические средства ИС Лекция  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа ИТб-3301-01-00, 02 подгруппа ИТб-3301-01-00, 03 подгруппа ИТб-3301-01-00, 04 подгруппа ИТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-411 Проектирование информационных систем Лекция  БИб-3601-01-00 БИб-3601-01-00, 01 подгруппа БИб-3601-01-00, 02 подгруппа БИб-3601-01-00, 03 подгруппа БИб-3601-01-00, 04 подгруппа БИб-3601-01-00, 05 подгруппа БИб-3601-01-00, 06 подгруппа ПИб-3301-01-00 ПИб-3301-01-00, 01 подгруппа ПИб-3301-01-00, 02 подгруппа ПИб-3301-01-00, 03 подгруппа ПИб-3301-01-00, 04 подгруппа ПИб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-209 Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-51-24</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-140 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-24 УПб-3601-01-24, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-407 Технические средства ИС Практическое занятие  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа ИТб-3301-01-00, 02 подгруппа ИТб-3301-01-00, 03 подгруппа ИТб-3301-01-00, 04 подгруппа ИТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-411 Проектирование информационных систем Практическое занятие  ПИб-3301-01-00 ПИб-3301-01-00, 01 подгруппа ПИб-3301-01-00, 02 подгруппа ПИб-3301-01-00, 03 подгруппа ПИб-3301-01-00, 04 подгруппа ПИб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2">2-403 Методы оптимизации Лекция  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-209 Профессиональные компьютерные программы Лабораторная работа  ГМб-3602-51-24</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-201 Программирование и основы алгоритмизации Лабораторная работа  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">2-407 Информационные технологии Практическое занятие  ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа ИТб-1302-01-00, 02 подгруппа ИТб-1302-01-00, 03 подгруппа ИТб-1302-01-00, 04 подгруппа ИТб-1302-01-00, 05 подгруппа ИТб-1302-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-209 Профессиональные компьютерные программы Лабораторная работа  ГМб-3602-51-24</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-201 Программирование и основы алгоритмизации Лабораторная работа  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа</TD>
+<TD CLASS="R11C2">2-202 Информационные технологии Лабораторная работа  ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-403 Информационная поддержка жизненного цикла продукции Лекция  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-202 Информационные технологии Лабораторная работа  ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">2-403 Информационная поддержка жизненного цикла продукции Лекция  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;29.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-203 Электромагнитные устройства автоматики Лабораторная работа  УТб-2301-02-00 УТб-2301-02-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-203 Электромагнитные устройства автоматики Лабораторная работа  УТб-2301-02-00 УТб-2301-02-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-319 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-24 УПб-3601-01-24, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-309 Математические методы анализа данных Практическое занятие  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа ИТб-3301-01-00, 02 подгруппа ИТб-3301-01-00, 03 подгруппа ИТб-3301-01-00, 04 подгруппа ИТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2">16-319 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-24 УПб-3601-01-24, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-407 Микропроцессорные устройства систем управления Практическое занятие  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-201 Программирование и основы алгоритмизации Лабораторная работа  ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-407 Микропроцессорные устройства систем управления Практическое занятие  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-201 Программирование и основы алгоритмизации Лабораторная работа  ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-201 Локальные сети Практическое занятие  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-202 Разработка распределенных систем обработки информации и управления Лабораторная работа  УТм-1301-01-00 УТм-1301-01-00, 01 подгруппа УТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">2-202 Разработка распределенных систем обработки информации и управления Лабораторная работа  УТм-1301-01-00 УТм-1301-01-00, 01 подгруппа УТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;30.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Микропроцессорные устройства систем управления Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">2-202 Микропроцессорные устройства систем управления Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">2-409 Информационные технологии Лекция  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа ИТб-1301-01-00, 02 подгруппа ИТб-1301-01-00, 03 подгруппа ИТб-1301-01-00, 04 подгруппа ИТб-1301-01-00, 05 подгруппа ИТб-1301-01-00, 06 подгруппа ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа ИТб-1302-01-00, 02 подгруппа ИТб-1302-01-00, 03 подгруппа ИТб-1302-01-00, 04 подгруппа ИТб-1302-01-00, 05 подгруппа ИТб-1302-01-00, 06 подгруппа УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-100 Проектирование компонент ИС Лабораторная работа  ИТб-2302-01-00 ИТб-2302-01-00, 01 подгруппа ИТб-2302-01-00, 02 подгруппа ИТб-2302-01-00, 03 подгруппа ИТб-2302-01-00, 04 подгруппа ИТб-2302-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Информационные технологии Лабораторная работа  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-100 Проектирование компонент ИС Лабораторная работа  ИТб-2302-01-00 ИТб-2302-01-00, 01 подгруппа ИТб-2302-01-00, 02 подгруппа ИТб-2302-01-00, 03 подгруппа ИТб-2302-01-00, 04 подгруппа ИТб-2302-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-313_ Профессиональные компьютерные программы Зачет  УПб-3601-01-64 (https://teams.microsoft.com/l/channel/19:6c961256ce884a97874fe3c921f6ae23@thread.tacv2/conversations?groupId=72fb787a-a529-4fe3-b660-5fc0f36ed615&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Информационные технологии Лабораторная работа  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-313_ Профессиональные компьютерные программы Зачет  УПб-3601-01-64 (https://teams.microsoft.com/l/channel/19:6c961256ce884a97874fe3c921f6ae23@thread.tacv2/conversations?groupId=72fb787a-a529-4fe3-b660-5fc0f36ed615&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-313_ Профессиональные компьютерные программы Зачет  УПб-3601-01-64 (https://teams.microsoft.com/l/channel/19:6c961256ce884a97874fe3c921f6ae23@thread.tacv2/conversations?groupId=72fb787a-a529-4fe3-b660-5fc0f36ed615&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R22C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2">5-313_ Профессиональные компьютерные программы Зачет  УПб-3602-01-64 (https://teams.microsoft.com/l/channel/19:7fdc121b34234da8a3891da6ddb50f90@thread.tacv2/conversations?groupId=09d1ef1e-6d8a-4a06-a261-25b3fdadce9e&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R44C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;01.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">2-101 Электромагнитные устройства автоматики Лекция  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа</TD>
+<TD CLASS="R5C2">5-114_ Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-01-64 ГМб-3602-01-64</TD>
+<TD CLASS="R5C2">2-403 Основы Интернет и Интранет-девелопмента Лекция  ИТб-2301-01-00 ИТб-2301-01-00, 01 подгруппа ИТб-2301-01-00, 02 подгруппа ИТб-2301-01-00, 03 подгруппа ИТб-2301-01-00, 04 подгруппа ИТб-2301-01-00, 05 подгруппа ИТб-2302-01-00 ИТб-2302-01-00, 01 подгруппа ИТб-2302-01-00, 02 подгруппа ИТб-2302-01-00, 03 подгруппа ИТб-2302-01-00, 04 подгруппа ИТб-2302-01-00, 05 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-201 Профессиональные компьютерные программы Лабораторная работа  УПб-3602-01-24 УПб-3602-01-24, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">2-201 Программирование и основы алгоритмизации Лабораторная работа  ИТб-1301-01-00 ИТб-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R5C2">2-202 Информационные технологии Практическое занятие  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">5-116 Проектирование информационных систем Лекция  ПИб-3301-01-64 ПИб-3301-01-64, 01 подгруппа ПИб-3301-01-64, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">2-203 Электромагнитные устройства автоматики Лабораторная работа  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа</TD>
+<TD CLASS="R5C2">1-113 Профессиональные компьютерные программы Лабораторная работа  СВб-3601-01-00 СВб-3601-01-00, 01 подгруппа СВб-3601-01-00, 02 подгруппа СВб-3601-01-00, 03 подгруппа СВб-3601-01-00, 04 подгруппа</TD>
+<TD CLASS="R5C2">2-403 Основы Интернет и Интранет-девелопмента Практическое занятие  ИТб-2301-01-00 ИТб-2301-01-00, 01 подгруппа ИТб-2301-01-00, 02 подгруппа ИТб-2301-01-00, 03 подгруппа ИТб-2301-01-00, 04 подгруппа ИТб-2301-01-00, 05 подгруппа ИТб-2302-01-00 ИТб-2302-01-00, 01 подгруппа ИТб-2302-01-00, 02 подгруппа ИТб-2302-01-00, 03 подгруппа ИТб-2302-01-00, 04 подгруппа ИТб-2302-01-00, 05 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-202 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-20 УПб-3601-01-20, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">2-201 Программирование и основы алгоритмизации Лабораторная работа  ИТб-1301-01-00 ИТб-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R5C2">2-202 Информационные технологии Лабораторная работа  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">5-116 Проектирование информационных систем Лекция  ПИб-3301-01-64 ПИб-3301-01-64, 01 подгруппа ПИб-3301-01-64, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-203 Электромагнитные устройства автоматики Лабораторная работа  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">1-113 Профессиональные компьютерные программы Лабораторная работа  СВб-3601-01-00 СВб-3601-01-00, 01 подгруппа СВб-3601-01-00, 02 подгруппа СВб-3601-01-00, 03 подгруппа СВб-3601-01-00, 04 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-202 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-20 УПб-3601-01-20, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Информационные технологии Лабораторная работа  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R14C2">2-403 Проектирование компонент ИС Лекция  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-201 Профессиональные компьютерные программы Практическое занятие  ГМб-3601-01-00 ГМб-3601-01-00, 01 подгруппа ГМб-3601-01-00, 02 подгруппа ГМб-3601-01-00, 03 подгруппа ГМб-3601-01-00, 04 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-405 Основы теории управления Лекция  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа ИТб-3301-02-20, 02 подгруппа ИТб-3302-02-20</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R14C2">2-403 Проектирование компонент ИС Лекция  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-201 Профессиональные компьютерные программы Практическое занятие  ГМб-3601-01-00 ГМб-3601-01-00, 01 подгруппа ГМб-3601-01-00, 02 подгруппа ГМб-3601-01-00, 03 подгруппа ГМб-3601-01-00, 04 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-405 Основы теории управления Лекция  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа ИТб-3301-02-20, 02 подгруппа ИТб-3302-02-20</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-407 Интеллектуальные системы и технологии Лекция  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа ИТб-3301-01-00, 02 подгруппа ИТб-3301-01-00, 03 подгруппа ИТб-3301-01-00, 04 подгруппа ИТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-201 Программная инженерия Практическое занятие  ПИб-3301-01-00 ПИб-3301-01-00, 01 подгруппа ПИб-3301-01-00, 02 подгруппа ПИб-3301-01-00, 03 подгруппа ПИб-3301-01-00, 04 подгруппа ПИб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-403 Локальные сети Лекция  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа ИТб-3301-02-20, 02 подгруппа ИТб-3302-02-20</TD>
+<TD CLASS="R2C2">2-202 Микропроцессорные устройства систем управления Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R22C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2">2-407 Интеллектуальные системы и технологии Практическое занятие  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа ИТб-3301-01-00, 02 подгруппа ИТб-3301-01-00, 03 подгруппа ИТб-3301-01-00, 04 подгруппа ИТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2">2-201 Программная инженерия Практическое занятие  ПИб-3301-01-00 ПИб-3301-01-00, 01 подгруппа ПИб-3301-01-00, 02 подгруппа ПИб-3301-01-00, 03 подгруппа ПИб-3301-01-00, 04 подгруппа ПИб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2">2-403 Инструментальные средства ИС Лекция  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа ИТб-3301-02-20, 02 подгруппа ИТб-3302-02-20</TD>
+<TD CLASS="R22C2">2-202 Микропроцессорные устройства систем управления Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R51C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;02.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">5-314_ Проектный практикум Лекция  ПИб-3301-01-64 ПИб-3301-01-64, 01 подгруппа ПИб-3301-01-64, 02 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">5-114_ Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-01-64 ГМб-3602-01-64</TD>
+<TD CLASS="R7C2">2-202 Глобальные сети Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">2-203 Основы теории управления Защита курсовых работ  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа ИТб-3301-02-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:5c8c66edb09c467d9691e42ff5a97e2b@thread.tacv2/conversations?groupId=8e3b2ee5-1446-4fa2-b5e4-e29b261f563f&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">5-114_ Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-01-64 ГМб-3602-01-64</TD>
+<TD CLASS="R5C2">2-202 Глобальные сети Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R5C2">2-201 Архитектура информационных систем Практическое занятие  ИТб-2301-01-00 ИТб-2301-01-00, 01 подгруппа ИТб-2301-01-00, 02 подгруппа ИТб-2301-01-00, 03 подгруппа ИТб-2301-01-00, 04 подгруппа ИТб-2301-01-00, 05 подгруппа ИТб-2302-01-00 ИТб-2302-01-00, 01 подгруппа ИТб-2302-01-00, 02 подгруппа ИТб-2302-01-00, 03 подгруппа ИТб-2302-01-00, 04 подгруппа ИТб-2302-01-00, 05 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-319 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-20 УПб-3601-01-20, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">2-202 Микропроцессорные устройства систем управления Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">2-203 Основы теории управления Практическое занятие  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа ИТб-3301-02-20, 02 подгруппа ИТб-3302-02-20</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-403 Электротехника и электроника Лекция  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2">5-114_ Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-01-64 ГМб-3602-01-64</TD>
+<TD CLASS="R2C2">2-202 Глобальные сети Практическое занятие  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-319 Профессиональные компьютерные программы Лабораторная работа  УПб-3601-01-20 УПб-3601-01-20, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Микропроцессорные устройства систем управления Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-203 Основы теории управления Защита курсовых работ  ИТб-3302-02-20 (https://teams.microsoft.com/l/channel/19:87105531b9a4451d8ee1fe92f1ee47a6@thread.tacv2/conversations?groupId=477c22da-a268-4cfd-b906-dd935481bd30&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">5-114_ Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-01-64 ГМб-3602-01-64</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-403 Системный анализ и исследование операций Лекция  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа ИТб-3301-01-00, 02 подгруппа ИТб-3301-01-00, 03 подгруппа ИТб-3301-01-00, 04 подгруппа ИТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">16-209 Профессиональные компьютерные программы Лабораторная работа  УПб-3602-01-24 УПб-3602-01-24, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-202 Средства обеспечения жизненного цикла ИС Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-403 Системный анализ и исследование операций Практическое занятие  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа ИТб-3301-01-00, 02 подгруппа ИТб-3301-01-00, 03 подгруппа ИТб-3301-01-00, 04 подгруппа ИТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-209 Профессиональные компьютерные программы Лабораторная работа  УПб-3602-01-24 УПб-3602-01-24, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Средства обеспечения жизненного цикла ИС Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-403 Информационная поддержка жизненного цикла продукции Практическое занятие  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-407 Разработка распределенных систем обработки информации и управления Практическое занятие  УТм-1301-01-00 УТм-1301-01-00, 01 подгруппа УТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">2-403 Информационная поддержка жизненного цикла продукции Практическое занятие  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">2-407 Разработка распределенных систем обработки информации и управления Практическое занятие  УТм-1301-01-00 УТм-1301-01-00, 01 подгруппа УТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;03.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-203 Программирование средств управления Практическое занятие  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Методы оптимизации Практическое занятие  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-100 Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-51-24</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-401 Профессиональные компьютерные программы Лабораторная работа  УПб-3602-01-24 УПб-3602-01-24, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-405 Информационные технологии Практическое занятие  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа ИТб-1301-01-00, 02 подгруппа ИТб-1301-01-00, 03 подгруппа ИТб-1301-01-00, 04 подгруппа ИТб-1301-01-00, 05 подгруппа ИТб-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2">2-203 Программирование средств управления Практическое занятие  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2">16-315 Проектирование информационных систем предприятий Лабораторная работа  БИб-3601-01-00 БИб-3601-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">2-202 Методы оптимизации Практическое занятие  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-100 Профессиональные компьютерные программы Зачет  ГМб-3601-51-24 (https://teams.microsoft.com/l/channel/19:215c9f53c007459884dd17e831ff1891@thread.tacv2/conversations?groupId=01c19f36-6aa6-4c63-a80f-8452ee730307&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-401 Профессиональные компьютерные программы Лабораторная работа  УПб-3602-01-24 УПб-3602-01-24, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-201 Средства обеспечения жизненного цикла ИС Практическое занятие  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-203 Основы теории управления Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа</TD>
+<TD CLASS="R2C2">16-315 Проектирование информационных систем предприятий Лабораторная работа  БИб-3601-01-00 БИб-3601-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R11C2">2-403 Проектирование компонент ИС Лекция  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-100 Профессиональные компьютерные программы Лабораторная работа  ГМб-3602-51-24</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-319 Профессиональные компьютерные программы Лабораторная работа  УПб-3602-01-24 УПб-3602-01-24, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-203 Основы теории управления Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа</TD>
+<TD CLASS="R11C2">16-400 Проектирование информационных систем предприятий Лабораторная работа  БИб-3601-01-00 БИб-3601-01-00, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R7C2">2-202 Проектирование компонент ИС Практическое занятие  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">2-100 Профессиональные компьютерные программы Зачет  ГМб-3602-51-24 (https://teams.microsoft.com/l/channel/19:2c47f59eee0d4083b38713fef29f1f7b@thread.tacv2/conversations?groupId=63073fe1-e33f-4473-b9c9-5fe444a4ac4e&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R7C2">2-201 Инфокоммуникационные системы и сети Практическое занятие  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа ИТб-3301-01-00, 02 подгруппа ИТб-3301-01-00, 03 подгруппа ИТб-3301-01-00, 04 подгруппа ИТб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">2-405 Схемотехника Практическое занятие  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа ИТб-3301-02-20, 02 подгруппа ИТб-3302-02-20</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">16-319 Профессиональные компьютерные программы Зачет  УПб-3602-01-24 УПб-3602-01-24, 01 подгруппа УПб-3602-01-24, 02 подгруппа (https://teams.microsoft.com/l/channel/19:d1ecff2535cb468f81b06893d5bfedfa@thread.tacv2/conversations?groupId=ff8c9713-f897-4c22-aa7b-2161cbea4033&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">16-400 Проектирование информационных систем предприятий Лабораторная работа  БИб-3601-01-00 БИб-3601-01-00, 01 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">5-316 Научно-исследовательская работа студентов Лабораторная работа  ПИб-3301-01-64 ПИб-3301-01-64, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-405 Схемотехника Практическое занятие  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа ИТб-3301-02-20, 02 подгруппа ИТб-3302-02-20</TD>
+<TD CLASS="R11C2">2-202 Интеллектуальный анализ данных Лабораторная работа  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">5-316 Научно-исследовательская работа студентов Лабораторная работа  ПИб-3301-01-64 ПИб-3301-01-64, 02 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">2-202 Интеллектуальный анализ данных Лабораторная работа  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;04.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-203 Теоретико-системный математический базис Практическое занятие  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2">5-316_ Разработка Web-систем Лабораторная работа  ПИб-3301-01-64 ПИб-3301-01-64, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-301 Схемотехника Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-403 Теоретико-системный математический базис Лекция  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа</TD>
+<TD CLASS="R14C2">5-316_ Разработка Web-систем Лабораторная работа  ПИб-3301-01-64 ПИб-3301-01-64, 01 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">2-202 Глобальные сети Защита курсовых проектов  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа ИТб-4301-01-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:a53dd2fc949346ee8b395c21d5a6b4e5@thread.tacv2/conversations?groupId=7223554b-7600-4172-8c15-b5720c3c621e&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">2-301 Схемотехника Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R67C18">2-309_ Математические методы анализа данных Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа<BR>2-309 Математические методы анализа данных Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 02 подгруппа</TD>
+<TD CLASS="R7C2">2-403 Информационные технологии Практическое занятие  ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа ИТб-1302-01-00, 02 подгруппа ИТб-1302-01-00, 03 подгруппа ИТб-1302-01-00, 04 подгруппа ИТб-1302-01-00, 05 подгруппа ИТб-1302-01-00, 06 подгруппа</TD>
+<TD CLASS="R7C2">2-203 Программирование средств управления Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C18">2-301 Схемотехника Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 02 подгруппа<BR>2-301_ Схемотехника Лабораторная работа  ИТб-3302-02-20</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-201 Программирование и основы алгоритмизации Лабораторная работа  ИТб-1302-01-00 ИТб-1302-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C18">2-309_ Математические методы анализа данных Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 01 подгруппа<BR>2-309 Математические методы анализа данных Лабораторная работа  ИТб-3301-01-00 ИТб-3301-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">2-202 Информационные технологии Лабораторная работа  ИТб-1301-01-00 ИТб-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">2-203 Программирование средств управления Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-203 Автоматизация производственной деятельности Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R69C10">2-301 Схемотехника Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 02 подгруппа<BR>2-301_ Схемотехника Лабораторная работа  ИТб-3302-02-20</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-201 Программирование и основы алгоритмизации Лабораторная работа  ИТб-1302-01-00 ИТб-1302-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-202 Информационные технологии Лабораторная работа  ИТб-1301-01-00 ИТб-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-203 Автоматизация производственной деятельности Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-407 Интеллектуальный анализ данных Практическое занятие  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-202 Разработка распределенных систем обработки информации и управления Лабораторная работа  УТм-1301-01-00 УТм-1301-01-00, 01 подгруппа УТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">2-407 Интеллектуальный анализ данных Практическое занятие  ИТм-1301-01-00 ИТм-1301-01-00, 01 подгруппа ИТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">2-202 Разработка распределенных систем обработки информации и управления Лабораторная работа  УТм-1301-01-00 УТм-1301-01-00, 01 подгруппа УТм-1301-01-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;05.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-203 Электромагнитные устройства автоматики Практическое занятие  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2">5-112_ Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-01-60</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-201 Локальные сети Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-317_ Разработка Web-систем Лабораторная работа  ПИб-3301-01-64 ПИб-3301-01-64, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2">2-202 Проектирование компонент ИС Практическое занятие  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-203 Электромагнитные устройства автоматики Практическое занятие  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2">5-112_ Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-01-60</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-201 Локальные сети Лабораторная работа  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-531 Администрирование в ИС Лекция  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа ИТб-3301-02-20, 02 подгруппа ИТб-3302-02-20</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-317_ Разработка Web-систем Лабораторная работа  ПИб-3301-01-64 ПИб-3301-01-64, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2">2-202 Проектирование компонент ИС Практическое занятие  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-112_ Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-01-60</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-201 Локальные сети Практическое занятие  УТб-3301-02-00 УТб-3301-02-00, 01 подгруппа УТб-3301-02-00, 02 подгруппа УТб-3301-02-00, 03 подгруппа УТб-3301-02-00, 04 подгруппа УТб-3301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-407 Информационные технологии Практическое занятие  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2">2-409 Проектирование компонент информационно-управляющих систем Лекция  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа ИТб-3301-02-20, 02 подгруппа ИТб-3302-02-20</TD>
+<TD CLASS="R2C2">16-407 Проектирование информационных систем Практическое занятие  ПИб-3301-01-00 ПИб-3301-01-00, 01 подгруппа ПИб-3301-01-00, 02 подгруппа ПИб-3301-01-00, 03 подгруппа ПИб-3301-01-00, 04 подгруппа ПИб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">5-114_ Профессиональные компьютерные программы Зачет  ГМб-3601-01-64 (https://teams.microsoft.com/l/channel/19:3b94204ae26c462cab56e80d40811fd4@thread.tacv2/conversations?groupId=6fa5a091-f177-4f99-8769-d98a292704f1&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">2-202 Информационные технологии Лабораторная работа  ИТб-1302-01-00 ИТб-1302-01-00, 02 подгруппа</TD>
+<TD CLASS="R5C2">2-409 Проектирование компонент информационно-управляющих систем Лекция  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа ИТб-3301-02-20, 02 подгруппа ИТб-3302-02-20</TD>
+<TD CLASS="R5C2">16-407 Проектирование информационных систем Лекция  БИб-3601-01-00 БИб-3601-01-00, 01 подгруппа БИб-3601-01-00, 02 подгруппа БИб-3601-01-00, 03 подгруппа БИб-3601-01-00, 04 подгруппа БИб-3601-01-00, 05 подгруппа БИб-3601-01-00, 06 подгруппа ПИб-3301-01-00 ПИб-3301-01-00, 01 подгруппа ПИб-3301-01-00, 02 подгруппа ПИб-3301-01-00, 03 подгруппа ПИб-3301-01-00, 04 подгруппа ПИб-3301-01-00, 05 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-114_ Профессиональные компьютерные программы Зачет  ГМб-3601-01-64 (https://teams.microsoft.com/l/channel/19:3b94204ae26c462cab56e80d40811fd4@thread.tacv2/conversations?groupId=6fa5a091-f177-4f99-8769-d98a292704f1&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Информационные технологии Лабораторная работа  ИТб-1302-01-00 ИТб-1302-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C18">2-203 Основы теории управления Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 02 подгруппа<BR>2-203_ Основы теории управления Лабораторная работа  ИТб-3302-02-20</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-202 Средства обеспечения жизненного цикла ИС Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R69C10">2-203 Основы теории управления Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 02 подгруппа<BR>2-203_ Основы теории управления Лабораторная работа  ИТб-3302-02-20</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">5-314 Разработка многоагентных систем Лекция  БИб-4601-01-60 БИб-4601-01-60, 01 подгруппа БИб-4601-01-60, 02 подгруппа</TD>
+<TD CLASS="R29C2">2-202 Средства обеспечения жизненного цикла ИС Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;06.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">5-112_ Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-01-60</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">5-316_ Разработка Web-систем Лабораторная работа  ПИб-3301-01-64 ПИб-3301-01-64, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">5-112_ Профессиональные компьютерные программы Лабораторная работа  ГМб-3601-01-60</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-203 Основы теории управления Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа</TD>
+<TD CLASS="R11C2">5-316_ Разработка Web-систем Лабораторная работа  ПИб-3301-01-64 ПИб-3301-01-64, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-114_ Профессиональные компьютерные программы Зачет  ГМб-3602-01-64 (https://teams.microsoft.com/l/channel/19:d3a7c2f4fbc24d70a82acd981c926747@thread.tacv2/conversations?groupId=e1e78c96-b25c-4500-a8d2-ef1a36076b3e&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Проектирование компонент ИС Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-203 Основы теории управления Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-114_ Профессиональные компьютерные программы Зачет  ГМб-3602-01-64 (https://teams.microsoft.com/l/channel/19:d3a7c2f4fbc24d70a82acd981c926747@thread.tacv2/conversations?groupId=e1e78c96-b25c-4500-a8d2-ef1a36076b3e&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-202 Проектирование компонент ИС Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C18">2-203 Основы теории управления Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 02 подгруппа<BR>2-203_ Основы теории управления Лабораторная работа  ИТб-3302-02-20</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">2-202 Проектирование компонент ИС Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R69C10">2-203 Основы теории управления Лабораторная работа  ИТб-3301-02-20 ИТб-3301-02-20, 02 подгруппа<BR>2-203_ Основы теории управления Лабораторная работа  ИТб-3302-02-20</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-202 Проектирование компонент ИС Лабораторная работа  ИТб-4301-01-20 ИТб-4301-01-20, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R18>
+<TD CLASS="R18C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R86>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R86C3"><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:99px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

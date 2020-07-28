@@ -1,0 +1,1390 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 25px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 14pt; font-style: normal; font-weight: bold; background-color: #ffffff; }
+tr.R1{ height: 21px; }
+tr.R1 td.R16C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R16C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R16C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C2{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; text-align: center; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R22C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R1 td.R22C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R15{ height: 15px; }
+tr.R15 td.R15C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R15 td.R15C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R15 td.R56C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R15 td.R56C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 57px; }
+tr.R2 td.R2C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R83C7{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3{ height: 43px; }
+tr.R3 td.R30C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3 td.R3C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3 td.R3C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3 td.R8C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R3 td.R8C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R4{ height: 29px; }
+tr.R4 td.R36C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R4 td.R36C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R4 td.R4C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R4 td.R4C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R4 td.R9C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R47{ height: 155px; }
+tr.R47 td.R47C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R47 td.R47C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R76{ height: 99px; }
+tr.R76 td.R76C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R76 td.R76C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R76 td.R86C3{ font-family: Arial; font-size: 8pt; font-style: normal; text-align: center; vertical-align: middle; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:100%; height:0px; " CELLSPACING=0>
+<COL WIDTH=31>
+<COL WIDTH=89>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=63>
+<COL>
+<TR CLASS=R0>
+<TD CLASS="R0C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;max-width:0px;">Обновление&nbsp;22.04.2020</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">День</SPAN></TD>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">Интервал</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Бурков&nbsp;А.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Гурдина&nbsp;С.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Зайцев&nbsp;Р.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Зорин&nbsp;С.Л.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Мельников&nbsp;О.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Некрасов&nbsp;В.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Поздеев&nbsp;Н.М.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Преподаватель&nbsp;К.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Пунгин&nbsp;А.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Тубаев&nbsp;С.Н.</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;13.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-609 Криминалистика Практическое занятие  ПНБс-3901-01-00 ПНБс-3901-01-00, 01 подгруппа ПНБс-3901-01-00, 02 подгруппа ПНБс-3901-01-00, 03 подгруппа ПНБс-3901-01-00, 04 подгруппа ПНБс-3901-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ЮРб-3901-01-00 ЮРб-3901-01-00, 01 подгруппа ЮРб-3901-01-00, 02 подгруппа ЮРб-3901-01-00, 03 подгруппа ЮРб-3901-01-00, 04 подгруппа ЮРб-3901-01-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Трасология и трасологическая экспертиза Лекция  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Участие специалиста в процессуальных действиях Практическое занятие  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа СЭс-4902-02-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-609 Криминалистика Лабораторная работа  ПНБс-3903-02-00 ПНБс-3903-02-00, 01 подгруппа ПНБс-3903-02-00, 02 подгруппа ПНБс-3903-02-00, 03 подгруппа ПНБс-3903-02-00, 04 подгруппа ПНБс-3903-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ЮРб-3903-02-00 ЮРб-3903-02-00, 01 подгруппа ЮРб-3903-02-00, 02 подгруппа ЮРб-3903-02-00, 03 подгруппа ЮРб-3903-02-00, 04 подгруппа ЮРб-3903-02-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">13-608 Криминалистика Лабораторная работа  СЭс-3901-01-00 СЭс-3901-01-00, 01 подгруппа СЭс-3901-01-00, 02 подгруппа СЭс-3901-01-00, 03 подгруппа СЭс-3901-01-00, 04 подгруппа</TD>
+<TD CLASS="R8C2">13-609 Криминалистика Практическое занятие  ЮРб-3903-02-00 ЮРб-3903-02-00, 01 подгруппа ЮРб-3903-02-00, 02 подгруппа ЮРб-3903-02-00, 03 подгруппа ЮРб-3903-02-00, 04 подгруппа ЮРб-3903-02-00, 05 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;14.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Трасология и трасологическая экспертиза Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Трасология и трасологическая экспертиза Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-602 Технико-криминалистическая экспертиза документов Практическое занятие  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Трасология и трасологическая экспертиза Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ЮРб-3901-01-00 ЮРб-3901-01-00, 01 подгруппа ЮРб-3901-01-00, 02 подгруппа ЮРб-3901-01-00, 03 подгруппа ЮРб-3901-01-00, 04 подгруппа ЮРб-3901-01-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ПДс-3901-01-00 ПДс-3901-01-00, 01 подгруппа ПДс-3901-01-00, 02 подгруппа ПДс-3901-01-00, 03 подгруппа</TD>
+<TD CLASS="R3C2">13-110 Судебная медицина Лекция  ПДс-4901-01-00 ПДс-4902-01-00 ПНБс-4901-01-00 ПНБс-4902-01-00 ПНБс-4903-02-00 ПНБс-4904-02-00</TD>
+<TD CLASS="R3C2">13-111 Технико-криминалистическая экспертиза документов Лекция  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа СЭс-5902-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ПДс-3901-01-00 ПДс-3901-01-00, 01 подгруппа ПДс-3901-01-00, 02 подгруппа ПДс-3901-01-00, 03 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;15.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R22C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;16.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Криминалистика Лабораторная работа  ПДс-3901-01-00 ПДс-3901-01-00, 01 подгруппа ПДс-3901-01-00, 02 подгруппа ПДс-3901-01-00, 03 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-609 Криминалистика Практическое занятие  ПНБс-3901-01-00 ПНБс-3901-01-00, 01 подгруппа ПНБс-3901-01-00, 02 подгруппа ПНБс-3901-01-00, 03 подгруппа ПНБс-3901-01-00, 04 подгруппа ПНБс-3901-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Трасология и трасологическая экспертиза Практическое занятие  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2">13-103а Судебная медицина Практическое занятие  ПДс-4901-01-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Трасология и трасологическая экспертиза Практическое занятие  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2">13-111 Судебная медицина Практическое занятие  ПДс-4902-01-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ПНБс-3902-02-00 ПНБс-3902-02-00, 01 подгруппа ПНБс-3902-02-00, 02 подгруппа ПНБс-3902-02-00, 03 подгруппа ПНБс-3902-02-00, 04 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-610 Судебная экспертиза лакокрасочных материалов и лакокрасочных покрытий Лекция  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа СЭс-4902-02-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">13-610 Судебная экспертиза лакокрасочных материалов и лакокрасочных покрытий Практическое занятие  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа СЭс-4902-02-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;17.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R3C2">1-521 Судебная экспертиза пластмасс, резин и изделий из них Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ПНБс-3902-02-00 ПНБс-3902-02-00, 01 подгруппа ПНБс-3902-02-00, 02 подгруппа ПНБс-3902-02-00, 03 подгруппа ПНБс-3902-02-00, 04 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R4C2">1-521 Судебная экспертиза пластмасс, резин и изделий из них Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Криминалистика Лабораторная работа  ПДс-3901-01-00 ПДс-3901-01-00, 01 подгруппа ПДс-3901-01-00, 02 подгруппа ПДс-3901-01-00, 03 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R3C2">1-521 Судебная экспертиза пластмасс, резин и изделий из них Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ЮРб-3901-01-00 ЮРб-3901-01-00, 01 подгруппа ЮРб-3901-01-00, 02 подгруппа ЮРб-3901-01-00, 03 подгруппа ЮРб-3901-01-00, 04 подгруппа ЮРб-3901-01-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Трасология и трасологическая экспертиза Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ЮРб-3902-01-00 ЮРб-3902-01-00, 01 подгруппа ЮРб-3902-01-00, 02 подгруппа ЮРб-3902-01-00, 03 подгруппа ЮРб-3902-01-00, 04 подгруппа ЮРб-3902-01-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-610 Судебная экспертиза Практическое занятие  ЮРб-5901-51-10 ЮРб-5906-51-20 ЮРб-5906-51-20, 01 подгруппа ЮРб-5906-51-20, 02 подгруппа</TD>
+<TD CLASS="R4C2">13-609 Участие специалиста в процессуальных действиях Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2">13-610 Судебная экспертиза Практическое занятие  ЮРб-5901-51-10 ЮРб-5906-51-20 ЮРб-5906-51-20, 01 подгруппа ЮРб-5906-51-20, 02 подгруппа</TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;18.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Технико-криминалистическая экспертиза документов Практическое занятие  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R3C2">13-608 Судебная психиатрия Практическое занятие  ПДс-4901-01-20 ПДс-4902-01-20</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Технико-криминалистическая экспертиза документов Практическое занятие  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R3C2">13-608 Судебная психиатрия Зачет  ПДс-4901-01-20 ПДс-4902-01-20</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-509 Судебно-бухгалтерская экспертиза Лекция  СЭс-3901-01-00 СЭс-3901-01-00, 01 подгруппа СЭс-3901-01-00, 02 подгруппа СЭс-3901-01-00, 03 подгруппа СЭс-3901-01-00, 04 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Технико-криминалистическая экспертиза документов Лекция  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа СЭс-5902-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-608 Судебная финансово-экономическая экспертиза Лекция  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа СЭс-4901-01-00, 02 подгруппа</TD>
+<TD CLASS="R3C2">13-610 Судебная экспертиза металлов, сплавов и изделий из них Лекция  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа СЭс-4902-02-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-509 Судебно-бухгалтерская экспертиза Практическое занятие  СЭс-3901-01-00 СЭс-3901-01-00, 01 подгруппа СЭс-3901-01-00, 02 подгруппа СЭс-3901-01-00, 03 подгруппа СЭс-3901-01-00, 04 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Технико-криминалистическая экспертиза документов Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R3C2">16-110___ Судебная психиатрия Лекция  ПДс-4901-01-20 ПДс-4902-01-20</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-608 Судебная финансово-экономическая экспертиза Практическое занятие  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа СЭс-4901-01-00, 02 подгруппа</TD>
+<TD CLASS="R3C2">13-610 Судебная экспертиза металлов, сплавов и изделий из них Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Технико-криминалистическая экспертиза документов Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2">16-110___ Судебная психиатрия Практическое занятие  ПДс-4901-01-20 ПДс-4902-01-20</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-610 Судебная экспертиза металлов, сплавов и изделий из них Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Технико-криминалистическая экспертиза документов Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;20.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Участие специалиста в процессуальных действиях Лекция  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа СЭс-4901-01-00, 02 подгруппа СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа СЭс-4902-02-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Трасология и трасологическая экспертиза Лабораторная работа  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Трасология и трасологическая экспертиза Лабораторная работа  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2">16-322 Судебная медицина Практическое занятие  ПНБс-4902-01-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R47>
+<TD CLASS="R47C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R47C2"><SPAN></SPAN></TD>
+<TD CLASS="R47C2"><SPAN></SPAN></TD>
+<TD CLASS="R47C2"><SPAN></SPAN></TD>
+<TD CLASS="R47C2">13-110 Криминалистика Лекция  ПДс-3901-01-00 ПДс-3901-01-00, 01 подгруппа ПДс-3901-01-00, 02 подгруппа ПДс-3901-01-00, 03 подгруппа ПНБс-3901-01-00 ПНБс-3901-01-00, 01 подгруппа ПНБс-3901-01-00, 02 подгруппа ПНБс-3901-01-00, 03 подгруппа ПНБс-3901-01-00, 04 подгруппа ПНБс-3901-01-00, 05 подгруппа ПНБс-3902-02-00 ПНБс-3902-02-00, 01 подгруппа ПНБс-3902-02-00, 02 подгруппа ПНБс-3902-02-00, 03 подгруппа ПНБс-3902-02-00, 04 подгруппа ПНБс-3903-02-00 ПНБс-3903-02-00, 01 подгруппа ПНБс-3903-02-00, 02 подгруппа ПНБс-3903-02-00, 03 подгруппа ПНБс-3903-02-00, 04 подгруппа ПНБс-3903-02-00, 05 подгруппа СЭс-3901-01-00 СЭс-3901-01-00, 01 подгруппа СЭс-3901-01-00, 02 подгруппа СЭс-3901-01-00, 03 подгруппа СЭс-3901-01-00, 04 подгруппа</TD>
+<TD CLASS="R47C2">16-322 Судебная медицина Практическое занятие  ПНБс-4902-01-00</TD>
+<TD CLASS="R47C2"><SPAN></SPAN></TD>
+<TD CLASS="R47C2"><SPAN></SPAN></TD>
+<TD CLASS="R47C2"><SPAN></SPAN></TD>
+<TD CLASS="R47C2"><SPAN></SPAN></TD>
+<TD CLASS="R47C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ЮРб-3902-01-00 ЮРб-3902-01-00, 01 подгруппа ЮРб-3902-01-00, 02 подгруппа ЮРб-3902-01-00, 03 подгруппа ЮРб-3902-01-00, 04 подгруппа ЮРб-3902-01-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-609 Криминалистика Практическое занятие  ПНБс-3903-02-00 ПНБс-3903-02-00, 01 подгруппа ПНБс-3903-02-00, 02 подгруппа ПНБс-3903-02-00, 03 подгруппа ПНБс-3903-02-00, 04 подгруппа ПНБс-3903-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2">13-609 Технико-криминалистическая экспертиза документов Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;21.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R4C2">13-506 Судебная экспертиза пластмасс, резин и изделий из них Лекция  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Участие специалиста в процессуальных действиях Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2">13-506 Судебная экспертиза пластмасс, резин и изделий из них Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ЮРб-3902-01-00 ЮРб-3902-01-00, 01 подгруппа ЮРб-3902-01-00, 02 подгруппа ЮРб-3902-01-00, 03 подгруппа ЮРб-3902-01-00, 04 подгруппа ЮРб-3902-01-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-601 Технико-криминалистическая экспертиза документов Лабораторная работа  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2">13-506 Судебная экспертиза пластмасс, резин и изделий из них Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-609 Криминалистика Практическое занятие  ПНБс-3903-02-00 ПНБс-3903-02-00, 01 подгруппа ПНБс-3903-02-00, 02 подгруппа ПНБс-3903-02-00, 03 подгруппа ПНБс-3903-02-00, 04 подгруппа ПНБс-3903-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-601 Технико-криминалистическая экспертиза документов Лабораторная работа  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R3C2">13-506 Судебная экспертиза пластмасс, резин и изделий из них Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ПНБс-3902-02-00 ПНБс-3902-02-00, 01 подгруппа ПНБс-3902-02-00, 02 подгруппа ПНБс-3902-02-00, 03 подгруппа ПНБс-3902-02-00, 04 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-609 Криминалистика Практическое занятие  ПНБс-3901-01-00 ПНБс-3901-01-00, 01 подгруппа ПНБс-3901-01-00, 02 подгруппа ПНБс-3901-01-00, 03 подгруппа ПНБс-3901-01-00, 04 подгруппа ПНБс-3901-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R56C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R56C2"><SPAN></SPAN></TD>
+<TD CLASS="R56C2"><SPAN></SPAN></TD>
+<TD CLASS="R56C2"><SPAN></SPAN></TD>
+<TD CLASS="R56C2"><SPAN></SPAN></TD>
+<TD CLASS="R56C2"><SPAN></SPAN></TD>
+<TD CLASS="R56C2"><SPAN></SPAN></TD>
+<TD CLASS="R56C2"><SPAN></SPAN></TD>
+<TD CLASS="R56C2"><SPAN></SPAN></TD>
+<TD CLASS="R56C2"><SPAN></SPAN></TD>
+<TD CLASS="R56C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2">13-609 Судебная экспертиза Зачет  ЮРб-5901-51-10 ЮРб-5906-51-20 ЮРб-5906-51-20, 01 подгруппа ЮРб-5906-51-20, 02 подгруппа</TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;22.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-610 Трасология и трасологическая экспертиза Лекция  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-610 Трасология и трасологическая экспертиза Лекция  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-610 Трасология и трасологическая экспертиза Практическое занятие  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-610 Трасология и трасологическая экспертиза Практическое занятие  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-610 Трасология и трасологическая экспертиза Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-610 Трасология и трасологическая экспертиза Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2">13-610 Трасология и трасологическая экспертиза Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;23.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-609 Криминалистика Практическое занятие  ПНБс-3901-01-00 ПНБс-3901-01-00, 01 подгруппа ПНБс-3901-01-00, 02 подгруппа ПНБс-3901-01-00, 03 подгруппа ПНБс-3901-01-00, 04 подгруппа ПНБс-3901-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-602 Судебная финансово-экономическая экспертиза Лекция  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа СЭс-4901-01-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ПНБс-3902-02-00 ПНБс-3902-02-00, 01 подгруппа ПНБс-3902-02-00, 02 подгруппа ПНБс-3902-02-00, 03 подгруппа ПНБс-3902-02-00, 04 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-602 Судебная финансово-экономическая экспертиза Практическое занятие  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа СЭс-4901-01-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Трасология и трасологическая экспертиза Лабораторная работа  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2">13-511 Судебная медицина Практическое занятие  ПНБс-4903-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-602 Судебная финансово-экономическая экспертиза Лабораторная работа  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Трасология и трасологическая экспертиза Лабораторная работа  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2">13-511 Судебная медицина Практическое занятие  ПНБс-4901-01-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-602 Судебная финансово-экономическая экспертиза Лабораторная работа  СЭс-4901-01-00 СЭс-4901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Участие специалиста в процессуальных действиях Практическое занятие  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа СЭс-4902-02-00, 02 подгруппа</TD>
+<TD CLASS="R3C2">13-511 Судебная медицина Практическое занятие  ПНБс-4904-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-609 Криминалистика Практическое занятие  ПНБс-3903-02-00 ПНБс-3903-02-00, 01 подгруппа ПНБс-3903-02-00, 02 подгруппа ПНБс-3903-02-00, 03 подгруппа ПНБс-3903-02-00, 04 подгруппа ПНБс-3903-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-610 Судебная экспертиза лакокрасочных материалов и лакокрасочных покрытий Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2">13-609 Трасология и трасологическая экспертиза Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2">13-610 Судебная экспертиза лакокрасочных материалов и лакокрасочных покрытий Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;24.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R4C2">1-521 Судебная экспертиза пластмасс, резин и изделий из них Лекция  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Участие специалиста в процессуальных действиях Лабораторная работа  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2">1-521 Судебная экспертиза пластмасс, резин и изделий из них Лекция  СЭс-5902-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Участие специалиста в процессуальных действиях Практическое занятие  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа СЭс-4901-01-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R3C2">1-521 Судебная экспертиза пластмасс, резин и изделий из них Практическое занятие  СЭс-5902-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Участие специалиста в процессуальных действиях Практическое занятие  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа СЭс-4901-01-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">5-212_ Криминалистика Консультация  ЮРб-3901-01-60 ЮРб-3901-01-60, 01 подгруппа ЮРб-3901-01-60, 02 подгруппа</TD>
+<TD CLASS="R4C2">13-609 Участие специалиста в процессуальных действиях Лабораторная работа  СЭс-4901-01-00 СЭс-4901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">5-212_ Криминалистика Консультация  ЮРб-3901-01-50</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R76>
+<TD CLASS="R76C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R76C2"><SPAN></SPAN></TD>
+<TD CLASS="R76C2"><SPAN></SPAN></TD>
+<TD CLASS="R76C2"><SPAN></SPAN></TD>
+<TD CLASS="R76C2">13-111 Криминалистика Лекция  ЮРб-3901-01-00 ЮРб-3901-01-00, 01 подгруппа ЮРб-3901-01-00, 02 подгруппа ЮРб-3901-01-00, 03 подгруппа ЮРб-3901-01-00, 04 подгруппа ЮРб-3901-01-00, 05 подгруппа ЮРб-3902-01-00 ЮРб-3902-01-00, 01 подгруппа ЮРб-3902-01-00, 02 подгруппа ЮРб-3902-01-00, 03 подгруппа ЮРб-3902-01-00, 04 подгруппа ЮРб-3902-01-00, 05 подгруппа ЮРб-3903-02-00 ЮРб-3903-02-00, 01 подгруппа ЮРб-3903-02-00, 02 подгруппа ЮРб-3903-02-00, 03 подгруппа ЮРб-3903-02-00, 04 подгруппа ЮРб-3903-02-00, 05 подгруппа</TD>
+<TD CLASS="R76C2"><SPAN></SPAN></TD>
+<TD CLASS="R76C2"><SPAN></SPAN></TD>
+<TD CLASS="R76C2"><SPAN></SPAN></TD>
+<TD CLASS="R76C2"><SPAN></SPAN></TD>
+<TD CLASS="R76C2"><SPAN></SPAN></TD>
+<TD CLASS="R76C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Криминалистика Практическое занятие  ЮРб-3903-02-00 ЮРб-3903-02-00, 01 подгруппа ЮРб-3903-02-00, 02 подгруппа ЮРб-3903-02-00, 03 подгруппа ЮРб-3903-02-00, 04 подгруппа ЮРб-3903-02-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2">13-609 Трасология и трасологическая экспертиза Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;25.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-608 Технико-криминалистическая экспертиза документов Лабораторная работа  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-607 Судебная финансово-экономическая экспертиза Лабораторная работа  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа</TD>
+<TD CLASS="R4C2">13-610 Судебная экспертиза лакокрасочных материалов и лакокрасочных покрытий Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-608 Технико-криминалистическая экспертиза документов Лабораторная работа  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-607 Судебная финансово-экономическая экспертиза Лекция  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа СЭс-4901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2">13-610 Судебная экспертиза лакокрасочных материалов и лакокрасочных покрытий Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Технико-криминалистическая экспертиза документов Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-607 Судебная финансово-экономическая экспертиза Практическое занятие  СЭс-4901-01-00 СЭс-4901-01-00, 01 подгруппа СЭс-4901-01-00, 02 подгруппа</TD>
+<TD CLASS="R3C2">13-610 Судебная экспертиза металлов, сплавов и изделий из них Практическое занятие  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа СЭс-4902-02-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-608 Криминалистика Практическое занятие  СЭс-3901-01-00 СЭс-3901-01-00, 01 подгруппа СЭс-3901-01-00, 02 подгруппа СЭс-3901-01-00, 03 подгруппа СЭс-3901-01-00, 04 подгруппа</TD>
+<TD CLASS="R3C2">13-506 Трасология и трасологическая экспертиза Практическое занятие  СЭс-5901-01-00 СЭс-5901-01-00, 01 подгруппа СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-609 Технико-криминалистическая экспертиза документов Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">13-607 Судебная финансово-экономическая экспертиза Лабораторная работа  СЭс-4901-01-00 СЭс-4901-01-00, 02 подгруппа</TD>
+<TD CLASS="R3C2">13-610 Судебная экспертиза металлов, сплавов и изделий из них Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-608 Криминалистика Практическое занятие  СЭс-3901-01-00 СЭс-3901-01-00, 01 подгруппа СЭс-3901-01-00, 02 подгруппа СЭс-3901-01-00, 03 подгруппа СЭс-3901-01-00, 04 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R83C7">13-609 Технико-криминалистическая экспертиза документов Лабораторная работа  СЭс-5901-01-00 СЭс-5901-01-00, 02 подгруппа<BR>13-607 Технико-криминалистическая экспертиза документов Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">13-610 Судебная экспертиза металлов, сплавов и изделий из них Лабораторная работа  СЭс-4902-02-00 СЭс-4902-02-00, 01 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-506 Трасология и трасологическая экспертиза Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-609 Технико-криминалистическая экспертиза документов Лабораторная работа  СЭс-5901-01-00 СЭс-5901-01-00, 02 подгруппа</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS="R4C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2">13-506 Трасология и трасологическая экспертиза Лабораторная работа  СЭс-5902-02-00</TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD CLASS="R4C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R76>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R86C3"><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:99px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

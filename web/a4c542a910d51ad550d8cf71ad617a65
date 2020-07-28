@@ -1,0 +1,2385 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 25px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 14pt; font-style: normal; font-weight: bold; background-color: #ffffff; }
+tr.R1{ height: 21px; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C2{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; text-align: center; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11{ height: 225px; }
+tr.R11 td.R11C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R11C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R30C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R15{ height: 43px; }
+tr.R15 td.R15C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R15 td.R15C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R15 td.R77C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R15 td.R77C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R18{ height: 127px; }
+tr.R18 td.R18C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R18 td.R18C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 71px; }
+tr.R2 td.R2C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R22{ height: 57px; }
+tr.R22 td.R22C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R22 td.R22C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R22 td.R26C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R22 td.R26C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3{ height: 169px; }
+tr.R3 td.R3C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3 td.R3C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R3 td.R58C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R45{ height: 183px; }
+tr.R45 td.R45C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R45 td.R45C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5{ height: 85px; }
+tr.R5 td.R44C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R5C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R5C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R51{ height: 267px; }
+tr.R51 td.R51C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R51 td.R51C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R51 td.R51C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R52{ height: 155px; }
+tr.R52 td.R52C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R52 td.R52C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R54{ height: 99px; }
+tr.R54 td.R54C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R54 td.R54C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R54 td.R86C3{ font-family: Arial; font-size: 8pt; font-style: normal; text-align: center; vertical-align: middle; }
+tr.R6{ height: 29px; }
+tr.R6 td.R37C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R57C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R6 td.R57C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R6 td.R6C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R6C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R74{ height: 113px; }
+tr.R74 td.R74C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R74 td.R74C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R8{ height: 15px; }
+tr.R8 td.R27C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R8 td.R27C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R8 td.R8C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R8 td.R8C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R9{ height: 253px; }
+tr.R9 td.R9C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R9 td.R9C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R9 td.R9C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:100%; height:0px; " CELLSPACING=0>
+<COL WIDTH=31>
+<COL WIDTH=89>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=63>
+<COL>
+<TR CLASS=R0>
+<TD CLASS="R0C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;max-width:0px;">Обновление&nbsp;04.06.2020</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">День</SPAN></TD>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">Интервал</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Бабенко&nbsp;М.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Бушмелева&nbsp;Н.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Бызов&nbsp;В.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Здоровенко&nbsp;М.Ю.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Котельников&nbsp;Е.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Котельникова&nbsp;А.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Левин&nbsp;М.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Лялин&nbsp;А.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Окулов&nbsp;С.М.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Пескишева&nbsp;Т.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Подлевских&nbsp;М.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Прозорова&nbsp;Т.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Пушкарев&nbsp;И.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Разова&nbsp;Е.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Ситникова&nbsp;И.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Татаринова&nbsp;А.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Торбеева&nbsp;А.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Хохлова&nbsp;М.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Чупраков&nbsp;П.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Шалагинова&nbsp;Н.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Шатров&nbsp;А.В.</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;25.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-303 Математика Практическое занятие  ПИб-2301-01-00 ПИб-2301-01-00, 01 подгруппа ПИб-2301-01-00, 02 подгруппа ПИб-2301-01-00, 03 подгруппа ПИб-2301-01-00, 04 подгруппа ПИб-2301-01-00, 05 подгруппа ПИб-2302-01-00 ПИб-2302-01-00, 01 подгруппа ПИб-2302-01-00, 02 подгруппа ПИб-2302-01-00, 03 подгруппа ПИб-2302-01-00, 04 подгруппа ПИб-2302-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-404 Математика Практическое занятие  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-222 Математика Практическое занятие  ИВТб-2302-01-00 ИВТб-2302-01-00, 01 подгруппа ИВТб-2302-01-00, 02 подгруппа ИВТб-2302-01-00, 03 подгруппа ИВТб-2302-01-00, 04 подгруппа ИВТб-2302-01-00, 05 подгруппа ИВТб-2302-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-324 Дифференциальные уравнения Лекция  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-130 Введение в трансляцию Лабораторная работа  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">16-315 Численные методы Лабораторная работа  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">16-404 Математика Практическое занятие  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">1-128 Математика Лекция  ИВТб-1301-01-00 ИВТб-1301-01-00, 01 подгруппа ИВТб-1301-01-00, 02 подгруппа ИВТб-1301-01-00, 03 подгруппа ИВТб-1301-01-00, 04 подгруппа ИВТб-1301-01-00, 05 подгруппа ИВТб-1301-01-00, 06 подгруппа ИВТб-1302-01-00 ИВТб-1302-01-00, 01 подгруппа ИВТб-1302-01-00, 02 подгруппа ИВТб-1302-01-00, 03 подгруппа ИВТб-1302-01-00, 04 подгруппа ИВТб-1302-01-00, 05 подгруппа ИВТб-1302-01-00, 06 подгруппа ПИб-1301-01-00 ПИб-1301-01-00, 01 подгруппа ПИб-1301-01-00, 02 подгруппа ПИб-1301-01-00, 03 подгруппа ПИб-1301-01-00, 04 подгруппа ПИб-1301-01-00, 05 подгруппа ПИб-1301-01-00, 06 подгруппа ПИб-1302-01-00 ПИб-1302-01-00, 01 подгруппа ПИб-1302-01-00, 02 подгруппа ПИб-1302-01-00, 03 подгруппа ПИб-1302-01-00, 04 подгруппа ПИб-1302-01-00, 05 подгруппа ПИб-1302-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-324 Дифференциальные уравнения Практическое занятие  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R3C2">2-311 Математика Практическое занятие  ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа ИТб-1302-01-00, 02 подгруппа ИТб-1302-01-00, 03 подгруппа ИТб-1302-01-00, 04 подгруппа ИТб-1302-01-00, 05 подгруппа ИТб-1302-01-00, 06 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-414 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1301-03-00 ПОДб-1301-03-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-407 Базы данных Лекция  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-324 Дифференциальное и интегральное исчисления Практическое занятие  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа</TD>
+<TD CLASS="R2C2">2-311 Математика Практическое занятие  ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа ИТб-1302-01-00, 02 подгруппа ИТб-1302-01-00, 03 подгруппа ИТб-1302-01-00, 04 подгруппа ИТб-1302-01-00, 05 подгруппа ИТб-1302-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-234 Компьютерная графика Лекция  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-414 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1301-03-00 ПОДб-1301-03-00, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-400 Базы данных Практическое занятие  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-324 Дифференциальное и интегральное исчисления Практическое занятие  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">5-317 Математика Практическое занятие  ПИб-2301-01-64 ПИб-2301-01-64, 01 подгруппа ПИб-2301-01-64, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">5-317 Математика Практическое занятие  ПИб-2301-01-64 ПИб-2301-01-64, 01 подгруппа ПИб-2301-01-64, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;26.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">14-202 Комплексный анализ Лекция  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">14-140 Классические алгоритмы и структуры данных Лабораторная работа  ПМИб-1301-52-00 ПМИб-1301-52-00, 02 подгруппа</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">1-242 Математика Лекция  ИВТб-2301-01-00 ИВТб-2301-01-00, 01 подгруппа ИВТб-2301-01-00, 02 подгруппа ИВТб-2301-01-00, 03 подгруппа ИВТб-2301-01-00, 04 подгруппа ИВТб-2301-01-00, 05 подгруппа ИВТб-2301-01-00, 06 подгруппа ИВТб-2302-01-00 ИВТб-2302-01-00, 01 подгруппа ИВТб-2302-01-00, 02 подгруппа ИВТб-2302-01-00, 03 подгруппа ИВТб-2302-01-00, 04 подгруппа ИВТб-2302-01-00, 05 подгруппа ИВТб-2302-01-00, 06 подгруппа ИТб-2301-01-00 ИТб-2301-01-00, 01 подгруппа ИТб-2301-01-00, 02 подгруппа ИТб-2301-01-00, 03 подгруппа ИТб-2301-01-00, 04 подгруппа ИТб-2301-01-00, 05 подгруппа ИТб-2302-01-00 ИТб-2302-01-00, 01 подгруппа ИТб-2302-01-00, 02 подгруппа ИТб-2302-01-00, 03 подгруппа ИТб-2302-01-00, 04 подгруппа ИТб-2302-01-00, 05 подгруппа ПИб-2301-01-00 ПИб-2301-01-00, 01 подгруппа ПИб-2301-01-00, 02 подгруппа ПИб-2301-01-00, 03 подгруппа ПИб-2301-01-00, 04 подгруппа ПИб-2301-01-00, 05 подгруппа ПИб-2302-01-00 ПИб-2302-01-00, 01 подгруппа ПИб-2302-01-00, 02 подгруппа ПИб-2302-01-00, 03 подгруппа ПИб-2302-01-00, 04 подгруппа ПИб-2302-01-00, 05 подгруппа УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">14-324 Дифференциальное и интегральное исчисления Практическое занятие  ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа</TD>
+<TD CLASS="R9C2">14-201 Математическая логика Практическое занятие  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-401 Дискретная математика Лабораторная работа  ПМИб-1301-52-00 ПМИб-1301-52-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">14-208 Комплексный анализ Практическое занятие  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-140 Классические алгоритмы и структуры данных Лабораторная работа  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-312 Математика Практическое занятие  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2">15-127 Объектно-ориентированное программирование Лабораторная работа  ПОДб-3302-66-00 ПОДб-3302-66-00, 01 подгруппа ПОДб-3302-66-00, 02 подгруппа ПОДб-3302-66-00, 03 подгруппа ПОДб-3302-66-00, 04 подгруппа ПОДб-3302-66-00, 05 подгруппа ПОДб-3302-66-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-324 Дифференциальное и интегральное исчисления Практическое занятие  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R2C2">14-201 Математическая логика Практическое занятие  ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа</TD>
+<TD CLASS="R2C2">16-406 Разработка мобильных приложений Лекция  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-202 Классические алгоритмы и структуры данных Лекция  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа МКб-1301-51-00, 02 подгруппа МКб-1301-51-00, 03 подгруппа МКб-1301-51-00, 04 подгруппа МКб-1301-51-00, 05 подгруппа МКб-1301-51-00, 06 подгруппа МКб-1301-51-00, 07 подгруппа МКб-1301-51-00, 08 подгруппа</TD>
+<TD CLASS="R11C2">3-102 Математика Лекция  ИКТб-1301-04-00 ИКТб-1301-04-00, 01 подгруппа ИКТб-1301-04-00, 02 подгруппа ИКТб-1301-04-00, 03 подгруппа ИКТб-1301-04-00, 04 подгруппа ИКТб-1301-04-00, 05 подгруппа ИКТб-1301-04-00, 06 подгруппа ИНБб-1301-01-00 ИНБб-1301-01-00, 01 подгруппа ИНБб-1301-01-00, 02 подгруппа ИНБб-1301-01-00, 03 подгруппа ИНБб-1301-01-00, 04 подгруппа ИНБб-1301-01-00, 05 подгруппа ИНБб-1301-01-00, 06 подгруппа ИНБс-1301-01-00 ИНБс-1301-01-00, 01 подгруппа ИНБс-1301-01-00, 02 подгруппа ИНБс-1301-01-00, 03 подгруппа ИНБс-1301-01-00, 04 подгруппа ИНБс-1301-01-00, 05 подгруппа ИНБс-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-201 Теория алгоритмов Лекция  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-322 Дифференциальное и интегральное исчисления Лекция  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2">14-130 Классические алгоритмы и структуры данных Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">3-107 Математика Практическое занятие  ИНБс-1301-01-00 ИНБс-1301-01-00, 01 подгруппа ИНБс-1301-01-00, 02 подгруппа ИНБс-1301-01-00, 03 подгруппа ИНБс-1301-01-00, 04 подгруппа ИНБс-1301-01-00, 05 подгруппа ИНБс-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-131 Теория алгоритмов Лабораторная работа  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">3-102 Математика Практическое занятие  ИНБб-2301-01-00 ИНБб-2301-01-00, 01 подгруппа ИНБб-2301-01-00, 02 подгруппа ИНБб-2301-01-00, 03 подгруппа ИНБб-2301-01-00, 04 подгруппа ИНБб-2301-01-00, 05 подгруппа ИНБб-2301-01-00, 06 подгруппа ИНБс-2301-01-00 ИНБс-2301-01-00, 01 подгруппа ИНБс-2301-01-00, 02 подгруппа ИНБс-2301-01-00, 03 подгруппа ИНБс-2301-01-00, 04 подгруппа ИНБс-2301-01-00, 05 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2">14-130 Классические алгоритмы и структуры данных Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-136 Суперкомпьютерное моделирование Лекция  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">16-415 Прикладной статистический анализ данных Лекция  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">14-136 Суперкомпьютерное моделирование Лабораторная работа  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">16-415 Прикладной статистический анализ данных Лабораторная работа  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;27.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-406 Программирование на Python Лекция  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R2C2">3-105 Математика Лекция  ИКТб-2302-02-24 ИКТб-2302-02-24, 01 подгруппа ИКТб-2302-02-24, 02 подгруппа</TD>
+<TD CLASS="R2C2">14-140 Программирование Лабораторная работа  МКб-2301-51-00 МКб-2301-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-130 Программирование Лабораторная работа  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">2-303 Математика Практическое занятие  ИВТб-2301-01-00 ИВТб-2301-01-00, 01 подгруппа ИВТб-2301-01-00, 02 подгруппа ИВТб-2301-01-00, 03 подгруппа ИВТб-2301-01-00, 04 подгруппа ИВТб-2301-01-00, 05 подгруппа ИВТб-2301-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">3-107 Математика Практическое занятие  ИКТб-2301-02-00 ИКТб-2301-02-00, 01 подгруппа ИКТб-2301-02-00, 02 подгруппа ИКТб-2301-02-00, 03 подгруппа ИКТб-2301-02-00, 04 подгруппа ИКТб-2301-02-00, 05 подгруппа ИКТб-2301-02-00, 06 подгруппа ИКТб-2302-02-00 ИКТб-2302-02-00, 01 подгруппа ИКТб-2302-02-00, 02 подгруппа ИКТб-2302-02-00, 03 подгруппа</TD>
+<TD CLASS="R2C2">16-407 Математические модели в естествознании и методы их исследования Лекция  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2">16-419 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-401 Программирование на Python Лабораторная работа  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R11C2">3-105 Математика Лекция  ИКТб-2302-02-24 ИКТб-2302-02-24, 01 подгруппа ИКТб-2302-02-24, 02 подгруппа</TD>
+<TD CLASS="R11C2">16-415 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1301-03-00 ПОДб-1301-03-00, 02 подгруппа</TD>
+<TD CLASS="R11C2">14-334 Классические алгоритмы и структуры данных Лекция  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-407 Базы данных Лекция  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-202 Теория алгоритмов Лекция  ПОДб-3302-66-00 ПОДб-3302-66-00, 01 подгруппа ПОДб-3302-66-00, 02 подгруппа ПОДб-3302-66-00, 03 подгруппа ПОДб-3302-66-00, 04 подгруппа ПОДб-3302-66-00, 05 подгруппа ПОДб-3302-66-00, 06 подгруппа</TD>
+<TD CLASS="R11C2">2-303 Математика Практическое занятие  ИВТб-1302-01-00 ИВТб-1302-01-00, 01 подгруппа ИВТб-1302-01-00, 02 подгруппа ИВТб-1302-01-00, 03 подгруппа ИВТб-1302-01-00, 04 подгруппа ИВТб-1302-01-00, 05 подгруппа ИВТб-1302-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">3-102 Математика Лекция  ИКТб-2301-02-00 ИКТб-2301-02-00, 01 подгруппа ИКТб-2301-02-00, 02 подгруппа ИКТб-2301-02-00, 03 подгруппа ИКТб-2301-02-00, 04 подгруппа ИКТб-2301-02-00, 05 подгруппа ИКТб-2301-02-00, 06 подгруппа ИКТб-2302-02-00 ИКТб-2302-02-00, 01 подгруппа ИКТб-2302-02-00, 02 подгруппа ИКТб-2302-02-00, 03 подгруппа ИНБб-2301-01-00 ИНБб-2301-01-00, 01 подгруппа ИНБб-2301-01-00, 02 подгруппа ИНБб-2301-01-00, 03 подгруппа ИНБб-2301-01-00, 04 подгруппа ИНБб-2301-01-00, 05 подгруппа ИНБб-2301-01-00, 06 подгруппа ИНБс-2301-01-00 ИНБс-2301-01-00, 01 подгруппа ИНБс-2301-01-00, 02 подгруппа ИНБс-2301-01-00, 03 подгруппа ИНБс-2301-01-00, 04 подгруппа ИНБс-2301-01-00, 05 подгруппа</TD>
+<TD CLASS="R11C2">16-417 Математические модели в естествознании и методы их исследования Лабораторная работа  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R18>
+<TD CLASS="R18C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R18C2">16-419 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа</TD>
+<TD CLASS="R18C2">14-130 Компьютерная графика Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 02 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">16-414 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1301-03-00 ПОДб-1301-03-00, 02 подгруппа</TD>
+<TD CLASS="R18C2">14-140 Классические алгоритмы и структуры данных Лабораторная работа  ФИб-1301-51-00 ФИб-1301-51-00, 02 подгруппа</TD>
+<TD CLASS="R18C2">16-415 Компьютерные сети Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">2-303 Математика Практическое занятие  ПИб-1301-01-00 ПИб-1301-01-00, 01 подгруппа ПИб-1301-01-00, 02 подгруппа ПИб-1301-01-00, 03 подгруппа ПИб-1301-01-00, 04 подгруппа ПИб-1301-01-00, 05 подгруппа ПИб-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">2-206 Математика Лекция  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа ИТб-1301-01-00, 02 подгруппа ИТб-1301-01-00, 03 подгруппа ИТб-1301-01-00, 04 подгруппа ИТб-1301-01-00, 05 подгруппа ИТб-1301-01-00, 06 подгруппа ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа ИТб-1302-01-00, 02 подгруппа ИТб-1302-01-00, 03 подгруппа ИТб-1302-01-00, 04 подгруппа ИТб-1302-01-00, 05 подгруппа ИТб-1302-01-00, 06 подгруппа УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">16-406 Проектирование информационных систем Лекция  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-130 Компьютерная графика Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">16-315 Дискретная математика Лабораторная работа  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-140 Классические алгоритмы и структуры данных Лабораторная работа  ФИб-1301-51-00 ФИб-1301-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">16-415 Компьютерные сети Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">14-202 Математика Практическое занятие  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-414 Проектирование информационных систем Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">5-317 Математика Лекция  ПИб-2301-01-64 ПИб-2301-01-64, 01 подгруппа ПИб-2301-01-64, 02 подгруппа</TD>
+<TD CLASS="R6C2">14-136 Нейросетевые модели Лекция  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">5-317 Математика Лекция  ПИб-2301-01-64 ПИб-2301-01-64, 01 подгруппа ПИб-2301-01-64, 02 подгруппа</TD>
+<TD CLASS="R6C2">14-136 Нейросетевые модели Лабораторная работа  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2">14-136 Параллельные алгоритмы анализа данных Зачет  ПИм-2302-03-00 (https://teams.microsoft.com/l/channel/19:4a14fddb9c8448fe9fd622fee4900e57@thread.tacv2/conversations?groupId=1012c7b7-0bd5-4278-bdac-2dd913a967fd&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;28.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-407 Системы искусственного интеллекта Лекция  ПОДб-4301-60-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-406 Базы данных Лекция  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-414 Объектно-ориентированное программирование Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-414 Системы искусственного интеллекта Лабораторная работа  ПОДб-4301-60-00</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-406 Базы данных Практическое занятие  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-322 Параллельное программирование Лекция  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-407 Объектно-ориентированное программирование Лекция  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-202 Введение в трансляцию Лекция  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-407 Программирование баз данных Лекция  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-415 Объектно-ориентированное программирование Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа</TD>
+<TD CLASS="R5C2">16-322 Параллельное программирование Лекция  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-315 Объектно-ориентированное программирование Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 02 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R26C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">16-315 Численные методы Лабораторная работа  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">16-419 Программирование баз данных Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">16-414 Объектно-ориентированное программирование Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-133 Автоматическая обработка текстов Лекция  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-136 Суперкомпьютерное моделирование Лекция  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">14-133 Автоматическая обработка текстов Лабораторная работа  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">14-136 Суперкомпьютерное моделирование Лабораторная работа  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;29.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-302 Математика Практическое занятие  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R11C2">16-404 Комплексный анализ Лекция  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-432 Математика Практическое занятие  ИНБб-1301-01-00 ИНБб-1301-01-00, 01 подгруппа ИНБб-1301-01-00, 02 подгруппа ИНБб-1301-01-00, 03 подгруппа ИНБб-1301-01-00, 04 подгруппа ИНБб-1301-01-00, 05 подгруппа ИНБб-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-407 Сетевое администрирование Лекция  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R11C2">14-338 Математика Лекция  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R11C2">16-419 Программирование баз данных Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-406 Сетевые технологии Лекция  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-415 Объектно-ориентированное программирование Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R18>
+<TD CLASS="R18C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R18C2">14-131 Практикум решения задач на ЭВМ Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">2-206 Математика Практическое занятие  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа ИТб-1301-01-00, 02 подгруппа ИТб-1301-01-00, 03 подгруппа ИТб-1301-01-00, 04 подгруппа ИТб-1301-01-00, 05 подгруппа ИТб-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R18C2">16-404 Комплексный анализ Практическое занятие  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">1-435 Математика Практическое занятие  ИКТб-1301-04-00 ИКТб-1301-04-00, 01 подгруппа ИКТб-1301-04-00, 02 подгруппа ИКТб-1301-04-00, 03 подгруппа ИКТб-1301-04-00, 04 подгруппа ИКТб-1301-04-00, 05 подгруппа ИКТб-1301-04-00, 06 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">14-140 Классические алгоритмы и структуры данных Лабораторная работа  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа</TD>
+<TD CLASS="R18C2">16-414 Сетевое администрирование Лабораторная работа  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R18C2">14-208 Математика Практическое занятие  ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа</TD>
+<TD CLASS="R18C2">16-419 Программирование баз данных Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 02 подгруппа</TD>
+<TD CLASS="R18C2">16-322 Дискретная математика Лекция  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">2-303 Математика Практическое занятие  ПИб-1301-01-00 ПИб-1301-01-00, 01 подгруппа ПИб-1301-01-00, 02 подгруппа ПИб-1301-01-00, 03 подгруппа ПИб-1301-01-00, 04 подгруппа ПИб-1301-01-00, 05 подгруппа ПИб-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R18C2">16-315 Сетевые технологии Лабораторная работа  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">16-415 Объектно-ориентированное программирование Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2">14-131 Практикум решения задач на ЭВМ Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-206 Математика Практическое занятие  ИТб-2301-01-00 ИТб-2301-01-00, 01 подгруппа ИТб-2301-01-00, 02 подгруппа ИТб-2301-01-00, 03 подгруппа ИТб-2301-01-00, 04 подгруппа ИТб-2301-01-00, 05 подгруппа ИТб-2302-01-00 ИТб-2302-01-00, 01 подгруппа ИТб-2302-01-00, 02 подгруппа ИТб-2302-01-00, 03 подгруппа ИТб-2302-01-00, 04 подгруппа ИТб-2302-01-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-437 Математика Практическое занятие  ИНБс-1301-01-00 ИНБс-1301-01-00, 01 подгруппа ИНБс-1301-01-00, 02 подгруппа ИНБс-1301-01-00, 03 подгруппа ИНБс-1301-01-00, 04 подгруппа ИНБс-1301-01-00, 05 подгруппа ИНБс-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-130 Классические алгоритмы и структуры данных Лабораторная работа  ПМИб-1301-52-00 ПМИб-1301-52-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">16-414 Сетевое администрирование Лабораторная работа  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R2C2">14-208 Математика Практическое занятие  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R2C2">16-419 Программирование баз данных Лабораторная работа  ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R2C2">16-322 Математическая логика и теория алгоритмов Лекция  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-303 Математика Практическое занятие  ИВТб-1301-01-00 ИВТб-1301-01-00, 01 подгруппа ИВТб-1301-01-00, 02 подгруппа ИВТб-1301-01-00, 03 подгруппа ИВТб-1301-01-00, 04 подгруппа ИВТб-1301-01-00, 05 подгруппа ИВТб-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2">14-131 Практикум решения задач на ЭВМ Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-437 Математика Практическое занятие  ПИб-1302-01-00 ПИб-1302-01-00, 01 подгруппа ПИб-1302-01-00, 02 подгруппа ПИб-1302-01-00, 03 подгруппа ПИб-1302-01-00, 04 подгруппа ПИб-1302-01-00, 05 подгруппа ПИб-1302-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-140 Классические алгоритмы и структуры данных Лабораторная работа  ФИб-1302-51-00 ФИб-1302-51-00, 02 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R5C2">16-406 Компьютерные сети Лекция  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R5C2">14-201 Математика Практическое занятие  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">2-303 Математика Практическое занятие  ИВТб-1302-01-00 ИВТб-1302-01-00, 01 подгруппа ИВТб-1302-01-00, 02 подгруппа ИВТб-1302-01-00, 03 подгруппа ИВТб-1302-01-00, 04 подгруппа ИВТб-1302-01-00, 05 подгруппа ИВТб-1302-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R26C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R26C2">14-131 Практикум решения задач на ЭВМ Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">5-317 Математика Практическое занятие  ПИб-2301-01-64 ПИб-2301-01-64, 01 подгруппа ПИб-2301-01-64, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">16-315 Компьютерное зрение Консультация  ПИм-2302-03-00 (https://teams.microsoft.com/l/channel/19:e18edeff862644948f3c16fc95dab725@thread.tacv2/conversations?groupId=b543e3a3-d062-4994-9078-6b783973d09c&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">5-317 Математика Практическое занятие  ПИб-2301-01-64 ПИб-2301-01-64, 01 подгруппа ПИб-2301-01-64, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R37C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;30.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R6C2">14-130 Практикум решения задач на ЭВМ Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">3-102 Математика Лекция  ИКТб-2302-02-24 ИКТб-2302-02-24, 01 подгруппа ИКТб-2302-02-24, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R26C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R26C2">14-130 Практикум решения задач на ЭВМ Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">14-136 Автоматическая обработка текстов Лекция  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">3-102 Математика Лекция  ИКТб-2302-02-24 ИКТб-2302-02-24, 01 подгруппа ИКТб-2302-02-24, 02 подгруппа</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2">16-315 Компьютерное зрение Экзамен  ПИм-2302-03-00 (https://teams.microsoft.com/l/channel/19:4e7e30956fcc49189eaede6291d2c63e@thread.tacv2/conversations?groupId=f08c6118-8d51-4be5-ab39-9eb3bbcbbf5d&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD CLASS="R26C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R6C2">14-130 Практикум решения задач на ЭВМ Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-136 Автоматическая обработка текстов Лабораторная работа  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R6C2">14-130 Практикум решения задач на ЭВМ Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R44C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;01.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-130 Проектная и научно-исследовательская деятельность Лабораторная работа  ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-404 Математика Практическое занятие  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=185325)</TD>
+<TD CLASS="R5C2">16-400 Базы данных Лабораторная работа  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-222 Математика Практическое занятие  ИВТб-1301-01-00 ИВТб-1301-01-00, 01 подгруппа ИВТб-1301-01-00, 02 подгруппа ИВТб-1301-01-00, 03 подгруппа ИВТб-1301-01-00, 04 подгруппа ИВТб-1301-01-00, 05 подгруппа ИВТб-1301-01-00, 06 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=186966)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-338 Объектно-ориентированное программирование Лекция  ПОДб-3302-66-00 ПОДб-3302-66-00, 01 подгруппа ПОДб-3302-66-00, 02 подгруппа ПОДб-3302-66-00, 03 подгруппа ПОДб-3302-66-00, 04 подгруппа ПОДб-3302-66-00, 05 подгруппа ПОДб-3302-66-00, 06 подгруппа (https://teams.microsoft.com/_#/school/conversations/ООП?threadId=19:2e56ef4b9f374b609667bd10ab919fc5@thread.tacv2&ctx=channel)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R45>
+<TD CLASS="R45C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">14-140 Классические алгоритмы и структуры данных Лабораторная работа  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа (https://e.vyatsu.ru/course/view.php?id=5541)</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">16-404 Математика Практическое занятие  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=185325)</TD>
+<TD CLASS="R45C2">16-400 Базы данных Лабораторная работа  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R45C2">16-319 Математическая логика и теория алгоритмов Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">1-128 Математика Лекция  ИВТб-1301-01-00 ИВТб-1301-01-00, 01 подгруппа ИВТб-1301-01-00, 02 подгруппа ИВТб-1301-01-00, 03 подгруппа ИВТб-1301-01-00, 04 подгруппа ИВТб-1301-01-00, 05 подгруппа ИВТб-1301-01-00, 06 подгруппа ИВТб-1302-01-00 ИВТб-1302-01-00, 01 подгруппа ИВТб-1302-01-00, 02 подгруппа ИВТб-1302-01-00, 03 подгруппа ИВТб-1302-01-00, 04 подгруппа ИВТб-1302-01-00, 05 подгруппа ИВТб-1302-01-00, 06 подгруппа ПИб-1301-01-00 ПИб-1301-01-00, 01 подгруппа ПИб-1301-01-00, 02 подгруппа ПИб-1301-01-00, 03 подгруппа ПИб-1301-01-00, 04 подгруппа ПИб-1301-01-00, 05 подгруппа ПИб-1301-01-00, 06 подгруппа ПИб-1302-01-00 ПИб-1302-01-00, 01 подгруппа ПИб-1302-01-00, 02 подгруппа ПИб-1302-01-00, 03 подгруппа ПИб-1302-01-00, 04 подгруппа ПИб-1302-01-00, 05 подгруппа ПИб-1302-01-00, 06 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=186961)</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">14-234 Дифференциальное и интегральное исчисления Практическое занятие  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=187192)</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">14-130 Объектно-ориентированное программирование Лабораторная работа  ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R5C2">2-201 Классические алгоритмы и структуры данных Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 02 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=182108)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-140 Классические алгоритмы и структуры данных Лабораторная работа  ФИб-1302-51-00 ФИб-1302-51-00, 02 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-411 Коды, исправляющие ошибки Лекция  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">1-227а Математика Практическое занятие  ПИб-1301-01-00 ПИб-1301-01-00, 01 подгруппа ПИб-1301-01-00, 02 подгруппа ПИб-1301-01-00, 03 подгруппа ПИб-1301-01-00, 04 подгруппа ПИб-1301-01-00, 05 подгруппа ПИб-1301-01-00, 06 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=186966)</TD>
+<TD CLASS="R5C2">16-319 Объектно-ориентированное программирование Лабораторная работа  ПОДб-3302-66-00 ПОДб-3302-66-00, 01 подгруппа ПОДб-3302-66-00, 02 подгруппа ПОДб-3302-66-00, 03 подгруппа ПОДб-3302-66-00, 04 подгруппа ПОДб-3302-66-00, 05 подгруппа ПОДб-3302-66-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-234 Дифференциальное и интегральное исчисления Практическое занятие  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=187192)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R18>
+<TD CLASS="R18C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">14-130 Компьютерная графика Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">16-315 Коды, исправляющие ошибки Лабораторная работа  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">14-209 Дифференциальные уравнения Практическое занятие  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00 (https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmI3MzczN2EtN2M1NC00YWE1LWIxY2ItZWYxZDg5ZTVhMTQz%40thread.v2/0?context=%7b%22Tid%22%3a%229feed2cc-ba06-4560-9d13-954ee5d83983%22%2c%22Oid%22%3a%22834e522f-dea6-4cbe-b5f3-626005c56ed4%22%7d)</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">16-419 Объектно-ориентированное программирование Лабораторная работа  ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-130 Компьютерная графика Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R51>
+<TD CLASS="R51C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;02.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R51C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2">2-302 Математика Практическое занятие  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2">2-206 Математика Практическое занятие  ИНБб-1301-01-00 ИНБб-1301-01-00, 01 подгруппа ИНБб-1301-01-00, 02 подгруппа ИНБб-1301-01-00, 03 подгруппа ИНБб-1301-01-00, 04 подгруппа ИНБб-1301-01-00, 05 подгруппа ИНБб-1301-01-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=5503&sectionid=141986#section-115)</TD>
+<TD CLASS="R51C2">16-419 Системы искусственного интеллекта Лабораторная работа  ПОДб-4301-60-00</TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2">1-242 Математика Лекция  ИВТб-2301-01-00 ИВТб-2301-01-00, 01 подгруппа ИВТб-2301-01-00, 02 подгруппа ИВТб-2301-01-00, 03 подгруппа ИВТб-2301-01-00, 04 подгруппа ИВТб-2301-01-00, 05 подгруппа ИВТб-2301-01-00, 06 подгруппа ИВТб-2302-01-00 ИВТб-2302-01-00, 01 подгруппа ИВТб-2302-01-00, 02 подгруппа ИВТб-2302-01-00, 03 подгруппа ИВТб-2302-01-00, 04 подгруппа ИВТб-2302-01-00, 05 подгруппа ИВТб-2302-01-00, 06 подгруппа ИТб-2301-01-00 ИТб-2301-01-00, 01 подгруппа ИТб-2301-01-00, 02 подгруппа ИТб-2301-01-00, 03 подгруппа ИТб-2301-01-00, 04 подгруппа ИТб-2301-01-00, 05 подгруппа ИТб-2302-01-00 ИТб-2302-01-00, 01 подгруппа ИТб-2302-01-00, 02 подгруппа ИТб-2302-01-00, 03 подгруппа ИТб-2302-01-00, 04 подгруппа ИТб-2302-01-00, 05 подгруппа ПИб-2301-01-00 ПИб-2301-01-00, 01 подгруппа ПИб-2301-01-00, 02 подгруппа ПИб-2301-01-00, 03 подгруппа ПИб-2301-01-00, 04 подгруппа ПИб-2301-01-00, 05 подгруппа ПИб-2302-01-00 ПИб-2302-01-00, 01 подгруппа ПИб-2302-01-00, 02 подгруппа ПИб-2302-01-00, 03 подгруппа ПИб-2302-01-00, 04 подгруппа ПИб-2302-01-00, 05 подгруппа УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=181618)</TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2">16-415 Параллельное программирование Лабораторная работа  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=178825)</TD>
+<TD CLASS="R51C2">14-334 Дифференциальное и интегральное исчисления Лекция  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00 (https://e.vyatsu.ru/mod/resource/view.php?id=187185)</TD>
+<TD CLASS="R51C2">16-417 Математические модели в естествознании и методы их исследования Лекция  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=182539)</TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R52>
+<TD CLASS="R52C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R52C2"><SPAN></SPAN></TD>
+<TD CLASS="R52C2"><SPAN></SPAN></TD>
+<TD CLASS="R52C2">2-101 Математика Практическое занятие  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа ИТб-1301-01-00, 02 подгруппа ИТб-1301-01-00, 03 подгруппа ИТб-1301-01-00, 04 подгруппа ИТб-1301-01-00, 05 подгруппа ИТб-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R52C2"><SPAN></SPAN></TD>
+<TD CLASS="R52C2"><SPAN></SPAN></TD>
+<TD CLASS="R52C2"><SPAN></SPAN></TD>
+<TD CLASS="R52C2">2-206 Математика Лекция  ИКТб-1301-04-00 ИКТб-1301-04-00, 01 подгруппа ИКТб-1301-04-00, 02 подгруппа ИКТб-1301-04-00, 03 подгруппа ИКТб-1301-04-00, 04 подгруппа ИКТб-1301-04-00, 05 подгруппа ИКТб-1301-04-00, 06 подгруппа ИНБб-1301-01-00 ИНБб-1301-01-00, 01 подгруппа ИНБб-1301-01-00, 02 подгруппа ИНБб-1301-01-00, 03 подгруппа ИНБб-1301-01-00, 04 подгруппа ИНБб-1301-01-00, 05 подгруппа ИНБб-1301-01-00, 06 подгруппа ИНБс-1301-01-00 ИНБс-1301-01-00, 01 подгруппа ИНБс-1301-01-00, 02 подгруппа ИНБс-1301-01-00, 03 подгруппа ИНБс-1301-01-00, 04 подгруппа ИНБс-1301-01-00, 05 подгруппа ИНБс-1301-01-00, 06 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=187332)</TD>
+<TD CLASS="R52C2">16-407 Системы искусственного интеллекта Лекция  ПОДб-4301-60-00</TD>
+<TD CLASS="R52C2">14-140 Классические алгоритмы и структуры данных Лабораторная работа  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа (https://e.vyatsu.ru/course/view.php?id=5541)</TD>
+<TD CLASS="R52C2">16-406 Компьютерные сети Лекция  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R52C2"><SPAN></SPAN></TD>
+<TD CLASS="R52C2"><SPAN></SPAN></TD>
+<TD CLASS="R52C2">16-404 Дискретная математика Практическое занятие  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа</TD>
+<TD CLASS="R52C2">14-131 Теория алгоритмов Лабораторная работа  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=255&sectionid=2337#section-23)</TD>
+<TD CLASS="R52C2">1-334 Математика Практическое занятие  УТб-2301-02-00 УТб-2301-02-00, 01 подгруппа УТб-2301-02-00, 02 подгруппа УТб-2301-02-00, 03 подгруппа УТб-2301-02-00, 04 подгруппа УТб-2301-02-00, 05 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=186972)</TD>
+<TD CLASS="R52C2"><SPAN></SPAN></TD>
+<TD CLASS="R52C2">16-415 Параллельное программирование Лабораторная работа  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=178825)</TD>
+<TD CLASS="R52C2">14-202 Дифференциальное и интегральное исчисления Практическое занятие  ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=187192)</TD>
+<TD CLASS="R52C2">2-207 Математика Практическое занятие  ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа ИТб-1302-01-00, 02 подгруппа ИТб-1302-01-00, 03 подгруппа ИТб-1302-01-00, 04 подгруппа ИТб-1302-01-00, 05 подгруппа ИТб-1302-01-00, 06 подгруппа</TD>
+<TD CLASS="R52C2"><SPAN></SPAN></TD>
+<TD CLASS="R52C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R5C2">16-415 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1303-60-00 ПОДб-1303-60-00, 02 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=181227)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-406 Практикум решения задач на ЭВМ Лекция  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа МКб-1301-51-00, 02 подгруппа МКб-1301-51-00, 03 подгруппа МКб-1301-51-00, 04 подгруппа МКб-1301-51-00, 05 подгруппа МКб-1301-51-00, 06 подгруппа МКб-1301-51-00, 07 подгруппа МКб-1301-51-00, 08 подгруппа</TD>
+<TD CLASS="R5C2">2-206 Математика Практическое занятие  ИКТб-1301-04-00 ИКТб-1301-04-00, 01 подгруппа ИКТб-1301-04-00, 02 подгруппа ИКТб-1301-04-00, 03 подгруппа ИКТб-1301-04-00, 04 подгруппа ИКТб-1301-04-00, 05 подгруппа ИКТб-1301-04-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=5503&sectionid=141986#section-115)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-131 Классические алгоритмы и структуры данных Лабораторная работа  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа</TD>
+<TD CLASS="R5C2">16-407 Компьютерные сети Лекция  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-404 Дискретная математика Практическое занятие  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-401 Объектно-ориентированное программирование Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-202 Дифференциальное и интегральное исчисления Практическое занятие  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00 (https://e.vyatsu.ru/mod/assign/view.php?id=187192)</TD>
+<TD CLASS="R5C2">2-207 Математика Практическое занятие  ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа ИТб-1302-01-00, 02 подгруппа ИТб-1302-01-00, 03 подгруппа ИТб-1302-01-00, 04 подгруппа ИТб-1302-01-00, 05 подгруппа ИТб-1302-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2">16-414 Разработка мобильных приложений Лабораторная работа  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=4075)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R54>
+<TD CLASS="R54C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R54C2">16-415 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1303-60-00 ПОДб-1303-60-00, 02 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=181227)</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">2-302 Математика Практическое занятие  ПИб-1302-01-00 ПИб-1302-01-00, 01 подгруппа ПИб-1302-01-00, 02 подгруппа ПИб-1302-01-00, 03 подгруппа ПИб-1302-01-00, 04 подгруппа ПИб-1302-01-00, 05 подгруппа ПИб-1302-01-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=5503&sectionid=141986#section-115)</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">14-130 Классические алгоритмы и структуры данных Лабораторная работа  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">16-404 Математика Практическое занятие  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00 (https://e.vyatsu.ru/mod/resource/view.php?id=185325)</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">3-102 Математика Практическое занятие  ИНБб-2301-01-00 ИНБб-2301-01-00, 01 подгруппа ИНБб-2301-01-00, 02 подгруппа ИНБб-2301-01-00, 03 подгруппа ИНБб-2301-01-00, 04 подгруппа ИНБб-2301-01-00, 05 подгруппа ИНБб-2301-01-00, 06 подгруппа ИНБс-2301-01-00 ИНБс-2301-01-00, 01 подгруппа ИНБс-2301-01-00, 02 подгруппа ИНБс-2301-01-00, 03 подгруппа ИНБс-2301-01-00, 04 подгруппа ИНБс-2301-01-00, 05 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=187159)</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">16-414 Разработка мобильных приложений Лабораторная работа  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=4075)</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-136 Нейросетевые модели Лекция  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">16-415 Прикладной статистический анализ данных Лабораторная работа  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R57C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2">14-136 Нейросетевые модели Лабораторная работа  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2">16-415 Прикладной статистический анализ данных Лабораторная работа  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R3>
+<TD CLASS="R58C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;03.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R3C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">2-206 Математика Практическое занятие  ПИб-2301-01-00 ПИб-2301-01-00, 01 подгруппа ПИб-2301-01-00, 02 подгруппа ПИб-2301-01-00, 03 подгруппа ПИб-2301-01-00, 04 подгруппа ПИб-2301-01-00, 05 подгруппа ПИб-2302-01-00 ПИб-2302-01-00, 01 подгруппа ПИб-2302-01-00, 02 подгруппа ПИб-2302-01-00, 03 подгруппа ПИб-2302-01-00, 04 подгруппа ПИб-2302-01-00, 05 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">16-400 Программирование на Python Лабораторная работа  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R3C2">3-105а Математика Практическое занятие  ИКТб-1301-04-24 ИКТб-1301-04-24, 01 подгруппа ИКТб-1301-04-24, 02 подгруппа ИКТб-1302-04-24 ИКТб-1302-04-24, 01 подгруппа ИКТб-1302-04-24, 02 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=167661)</TD>
+<TD CLASS="R3C2">14-140 Программирование Лабораторная работа  МКб-2301-51-00 МКб-2301-51-00, 02 подгруппа</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">14-131 Программирование Лабораторная работа  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=135974)</TD>
+<TD CLASS="R3C2">2-303 Математика Практическое занятие  ИВТб-2301-01-00 ИВТб-2301-01-00, 01 подгруппа ИВТб-2301-01-00, 02 подгруппа ИВТб-2301-01-00, 03 подгруппа ИВТб-2301-01-00, 04 подгруппа ИВТб-2301-01-00, 05 подгруппа ИВТб-2301-01-00, 06 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=186972)</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2">3-102 Математика Лекция  ИКТб-2301-02-00 ИКТб-2301-02-00, 01 подгруппа ИКТб-2301-02-00, 02 подгруппа ИКТб-2301-02-00, 03 подгруппа ИКТб-2301-02-00, 04 подгруппа ИКТб-2301-02-00, 05 подгруппа ИКТб-2301-02-00, 06 подгруппа ИКТб-2302-02-00 ИКТб-2302-02-00, 01 подгруппа ИКТб-2302-02-00, 02 подгруппа ИКТб-2302-02-00, 03 подгруппа ИНБб-2301-01-00 ИНБб-2301-01-00, 01 подгруппа ИНБб-2301-01-00, 02 подгруппа ИНБб-2301-01-00, 03 подгруппа ИНБб-2301-01-00, 04 подгруппа ИНБб-2301-01-00, 05 подгруппа ИНБб-2301-01-00, 06 подгруппа ИНБс-2301-01-00 ИНБс-2301-01-00, 01 подгруппа ИНБс-2301-01-00, 02 подгруппа ИНБс-2301-01-00, 03 подгруппа ИНБс-2301-01-00, 04 подгруппа ИНБс-2301-01-00, 05 подгруппа (https://e.vyatsu.ru/mod/attendance/view.php?id=187157)</TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD CLASS="R3C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2">14-130 Классические алгоритмы и структуры данных Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 02 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=182108)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-302 Математика Практическое занятие  УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-400 Программирование на Python Лабораторная работа  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа</TD>
+<TD CLASS="R11C2">3-105а Математика Практическое занятие  ИКТб-1301-04-24 ИКТб-1301-04-24, 01 подгруппа ИКТб-1301-04-24, 02 подгруппа ИКТб-1302-04-24 ИКТб-1302-04-24, 01 подгруппа ИКТб-1302-04-24, 02 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=167661)</TD>
+<TD CLASS="R11C2">16-414 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1301-03-00 ПОДб-1301-03-00, 01 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-338 Математика Лекция  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">2-303 Математика Практическое занятие  ИВТб-2302-01-00 ИВТб-2302-01-00, 01 подгруппа ИВТб-2302-01-00, 02 подгруппа ИВТб-2302-01-00, 03 подгруппа ИВТб-2302-01-00, 04 подгруппа ИВТб-2302-01-00, 05 подгруппа ИВТб-2302-01-00, 06 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=186972)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-408 Параллельное программирование Лекция  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R11C2">3-107 Математика Практическое занятие  ИКТб-2301-02-00 ИКТб-2301-02-00, 01 подгруппа ИКТб-2301-02-00, 02 подгруппа ИКТб-2301-02-00, 03 подгруппа ИКТб-2301-02-00, 04 подгруппа ИКТб-2301-02-00, 05 подгруппа ИКТб-2301-02-00, 06 подгруппа ИКТб-2302-02-00 ИКТб-2302-02-00, 01 подгруппа ИКТб-2302-02-00, 02 подгруппа ИКТб-2302-02-00, 03 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=187159)</TD>
+<TD CLASS="R11C2">2-205 Математика Практическое занятие  ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа ИТб-1302-01-00, 02 подгруппа ИТб-1302-01-00, 03 подгруппа ИТб-1302-01-00, 04 подгруппа ИТб-1302-01-00, 05 подгруппа ИТб-1302-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R18>
+<TD CLASS="R18C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R18C2">14-131 Классические алгоритмы и структуры данных Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 02 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=182108)</TD>
+<TD CLASS="R18C2">14-140 Компьютерная графика Лабораторная работа  ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">14-130 Проектная и научно-исследовательская деятельность Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">16-414 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1301-03-00 ПОДб-1301-03-00, 01 подгруппа</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">14-208 Математика Практическое занятие  ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=185325)</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">16-319 Математическая логика и теория алгоритмов Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 02 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2">2-206 Математика Лекция  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа ИТб-1301-01-00, 02 подгруппа ИТб-1301-01-00, 03 подгруппа ИТб-1301-01-00, 04 подгруппа ИТб-1301-01-00, 05 подгруппа ИТб-1301-01-00, 06 подгруппа ИТб-1302-01-00 ИТб-1302-01-00, 01 подгруппа ИТб-1302-01-00, 02 подгруппа ИТб-1302-01-00, 03 подгруппа ИТб-1302-01-00, 04 подгруппа ИТб-1302-01-00, 05 подгруппа ИТб-1302-01-00, 06 подгруппа УТб-1301-02-00 УТб-1301-02-00, 01 подгруппа УТб-1301-02-00, 02 подгруппа УТб-1301-02-00, 03 подгруппа УТб-1301-02-00, 04 подгруппа УТб-1301-02-00, 05 подгруппа УТб-1301-02-00, 06 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=187163)</TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD CLASS="R18C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2">14-131 Классические алгоритмы и структуры данных Лабораторная работа  МКб-1301-51-00 МКб-1301-51-00, 02 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=182108)</TD>
+<TD CLASS="R2C2">14-140 Компьютерная графика Лабораторная работа  ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R2C2">16-401 Дискретная математика Лабораторная работа  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-419 Программирование баз данных Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа</TD>
+<TD CLASS="R2C2">16-411 Математическая логика и теория алгоритмов Лекция  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-315 Объектно-ориентированное программирование Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">16-315 Объектно-ориентированное программирование Лабораторная работа  ФИб-2301-51-00 ФИб-2301-51-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">16-407 Прикладной статистический анализ данных Лекция  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R57C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2">16-415 Прикладной статистический анализ данных Лабораторная работа  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R30C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;04.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-209 Комплексный анализ Лекция  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00 (https://e.vyatsu.ru/course/view.php?id=3366&sectionid=52053#section-46)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">3-105а Математика Зачет  ИКТб-1301-04-24 ИКТб-1301-04-24, 01 подгруппа ИКТб-1301-04-24, 02 подгруппа ИКТб-1302-04-24 ИКТб-1302-04-24, 01 подгруппа ИКТб-1302-04-24, 02 подгруппа (https://teams.microsoft.com/l/channel/19:cc368c8c8e4c45cb85c274690606866e@thread.tacv2/conversations?groupId=32f04a11-a00a-4d4d-882d-a3848646f464&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-338 Математика Лекция  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R11C2">16-419 Программирование баз данных Лабораторная работа  ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-400 Параллельное программирование Лабораторная работа  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-407 Методы оптимизации и исследование операций Лекция  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=179021)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-209 Комплексный анализ Практическое занятие  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00 (https://e.vyatsu.ru/course/view.php?id=3366&sectionid=52053#section-48)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">3-105а Математика Зачет  ИКТб-1301-04-24 ИКТб-1301-04-24, 01 подгруппа ИКТб-1301-04-24, 02 подгруппа ИКТб-1302-04-24 ИКТб-1302-04-24, 01 подгруппа ИКТб-1302-04-24, 02 подгруппа (https://teams.microsoft.com/l/channel/19:cc368c8c8e4c45cb85c274690606866e@thread.tacv2/conversations?groupId=32f04a11-a00a-4d4d-882d-a3848646f464&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-411 Программирование баз данных Лекция  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-130 Объектно-ориентированное программирование Лабораторная работа  ПОДб-3302-66-00 ПОДб-3302-66-00, 01 подгруппа ПОДб-3302-66-00, 02 подгруппа ПОДб-3302-66-00, 03 подгруппа ПОДб-3302-66-00, 04 подгруппа ПОДб-3302-66-00, 05 подгруппа ПОДб-3302-66-00, 06 подгруппа</TD>
+<TD CLASS="R5C2">16-400 Параллельное программирование Лабораторная работа  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-415 Методы оптимизации и исследование операций Лабораторная работа  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=179018)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R54>
+<TD CLASS="R54C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">14-209 Дифференциальные уравнения в частных производных Практическое занятие  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=5544&sectionid=144114#section-38              и    https://e.vyatsu.ru/course/view.php?id=5544&sectionid=144114#section-39)</TD>
+<TD CLASS="R54C2">16-411 Проектная и научно-исследовательская деятельность Лекция  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">3-107 Математика Практическое занятие  ИКТб-2302-02-24 ИКТб-2302-02-24, 01 подгруппа ИКТб-2302-02-24, 02 подгруппа</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">16-315 Алгоритмы и структуры данных Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=164275)</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD CLASS="R54C2">16-415 Методы оптимизации и исследование операций Лабораторная работа  ФИб-3301-51-00 ФИб-3301-51-00, 01 подгруппа ФИб-3301-51-00, 02 подгруппа ФИб-3301-51-00, 03 подгруппа ФИб-3301-51-00, 04 подгруппа ФИб-3301-51-00, 05 подгруппа ФИб-3301-51-00, 06 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=179018)</TD>
+<TD CLASS="R54C2">16-414 Проектирование информационных систем Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 02 подгруппа ПМИб-2302-52-00 (https://e.vyatsu.ru/course/view.php?id=3215)</TD>
+<TD CLASS="R54C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2">16-415 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-209 Дифференциальные уравнения в частных производных Практическое занятие  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=5544&sectionid=144114#section-38              и    https://e.vyatsu.ru/course/view.php?id=5544&sectionid=144114#section-39)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">3-107 Математика Практическое занятие  ИКТб-2302-02-24 ИКТб-2302-02-24, 01 подгруппа ИКТб-2302-02-24, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-315 Алгоритмы и структуры данных Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 02 подгруппа ПМИб-2302-52-00 (https://e.vyatsu.ru/mod/resource/view.php?id=164275)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-414 Объектно-ориентированное программирование Лабораторная работа  ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2">16-415 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">14-136 Нейросетевые модели Лабораторная работа  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R57C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2">14-136 Нейросетевые модели Лабораторная работа  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;05.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">3-105 Математика Практическое занятие  ИКТб-1301-04-00 ИКТб-1301-04-00, 01 подгруппа ИКТб-1301-04-00, 02 подгруппа ИКТб-1301-04-00, 03 подгруппа ИКТб-1301-04-00, 04 подгруппа ИКТб-1301-04-00, 05 подгруппа ИКТб-1301-04-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=5503&sectionid=141986#section-115)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-320 Математика Практическое занятие  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R2C2">16-315 Алгоритмы и структуры данных Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 02 подгруппа ПМИб-2302-52-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-303 Математика Практическое занятие  ИВТб-1301-01-00 ИВТб-1301-01-00, 01 подгруппа ИВТб-1301-01-00, 02 подгруппа ИВТб-1301-01-00, 03 подгруппа ИВТб-1301-01-00, 04 подгруппа ИВТб-1301-01-00, 05 подгруппа ИВТб-1301-01-00, 06 подгруппа (https://e.vyatsu.ru/mod/resource/view.php?id=186968)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2">16-415 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1303-60-00 ПОДб-1303-60-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">2-311 Математика Практическое занятие  ИТб-2301-01-00 ИТб-2301-01-00, 01 подгруппа ИТб-2301-01-00, 02 подгруппа ИТб-2301-01-00, 03 подгруппа ИТб-2301-01-00, 04 подгруппа ИТб-2301-01-00, 05 подгруппа ИТб-2302-01-00 ИТб-2302-01-00, 01 подгруппа ИТб-2302-01-00, 02 подгруппа ИТб-2302-01-00, 03 подгруппа ИТб-2302-01-00, 04 подгруппа ИТб-2302-01-00, 05 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">3-105а Математика Практическое занятие  ИНБб-1301-01-00 ИНБб-1301-01-00, 01 подгруппа ИНБб-1301-01-00, 02 подгруппа ИНБб-1301-01-00, 03 подгруппа ИНБб-1301-01-00, 04 подгруппа ИНБб-1301-01-00, 05 подгруппа ИНБб-1301-01-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=5503&sectionid=141986#section-115)</TD>
+<TD CLASS="R5C2">16-414 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1301-03-00 ПОДб-1301-03-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">16-320 Математика Практическое занятие  ПМИб-1302-52-00 ПМИб-1302-52-00, 01 подгруппа ПМИб-1302-52-00, 02 подгруппа ПМИб-1302-52-00, 03 подгруппа ПМИб-1302-52-00, 04 подгруппа ПМИб-1302-52-00, 05 подгруппа ПМИб-1302-52-00, 06 подгруппа ПМИб-1302-52-00, 07 подгруппа ПМИб-1302-52-00, 08 подгруппа</TD>
+<TD CLASS="R5C2">16-406 Алгоритмы и структуры данных Лекция  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00 (https://e.vyatsu.ru/mod/url/view.php?id=138424)</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">2-303 Математика Практическое занятие  ИВТб-1302-01-00 ИВТб-1302-01-00, 01 подгруппа ИВТб-1302-01-00, 02 подгруппа ИВТб-1302-01-00, 03 подгруппа ИВТб-1302-01-00, 04 подгруппа ИВТб-1302-01-00, 05 подгруппа ИВТб-1302-01-00, 06 подгруппа (https://e.vyatsu.ru/mod/assign/view.php?id=186966)</TD>
+<TD CLASS="R5C2">16-407 Сетевые технологии Лекция  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-201 Математическая логика Практическое занятие  ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R74>
+<TD CLASS="R74C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R74C2">16-415 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1303-60-00 ПОДб-1303-60-00, 02 подгруппа</TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD CLASS="R74C2">2-206 Математика Практическое занятие  ИТб-1301-01-00 ИТб-1301-01-00, 01 подгруппа ИТб-1301-01-00, 02 подгруппа ИТб-1301-01-00, 03 подгруппа ИТб-1301-01-00, 04 подгруппа ИТб-1301-01-00, 05 подгруппа ИТб-1301-01-00, 06 подгруппа</TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD CLASS="R74C2">3-105а Математика Практическое занятие  ИНБс-1301-01-00 ИНБс-1301-01-00, 01 подгруппа ИНБс-1301-01-00, 02 подгруппа ИНБс-1301-01-00, 03 подгруппа ИНБс-1301-01-00, 04 подгруппа ИНБс-1301-01-00, 05 подгруппа ИНБс-1301-01-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=5503&sectionid=141986#section-115)</TD>
+<TD CLASS="R74C2">16-414 Практикум по решению задач на ЭВМ Лабораторная работа  ПОДб-1301-03-00 ПОДб-1301-03-00, 02 подгруппа</TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD CLASS="R74C2">16-320 Математика Практическое занятие  ПМИб-1301-52-00 ПМИб-1301-52-00, 01 подгруппа ПМИб-1301-52-00, 02 подгруппа ПМИб-1301-52-00, 03 подгруппа ПМИб-1301-52-00, 04 подгруппа ПМИб-1301-52-00, 05 подгруппа ПМИб-1301-52-00, 06 подгруппа ПМИб-1301-52-00, 07 подгруппа ПМИб-1301-52-00, 08 подгруппа</TD>
+<TD CLASS="R74C2">16-315 Алгоритмы и структуры данных Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа</TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD CLASS="R74C2">16-400 Сетевые технологии Лабораторная работа  ПМИб-3301-52-00 ПМИб-3301-52-00, 01 подгруппа ПМИб-3301-52-00, 02 подгруппа ПМИб-3301-52-00, 03 подгруппа ПМИб-3301-52-00, 04 подгруппа ПМИб-3301-52-00, 05 подгруппа ПМИб-3301-52-00, 06 подгруппа</TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD CLASS="R74C2">14-334 Математическая логика Лекция  ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R74C2">16-319 Проектирование информационных систем Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 02 подгруппа ПМИб-2302-52-00 (https://e.vyatsu.ru/course/view.php?id=3215)</TD>
+<TD CLASS="R74C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">3-105а Математика Практическое занятие  ПИб-1302-01-00 ПИб-1302-01-00, 01 подгруппа ПИб-1302-01-00, 02 подгруппа ПИб-1302-01-00, 03 подгруппа ПИб-1302-01-00, 04 подгруппа ПИб-1302-01-00, 05 подгруппа ПИб-1302-01-00, 06 подгруппа (https://e.vyatsu.ru/course/view.php?id=5503&sectionid=141986#section-115)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-320 Математика Практическое занятие  ФИб-1301-51-00 ФИб-1301-51-00, 01 подгруппа ФИб-1301-51-00, 02 подгруппа ФИб-1301-51-00, 03 подгруппа ФИб-1301-51-00, 04 подгруппа ФИб-1301-51-00, 05 подгруппа ФИб-1301-51-00, 06 подгруппа ФИб-1301-51-00, 07 подгруппа ФИб-1301-51-00, 08 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-247 Математическая логика Практическое занятие  ФИб-1302-51-00 ФИб-1302-51-00, 01 подгруппа ФИб-1302-51-00, 02 подгруппа ФИб-1302-51-00, 03 подгруппа ФИб-1302-51-00, 04 подгруппа ФИб-1302-51-00, 05 подгруппа ФИб-1302-51-00, 06 подгруппа ФИб-1302-51-00, 07 подгруппа ФИб-1302-51-00, 08 подгруппа ФИб-1303-51-00</TD>
+<TD CLASS="R2C2">16-319 Проектирование информационных систем Лабораторная работа  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа (https://e.vyatsu.ru/course/view.php?id=3215)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R77C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2">14-133 Автоматическая обработка текстов Лабораторная работа  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2">14-136 Суперкомпьютерное моделирование Лабораторная работа  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD CLASS="R77C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">14-133 Автоматическая обработка текстов Лабораторная работа  ПИм-1301-03-00 ПИм-1301-03-00, 01 подгруппа ПИм-1301-03-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">14-136 Суперкомпьютерное моделирование Лабораторная работа  ПМИм-1301-02-00 ПМИм-1301-02-00, 01 подгруппа ПМИм-1301-02-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;06.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-317_ Математика Консультация  ПИб-2301-01-64 ПИб-2301-01-64, 01 подгруппа ПИб-2301-01-64, 02 подгруппа (https://teams.microsoft.com/l/channel/19:903f3c3b737740d7a1e1a3b506f5b471@thread.tacv2/conversations?groupId=1b5eeaa3-479e-45a5-af5a-4a28f3a95a30&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">3-105 Математика Практическое занятие  ИКТб-2302-02-24 ИКТб-2302-02-24, 01 подгруппа ИКТб-2302-02-24, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-317_ Математика Экзамен  ПИб-2301-01-64 ПИб-2301-01-64, 01 подгруппа ПИб-2301-01-64, 02 подгруппа (https://teams.microsoft.com/l/channel/19:e3d2eb1b15d94254b7b1a449362efeb6@thread.tacv2/conversations?groupId=bcbd1aef-4ef4-4137-8eed-8c3d1c60cce2&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">3-105 Математика Практическое занятие  ИКТб-2302-02-24 ИКТб-2302-02-24, 01 подгруппа ИКТб-2302-02-24, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R8>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R54>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R86C3"><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:99px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

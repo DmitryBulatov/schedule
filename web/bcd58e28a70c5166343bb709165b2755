@@ -1,0 +1,1502 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 25px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 14pt; font-style: normal; font-weight: bold; background-color: #ffffff; }
+tr.R1{ height: 21px; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C2{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; text-align: center; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R10{ height: 71px; }
+tr.R10 td.R10C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R10 td.R10C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11{ height: 183px; }
+tr.R11 td.R11C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R11C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14{ height: 43px; }
+tr.R14 td.R14C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14 td.R14C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14 td.R15C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R14 td.R15C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R17{ height: 225px; }
+tr.R17 td.R17C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R17 td.R17C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 57px; }
+tr.R2 td.R2C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R23{ height: 127px; }
+tr.R23 td.R23C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R23 td.R23C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R23 td.R23C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R31{ height: 23px; }
+tr.R31 td.R31C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R31 td.R31C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R31 td.R43C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R31 td.R43C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R34{ height: 22px; }
+tr.R34 td.R34C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R34 td.R34C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R34 td.R36C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R34 td.R36C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R44{ height: 30px; }
+tr.R44 td.R44C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R44 td.R44C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R44 td.R44C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5{ height: 85px; }
+tr.R5 td.R16C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R5C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R5C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R51{ height: 24px; }
+tr.R51 td.R51C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R51 td.R51C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R51 td.R51C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7{ height: 15px; }
+tr.R7 td.R65C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R7C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R7C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R8C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R7 td.R8C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R86{ height: 99px; }
+tr.R86 td.R86C3{ font-family: Arial; font-size: 8pt; font-style: normal; text-align: center; vertical-align: middle; }
+tr.R9{ height: 29px; }
+tr.R9 td.R29C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R9 td.R29C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R9 td.R9C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R9 td.R9C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R9 td.R9C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:100%; height:0px; " CELLSPACING=0>
+<COL WIDTH=31>
+<COL WIDTH=89>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=63>
+<COL>
+<TR CLASS=R0>
+<TD CLASS="R0C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;max-width:0px;">Обновление&nbsp;07.05.2020</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">День</SPAN></TD>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">Интервал</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Булдакова&nbsp;Н.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Буркова&nbsp;Р.Р.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Быкова&nbsp;С.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Зимирева&nbsp;Е.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Коршунова&nbsp;О.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Котряхов&nbsp;Н.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Лучинина&nbsp;А.О.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Никитина&nbsp;Е.Л.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Сахаров&nbsp;В.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Селиванова&nbsp;О.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Ходырева&nbsp;Е.А.</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;27.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-309 Основы педагогики и психологии Лекция  ФКб-1701-51-00 ФКб-1701-51-00, 01 подгруппа ФКб-1701-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">15-116 Психолого-педагогическая диагностика Практическое занятие  СДОб-2701-51-00 СДОб-2701-51-00, 01 подгруппа СДОб-2701-51-00, 02 подгруппа СДОб-2702-51-00 СДОб-2702-51-00, 01 подгруппа СДОб-2702-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-309 Основы педагогики и психологии Практическое занятие  ФКб-1701-51-00 ФКб-1701-51-00, 01 подгруппа ФКб-1701-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">15-116 Психолого-педагогическая диагностика Практическое занятие  СДОб-2701-51-00 СДОб-2701-51-00, 01 подгруппа СДОб-2701-51-00, 02 подгруппа СДОб-2702-51-00 СДОб-2702-51-00, 01 подгруппа СДОб-2702-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-122 Проектная деятельность в образовании Практическое занятие  ПОб-4701-54-20</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-116 Психолого-педагогическая диагностика Лекция  СДОб-2701-51-00 СДОб-2701-51-00, 01 подгруппа СДОб-2701-51-00, 02 подгруппа СДОб-2702-51-00 СДОб-2702-51-00, 01 подгруппа СДОб-2702-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-208 Нормативно-правовое обеспечение образования. Управление образовательными системами. Современные средства оценивания результатов обучения Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">15-207 Педагогика Практическое занятие  ПОДб-2702-62-00</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-208 Нормативно-правовое обеспечение образования. Управление образовательными системами. Современные средства оценивания результатов обучения Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;28.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">5-112_ PR-технологии в образовательном процессе Практическое занятие  ПОб-5703-62-60</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R10>
+<TD CLASS="R10C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">15-309 Нормативно-правовое обеспечение образования. Современные средства оценивания предметных результатов обучения Практическое занятие  ПОДб-3101-53-00 ПОДб-3101-53-00, 01 подгруппа ПОДб-3101-53-00, 02 подгруппа ПОДб-3101-53-00, 03 подгруппа ПОДб-3703-68-00 ПОДб-3703-68-00, 01 подгруппа ПОДб-3703-68-00, 02 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-343 Нормативно-правовое обеспечение образования. Современные средства оценивания предметных результатов обучения Лекция  ПОДб-3101-53-00 ПОДб-3101-53-00, 01 подгруппа ПОДб-3101-53-00, 02 подгруппа ПОДб-3101-53-00, 03 подгруппа ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа ПОДб-3302-66-00 ПОДб-3302-66-00, 01 подгруппа ПОДб-3302-66-00, 02 подгруппа ПОДб-3302-66-00, 03 подгруппа ПОДб-3302-66-00, 04 подгруппа ПОДб-3302-66-00, 05 подгруппа ПОДб-3302-66-00, 06 подгруппа ПОДб-3701-55-00 ПОДб-3702-62-00 ПОДб-3702-62-00, 01 подгруппа ПОДб-3702-62-00, 02 подгруппа ПОДб-3703-68-00 ПОДб-3703-68-00, 01 подгруппа ПОДб-3703-68-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-250 Нормативно-правовое обеспечение образования. Современные средства оценивания предметных результатов обучения Практическое занятие  ПОДб-3701-55-00 ПОДб-3702-62-00 ПОДб-3702-62-00, 01 подгруппа ПОДб-3702-62-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-337 Психолого-педагогическая диагностика Лекция  АФКб-2701-51-00 АФКб-2701-51-00, 01 подгруппа АФКб-2701-51-00, 02 подгруппа ПЛб-2701-03-00 ПЛб-2701-03-00, 01 подгруппа ПЛб-2701-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-112_ PR-технологии в образовательном процессе Практическое занятие  ПОб-5703-62-60</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-337 Психолого-педагогическая диагностика Практическое занятие  АФКб-2701-51-00 АФКб-2701-51-00, 01 подгруппа АФКб-2701-51-00, 02 подгруппа ПЛб-2701-03-00 ПЛб-2701-03-00, 01 подгруппа ПЛб-2701-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-112_ PR-технологии в образовательном процессе Практическое занятие  ПОб-5703-62-60</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">15-426 Интерактивные образовательные технологии в профильной подготовке Лекция  ПОм-1202-53-00 ПОм-1202-53-00, 01 подгруппа ПОм-1202-53-00, 02 подгруппа ПОм-1701-58-00</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">15-426 Интерактивные образовательные технологии в профильной подготовке Практическое занятие  ПОм-1202-53-00 ПОм-1202-53-00, 01 подгруппа ПОм-1202-53-00, 02 подгруппа ПОм-1701-58-00</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;29.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-221 Нормативно-правовое обеспечение образования. Управление образовательными системами. Современные средства оценивания результатов обучения Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">15-119 Педагогика Практическое занятие  ПОДб-1203-51-00 ПОДб-1203-51-00, 01 подгруппа ПОДб-1203-51-00, 02 подгруппа ПОДб-1203-51-00, 03 подгруппа ПОДб-1203-51-00, 04 подгруппа ПОДб-1203-51-00, 05 подгруппа ПОДб-1203-51-00, 06 подгруппа ПОДб-1203-51-00, 07 подгруппа ПОДб-1203-51-00, 08 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R17>
+<TD CLASS="R17C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2">15-251 Педагогика Лекция  ПОДб-1201-01-00 ПОДб-1201-01-00, 01 подгруппа ПОДб-1201-01-00, 02 подгруппа ПОДб-1201-01-00, 03 подгруппа ПОДб-1201-01-00, 04 подгруппа ПОДб-1201-01-00, 05 подгруппа ПОДб-1201-01-00, 06 подгруппа ПОДб-1201-01-00, 07 подгруппа ПОДб-1201-01-00, 08 подгруппа ПОДб-1202-01-00 ПОДб-1202-01-00, 02 подгруппа ПОДб-1203-51-00 ПОДб-1203-51-00, 01 подгруппа ПОДб-1203-51-00, 02 подгруппа ПОДб-1203-51-00, 03 подгруппа ПОДб-1203-51-00, 04 подгруппа ПОДб-1203-51-00, 05 подгруппа ПОДб-1203-51-00, 06 подгруппа ПОДб-1203-51-00, 07 подгруппа ПОДб-1203-51-00, 08 подгруппа ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа ПОДб-1205-58-00, 02 подгруппа ПОДб-1205-58-00, 03 подгруппа ПОДб-1205-58-00, 04 подгруппа ПОДб-1205-58-00, 05 подгруппа ПОДб-1205-58-00, 06 подгруппа ПОДб-1205-58-00, 07 подгруппа ПОДб-1207-64-00 ПОДб-1207-64-00, 01 подгруппа ПОДб-1207-64-00, 02 подгруппа ПОДб-1207-64-00, 03 подгруппа ПОДб-1207-64-00, 04 подгруппа ПОДб-1207-64-00, 05 подгруппа ПОДб-1207-64-00, 06 подгруппа ПОДб-1207-64-00, 07 подгруппа</TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD CLASS="R17C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R10>
+<TD CLASS="R10C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">14-202 Педагогика Практическое занятие  ПОДб-1301-03-00 ПОДб-1301-03-00, 01 подгруппа ПОДб-1301-03-00, 02 подгруппа ПОДб-1301-03-00, 03 подгруппа ПОДб-1301-03-00, 04 подгруппа ПОДб-1301-03-00, 05 подгруппа ПОДб-1301-03-00, 06 подгруппа ПОДб-1301-03-00, 07 подгруппа ПОДб-1301-03-00, 08 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">15-430 Управление педагогическим проектом Практическое занятие  ПОм-1201-02-00 ПОм-1201-02-00, 01 подгруппа ПОм-1201-02-00, 02 подгруппа ПОм-1202-53-00 ПОм-1202-53-00, 01 подгруппа ПОм-1202-53-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">15-430 Управление педагогическим проектом Практическое занятие  ПОм-1201-02-00 ПОм-1201-02-00, 01 подгруппа ПОм-1201-02-00, 02 подгруппа ПОм-1202-53-00 ПОм-1202-53-00, 01 подгруппа ПОм-1202-53-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R23>
+<TD CLASS="R23C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;30.04.20&nbsp;</SPAN></TD>
+<TD CLASS="R23C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2">14-209 Нормативно-правовое обеспечение образования. Современные средства оценивания предметных результатов обучения Лекция  ПОДб-3202-64-00 ПОДб-3202-64-00, 01 подгруппа ПОДб-3202-64-00, 02 подгруппа ПОДб-3202-64-00, 03 подгруппа ПОДб-3202-64-00, 04 подгруппа ПОДб-3202-64-00, 05 подгруппа ПОДб-3203-51-00 ПОДб-3203-51-00, 01 подгруппа ПОДб-3203-51-00, 02 подгруппа ПОДб-3204-01-00 ПОДб-3204-01-00, 01 подгруппа ПОДб-3204-01-00, 02 подгруппа ПОДб-3802-65-00 ПОДб-3802-65-00, 01 подгруппа ПОДб-3802-65-00, 02 подгруппа ПОДб-3802-65-00, 03 подгруппа</TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R23>
+<TD CLASS="R23C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2">14-209 Нормативно-правовое обеспечение образования. Современные средства оценивания предметных результатов обучения Практическое занятие  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа ПОДб-3202-64-00 ПОДб-3202-64-00, 01 подгруппа ПОДб-3202-64-00, 02 подгруппа ПОДб-3202-64-00, 03 подгруппа ПОДб-3202-64-00, 04 подгруппа ПОДб-3202-64-00, 05 подгруппа ПОДб-3802-65-00 ПОДб-3802-65-00, 01 подгруппа ПОДб-3802-65-00, 02 подгруппа ПОДб-3802-65-00, 03 подгруппа</TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD CLASS="R23C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-210 Нормативно-правовое обеспечение образования. Управление образовательными системами. Современные средства оценивания результатов обучения Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">15-332 Психолого-педагогическая диагностика Практическое занятие  СДОб-2701-51-00 СДОб-2701-51-00, 01 подгруппа СДОб-2701-51-00, 02 подгруппа СДОб-2702-51-00 СДОб-2702-51-00, 01 подгруппа СДОб-2702-51-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-247 Нормативно-правовое обеспечение образования. Управление образовательными системами. Современные средства оценивания результатов обучения Практическое  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">5-112_ Информационная безопасность в образовательных организациях Практическое занятие  ПОб-5703-62-60</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">15-430 Управление педагогическим проектом Практическое занятие  ПОм-1701-58-00</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">5-112_ Информационная безопасность в образовательных организациях Практическое занятие  ПОб-5703-62-60</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">15-430 Управление педагогическим проектом Практическое занятие  ПОм-1701-58-00</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;01.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">5-112_ Информационная безопасность в образовательных организациях Консультация  ПОб-5703-62-60</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R34>
+<TD CLASS="R34C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R34>
+<TD CLASS="R34C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD CLASS="R34C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R34>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;02.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">5-112_ Информационная безопасность в образовательных организациях Экзамен  ПОб-5703-62-60</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R43C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R44>
+<TD CLASS="R44C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;04.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R44C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R44>
+<TD CLASS="R44C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R44>
+<TD CLASS="R44C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R44>
+<TD CLASS="R44C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R44>
+<TD CLASS="R44C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD CLASS="R44C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R51>
+<TD CLASS="R51C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;05.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R51C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R51>
+<TD CLASS="R51C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R31C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD CLASS="R31C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R31>
+<TD CLASS="R43C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD CLASS="R43C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;06.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">19-257 Основы педагогики и психологии Практическое занятие  ФКб-1701-51-00 ФКб-1701-51-00, 01 подгруппа ФКб-1701-51-00, 02 подгруппа</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-210 Нормативно-правовое обеспечение образования. Управление образовательными системами. Современные средства оценивания результатов обучения Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">15-426 Педагогика Практическое занятие  ПОДб-1201-01-00 ПОДб-1201-01-00, 01 подгруппа ПОДб-1201-01-00, 02 подгруппа ПОДб-1201-01-00, 03 подгруппа ПОДб-1201-01-00, 04 подгруппа ПОДб-1201-01-00, 05 подгруппа ПОДб-1201-01-00, 06 подгруппа ПОДб-1201-01-00, 07 подгруппа ПОДб-1201-01-00, 08 подгруппа ПОДб-1202-01-00 ПОДб-1202-01-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-210 Нормативно-правовое обеспечение образования. Управление образовательными системами. Современные средства оценивания результатов обучения Лекция  ПОДб-3201-58-00 ПОДб-3201-58-00, 01 подгруппа ПОДб-3201-58-00, 02 подгруппа ПОДб-3201-58-00, 03 подгруппа ПОДб-3201-58-00, 04 подгруппа ПОДб-3201-58-00, 05 подгруппа ПОДб-3201-58-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">15-430 Психолого-педагогическая диагностика Лекция  АФКб-2701-51-24 АФКб-2701-51-24, 01 подгруппа АФКб-2701-51-24, 02 подгруппа АФКб-2702-51-24</TD>
+<TD CLASS="R14C2">4-605 Педагогика и психология Лекция  ЛВб-3402-02-02 ЛВб-3402-02-02, 01 подгруппа ЛВб-3402-02-02, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R14C2">14-312 Педагогика и психология в профессиональной деятельности Лекция  ФЛм-1201-51-00 ФЛм-1201-51-00, 01 подгруппа ФЛм-1201-51-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">15-430 Психолого-педагогическая диагностика Лекция  АФКб-2701-51-24 АФКб-2701-51-24, 01 подгруппа АФКб-2701-51-24, 02 подгруппа АФКб-2702-51-24</TD>
+<TD CLASS="R14C2">4-605 Педагогика и психология Практическое занятие  ЛВб-3402-02-02 ЛВб-3402-02-02, 01 подгруппа ЛВб-3402-02-02, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">15-119 Управление педагогическим проектом Практическое занятие  ПОм-1701-58-00</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2">14-312 Педагогика и психология в профессиональной деятельности Практическое занятие  ФЛм-1201-51-00 ФЛм-1201-51-00, 01 подгруппа ФЛм-1201-51-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">15-430 Управление педагогическим проектом Практическое занятие  ПОм-1201-02-00 ПОм-1201-02-00, 01 подгруппа ПОм-1201-02-00, 02 подгруппа ПОм-1202-53-00 ПОм-1202-53-00, 01 подгруппа ПОм-1202-53-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R65C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;07.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R10>
+<TD CLASS="R10C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">15-250 Нормативно-правовое обеспечение образования. Современные средства оценивания предметных результатов обучения Практическое занятие  ПОДб-3101-53-00 ПОДб-3101-53-00, 01 подгруппа ПОДб-3101-53-00, 02 подгруппа ПОДб-3101-53-00, 03 подгруппа ПОДб-3703-68-00 ПОДб-3703-68-00, 01 подгруппа ПОДб-3703-68-00, 02 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R10>
+<TD CLASS="R10C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">15-250 Нормативно-правовое обеспечение образования. Современные средства оценивания предметных результатов обучения Практическое занятие  ПОДб-3101-53-00 ПОДб-3101-53-00, 01 подгруппа ПОДб-3101-53-00, 02 подгруппа ПОДб-3101-53-00, 03 подгруппа ПОДб-3703-68-00 ПОДб-3703-68-00, 01 подгруппа ПОДб-3703-68-00, 02 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">15-116 Психолого-педагогическая диагностика Практическое занятие  АФКб-2701-51-00 АФКб-2701-51-00, 01 подгруппа АФКб-2701-51-00, 02 подгруппа ПЛб-2701-03-00 ПЛб-2701-03-00, 01 подгруппа ПЛб-2701-03-00, 02 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">15-434 Интерактивные образовательные технологии в профильной подготовке Практическое занятие  ПОм-1202-53-00 ПОм-1202-53-00, 01 подгруппа ПОм-1202-53-00, 02 подгруппа ПОм-1701-58-00</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">15-434 Интерактивные образовательные технологии в профильной подготовке Практическое занятие  ПОм-1202-53-00 ПОм-1202-53-00, 01 подгруппа ПОм-1202-53-00, 02 подгруппа ПОм-1701-58-00</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;08.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 Педагогика Практическое занятие  ПОДб-1205-58-00 ПОДб-1205-58-00, 01 подгруппа ПОДб-1205-58-00, 02 подгруппа ПОДб-1205-58-00, 03 подгруппа ПОДб-1205-58-00, 04 подгруппа ПОДб-1205-58-00, 05 подгруппа ПОДб-1205-58-00, 06 подгруппа ПОДб-1205-58-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 Педагогика Практическое занятие  ПОДб-1207-64-00 ПОДб-1207-64-00, 01 подгруппа ПОДб-1207-64-00, 02 подгруппа ПОДб-1207-64-00, 03 подгруппа ПОДб-1207-64-00, 04 подгруппа ПОДб-1207-64-00, 05 подгруппа ПОДб-1207-64-00, 06 подгруппа ПОДб-1207-64-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">15-218 Нормативно-правовое обеспечение образования. Управление образовательными системами. Современные средства оценивания результатов обучения Практическое  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-210 Нормативно-правовое обеспечение образования. Современные средства оценивания предметных результатов обучения Практическое занятие  ПОДб-3701-55-00 ПОДб-3702-62-00 ПОДб-3702-62-00, 01 подгруппа ПОДб-3702-62-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-127 Педагогика Практическое занятие  ПОДб-1704-68-00 ПОДб-1704-68-00, 01 подгруппа ПОДб-1704-68-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R10>
+<TD CLASS="R10C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">15-210 Нормативно-правовое обеспечение образования. Современные средства оценивания предметных результатов обучения Практическое занятие  ПОДб-3701-55-00 ПОДб-3702-62-00 ПОДб-3702-62-00, 01 подгруппа ПОДб-3702-62-00, 02 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">15-127 Педагогика Практическое занятие  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа ПОДб-1303-60-00, 02 подгруппа ПОДб-1303-60-00, 03 подгруппа ПОДб-1303-60-00, 04 подгруппа ПОДб-1303-60-00, 05 подгруппа ПОДб-1303-60-00, 06 подгруппа ПОДб-1303-60-00, 07 подгруппа ПОДб-1303-60-00, 08 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">15-434 Работа с родителями по сопровождению профильной подготовки обучающихся Лекция  ПОм-1701-58-00</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">15-434 Работа с родителями по сопровождению профильной подготовки обучающихся Практическое занятие  ПОм-1701-58-00</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">15-434 Работа с родителями по сопровождению профильной подготовки обучающихся Практическое занятие  ПОм-1701-58-00</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R51>
+<TD CLASS="R51C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;09.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R51C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R51>
+<TD CLASS="R51C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R51>
+<TD CLASS="R51C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R51>
+<TD CLASS="R51C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R51>
+<TD CLASS="R51C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R51>
+<TD CLASS="R51C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R51>
+<TD CLASS="R51C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD CLASS="R51C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R86>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R86C3"><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:99px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

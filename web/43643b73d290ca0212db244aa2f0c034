@@ -1,0 +1,2719 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 25px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 14pt; font-style: normal; font-weight: bold; background-color: #ffffff; }
+tr.R1{ height: 21px; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C2{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; text-align: center; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R10{ height: 99px; }
+tr.R10 td.R10C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R10 td.R10C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R10 td.R50C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R10 td.R50C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R10 td.R86C3{ font-family: Arial; font-size: 8pt; font-style: normal; text-align: center; vertical-align: middle; }
+tr.R11{ height: 71px; }
+tr.R11 td.R11C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R11C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R16C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R13{ height: 29px; }
+tr.R13 td.R13C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R13 td.R13C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14{ height: 43px; }
+tr.R14 td.R14C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14 td.R14C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14 td.R57C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R14 td.R57C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 57px; }
+tr.R2 td.R29C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R2 td.R29C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R28{ height: 155px; }
+tr.R28 td.R28C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R28 td.R28C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R45{ height: 85px; }
+tr.R45 td.R45C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R45 td.R45C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5{ height: 15px; }
+tr.R5 td.R5C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R5C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R79C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R8C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R5 td.R8C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R7{ height: 141px; }
+tr.R7 td.R7C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R7C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R9{ height: 267px; }
+tr.R9 td.R9C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R9 td.R9C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R9 td.R9C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:100%; height:0px; " CELLSPACING=0>
+<COL WIDTH=31>
+<COL WIDTH=89>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=63>
+<COL>
+<TR CLASS=R0>
+<TD CLASS="R0C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;max-width:0px;">Обновление&nbsp;25.03.2020</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">День</SPAN></TD>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">Интервал</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Бушкова-Шиклина&nbsp;Э.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Быкова&nbsp;Е.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Гмызина&nbsp;Э.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Голенок&nbsp;М.П.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Городилова&nbsp;Т.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Горюнова&nbsp;Т.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Долгих&nbsp;А.Ю.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Емшанов&nbsp;А.Л.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Зорина&nbsp;Л.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Колобова&nbsp;Ю.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Коротков&nbsp;Н.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Корякина&nbsp;А.П.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Кушова&nbsp;И.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Митягина&nbsp;Е.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Москвин&nbsp;А.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Наговицына&nbsp;М.П.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Осипова&nbsp;Н.О.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Останина&nbsp;О.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Попова&nbsp;П.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Смирнова&nbsp;О.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Старикова&nbsp;М.М.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Суворов&nbsp;Г.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Счастливцева&nbsp;Е.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Ходырева&nbsp;О.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Чернова&nbsp;С.А.</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;16.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-113 Методы изучения культуры Лекция  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 История литературы Лекция  КТУб-1201-02-00 КТУб-1201-02-00, 01 подгруппа КТУб-1201-02-00, 02 подгруппа КТУб-1201-02-00, 03 подгруппа КТУб-1201-02-00, 04 подгруппа КТУб-1201-02-00, 05 подгруппа КТУб-1201-02-00, 06 подгруппа КТУб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-113 Методы изучения культуры Практическое занятие  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-208 Социология труда и занятости Лекция  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 История литературы Практическое занятие  КТУб-1201-02-00 КТУб-1201-02-00, 01 подгруппа КТУб-1201-02-00, 02 подгруппа КТУб-1201-02-00, 03 подгруппа КТУб-1201-02-00, 04 подгруппа КТУб-1201-02-00, 05 подгруппа КТУб-1201-02-00, 06 подгруппа КТУб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-208 Социология труда и занятости Практическое занятие  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-319 Прикладная культурология Лекция  ПОДб-5203-59-00</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-319 Прикладная культурология Практическое занятие  ПОДб-5203-59-00</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">1-242 История и философия науки Лекция  ИВТа-1301-01-00 ИВТа-1302-02-00 ИСа-1201-51-00 ИСа-1202-52-00 ИСКа-1801-01-00 КТУа-1201-01-00 ММа-1301-51-00 МСа-1802-04-00 НЗа-1501-51-00 НЗа-1501-51-00, 01 подгруппа НЗа-1501-51-00, 02 подгруппа НЗа-1502-54-00 ПЛа-1701-53-00 ПОа-1301-57-00 ПОа-1302-60-00 ПОа-1303-60-00 ПОа-1701-01-00 ПОа-1702-51-00 ПОа-1703-59-00 СТа-1801-01-00 СТа-1802-02-00 ФЗа-1301-01-00 ХМа-1501-03-00 ХТа-1501-03-00 ЭиТа-1801-02-00 ЭиТа-1803-08-00 ЭКНа-1601-01-00 ЭКНа-1602-02-00 ЭКНа-1603-03-00 ЭКНа-1604-05-00 ЭКНа-1605-06-00 ЭКНа-1606-07-00 ЭКНа-1607-10-00 ЭКНа-1608-11-00 ЭРСа-1301-02-00 ЮРа-1901-01-00 ЮРа-1902-07-00 ЯЛа-1201-51-00</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;17.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">14-334 Социология Лекция  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа МОб-2201-01-00 МОб-2201-01-00, 01 подгруппа МОб-2201-01-00, 02 подгруппа МОб-2201-01-00, 03 подгруппа МОб-2201-01-00, 04 подгруппа МОб-2201-01-00, 05 подгруппа МОб-2201-01-00, 06 подгруппа МОб-2201-01-00, 07 подгруппа МОб-2202-01-00 МОб-2202-01-00, 01 подгруппа МОб-2202-01-00, 02 подгруппа МОб-2202-01-00, 03 подгруппа МОб-2202-01-00, 04 подгруппа МОб-2202-01-00, 05 подгруппа МОб-2202-01-00, 06 подгруппа МОб-2202-01-00, 07 подгруппа ОРМб-2201-01-00 ОРМб-2201-01-00, 01 подгруппа ОРМб-2201-01-00, 02 подгруппа ОРМб-2201-01-00, 03 подгруппа ОРМб-2201-01-00, 04 подгруппа ОРМб-2201-01-00, 05 подгруппа ОРМб-2201-01-00, 06 подгруппа ОРМб-2201-01-00, 07 подгруппа</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">14-222 Методология и методы социологического исследования Лекция  СЦб-2201-02-00 СЦб-2201-02-00, 01 подгруппа СЦб-2201-02-00, 02 подгруппа СЦб-2201-02-00, 03 подгруппа СЦб-2201-02-00, 04 подгруппа СЦб-2201-02-00, 05 подгруппа СЦб-2201-02-00, 06 подгруппа СЦб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R10>
+<TD CLASS="R10C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">17-267 История искусств Практическое занятие  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">14-114 История культуры Лекция  КТУб-1201-02-00 КТУб-1201-02-00, 01 подгруппа КТУб-1201-02-00, 02 подгруппа КТУб-1201-02-00, 03 подгруппа КТУб-1201-02-00, 04 подгруппа КТУб-1201-02-00, 05 подгруппа КТУб-1201-02-00, 06 подгруппа КТУб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R10C2">14-111 Ницше и современная философия Лекция  ФСб-4201-51-00</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">14-211 Социология Практическое занятие  МОб-2201-01-00 МОб-2201-01-00, 01 подгруппа МОб-2201-01-00, 02 подгруппа МОб-2201-01-00, 03 подгруппа МОб-2201-01-00, 04 подгруппа МОб-2201-01-00, 05 подгруппа МОб-2201-01-00, 06 подгруппа МОб-2201-01-00, 07 подгруппа МОб-2202-01-00 МОб-2202-01-00, 01 подгруппа МОб-2202-01-00, 02 подгруппа МОб-2202-01-00, 03 подгруппа МОб-2202-01-00, 04 подгруппа МОб-2202-01-00, 05 подгруппа МОб-2202-01-00, 06 подгруппа МОб-2202-01-00, 07 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">14-208 Актуальные проблемы современной культуры Лекция  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">14-222 Методология и методы социологического исследования Практическое занятие  СЦб-2201-02-00 СЦб-2201-02-00, 01 подгруппа СЦб-2201-02-00, 02 подгруппа СЦб-2201-02-00, 03 подгруппа СЦб-2201-02-00, 04 подгруппа СЦб-2201-02-00, 05 подгруппа СЦб-2201-02-00, 06 подгруппа СЦб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">14-202 Социология образования Лекция  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-114 История культуры Практическое занятие  КТУб-1201-02-00 КТУб-1201-02-00, 01 подгруппа КТУб-1201-02-00, 02 подгруппа КТУб-1201-02-00, 03 подгруппа КТУб-1201-02-00, 04 подгруппа КТУб-1201-02-00, 05 подгруппа КТУб-1201-02-00, 06 подгруппа КТУб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-314 Социология Практическое занятие  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-208 Актуальные проблемы современной культуры Практическое занятие  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-133 Методология и методы социологического исследования Практическое занятие  СЦб-2201-02-00 СЦб-2201-02-00, 01 подгруппа СЦб-2201-02-00, 02 подгруппа СЦб-2201-02-00, 03 подгруппа СЦб-2201-02-00, 04 подгруппа СЦб-2201-02-00, 05 подгруппа СЦб-2201-02-00, 06 подгруппа СЦб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">17-152 Зарубежная феноменология Лекция  ФСб-4201-51-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-209 Социология образования Практическое занятие  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 История культуры Практическое занятие  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-222 Социология Лекция  ПОДб-5202-58-00 ПОДб-5202-58-00, 01 подгруппа ПОДб-5202-58-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">17-152 Зарубежная феноменология Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R13>
+<TD CLASS="R13C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2">14-222 Социология Практическое занятие  ПОДб-5202-58-00 ПОДб-5202-58-00, 01 подгруппа ПОДб-5202-58-00, 02 подгруппа</TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2">14-130 Качественные методы в комплексном социологическом исследовании Лекция  СЦм-1201-01-00 СЦм-1201-01-00, 01 подгруппа СЦм-1201-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">14-221 Теория и история культуры Лекция  КТУа-2201-01-00</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">14-221 Теория и история культуры Практическое занятие  КТУа-2201-01-00</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;18.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-219 Культура Вятского края Практическое занятие  ОРМб-1201-01-00 ОРМб-1201-01-00, 01 подгруппа ОРМб-1201-01-00, 02 подгруппа ОРМб-1201-01-00, 03 подгруппа ОРМб-1201-01-00, 04 подгруппа ОРМб-1201-01-00, 05 подгруппа ОРМб-1201-01-00, 06 подгруппа ОРМб-1201-01-00, 07 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-210 История киноискусства Лекция  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2">14-130 Конфликтология Лекция  СЦб-2201-02-00 СЦб-2201-02-00, 01 подгруппа СЦб-2201-02-00, 02 подгруппа СЦб-2201-02-00, 03 подгруппа СЦб-2201-02-00, 04 подгруппа СЦб-2201-02-00, 05 подгруппа СЦб-2201-02-00, 06 подгруппа СЦб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-113 Театр в системе массовых коммуникаций Лекция  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">17-267 Философия искусства Лекция  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 История киноискусства Практическое занятие  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2">17-267 Конфликтология Практическое занятие  СЦб-2201-02-00 СЦб-2201-02-00, 01 подгруппа СЦб-2201-02-00, 02 подгруппа СЦб-2201-02-00, 03 подгруппа СЦб-2201-02-00, 04 подгруппа СЦб-2201-02-00, 05 подгруппа СЦб-2201-02-00, 06 подгруппа СЦб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-113 Театр в системе массовых коммуникаций Практическое занятие  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-209 Философия искусства Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 Организация, подготовка и презентация социологических исследований Практическое занятие  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2">14-131 Визуальная социология Лекция  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-319 Прикладная культурология Лекция  ПОДб-5203-59-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-227 Философия Практическое занятие  ПОДб-1703-68-00 ПОДб-1703-68-00, 01 подгруппа ПОДб-1703-68-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">14-218 Социология семьи Практическое занятие  СЦб-1201-02-00 СЦб-1201-02-00, 01 подгруппа СЦб-1201-02-00, 02 подгруппа СЦб-1201-02-00, 03 подгруппа СЦб-1201-02-00, 04 подгруппа СЦб-1201-02-00, 05 подгруппа СЦб-1201-02-00, 06 подгруппа СЦб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-234 Фокус-группа и открытая групповая дискуссия Лекция  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2">14-131 Визуальная социология Практическое занятие  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-319 Прикладная культурология Практическое занятие  ПОДб-5203-59-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-227 Философия Практическое занятие  ПОДб-1207-64-00 ПОДб-1207-64-00, 01 подгруппа ПОДб-1207-64-00, 02 подгруппа ПОДб-1207-64-00, 03 подгруппа ПОДб-1207-64-00, 04 подгруппа ПОДб-1207-64-00, 05 подгруппа ПОДб-1207-64-00, 06 подгруппа ПОДб-1207-64-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-234 Фокус-группа и открытая групповая дискуссия Практическое занятие  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-531 Философские проблемы современной науки Лекция  Бм-1101-01-00 Бм-1101-01-00, 01 подгруппа Бм-1101-01-00, 02 подгруппа Бм-1102-51-00 Бм-1102-51-00, 01 подгруппа Бм-1102-51-00, 02 подгруппа БТм-1101-02-00 БТм-1101-02-00, 01 подгруппа БТм-1101-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-211 Методика преподавания профильных дисциплин в области социальной философии Консультация  ФСм-2201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;19.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2">14-133 Методология и методы социологического исследования Лекция  СЦб-1201-02-00 СЦб-1201-02-00, 01 подгруппа СЦб-1201-02-00, 02 подгруппа СЦб-1201-02-00, 03 подгруппа СЦб-1201-02-00, 04 подгруппа СЦб-1201-02-00, 05 подгруппа СЦб-1201-02-00, 06 подгруппа СЦб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2">16-405 История искусств Лекция  КТУб-1201-02-00 КТУб-1201-02-00, 01 подгруппа КТУб-1201-02-00, 02 подгруппа КТУб-1201-02-00, 03 подгруппа КТУб-1201-02-00, 04 подгруппа КТУб-1201-02-00, 05 подгруппа КТУб-1201-02-00, 06 подгруппа КТУб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-202 Экскурсоведение Лекция  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-119 Философия Практическое занятие  ПОДб-2702-68-00 ПОДб-2702-68-00, 01 подгруппа ПОДб-2702-68-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">14-201 Философская антропология Лекция  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 Культурная политика Практическое занятие  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2">14-133 Методология и методы социологического исследования Практическое занятие  СЦб-1201-02-00 СЦб-1201-02-00, 01 подгруппа СЦб-1201-02-00, 02 подгруппа СЦб-1201-02-00, 03 подгруппа СЦб-1201-02-00, 04 подгруппа СЦб-1201-02-00, 05 подгруппа СЦб-1201-02-00, 06 подгруппа СЦб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R11C2">16-313 История искусств Практическое занятие  КТУб-1201-02-00 КТУб-1201-02-00, 01 подгруппа КТУб-1201-02-00, 02 подгруппа КТУб-1201-02-00, 03 подгруппа КТУб-1201-02-00, 04 подгруппа КТУб-1201-02-00, 05 подгруппа КТУб-1201-02-00, 06 подгруппа КТУб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">16-119в Философия Практическое занятие  ЭБс-1602-01-00 ЭБс-1602-01-00, 01 подгруппа ЭБс-1602-01-00, 02 подгруппа ЭБс-1602-01-00, 03 подгруппа ЭБс-1602-01-00, 04 подгруппа ЭБс-1602-01-00, 05 подгруппа ЭБс-1602-01-00, 06 подгруппа ЭБс-1602-01-00, 07 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-202 Экскурсоведение Практическое занятие  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-201 Философская антропология Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R11C2">1-311 Социология повседневности Практическое занятие  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-211 Социология Практическое занятие  ИСб-2201-04-00 ИСб-2201-04-00, 01 подгруппа ИСб-2201-04-00, 02 подгруппа ИСб-2201-04-00, 03 подгруппа ИСб-2201-04-00, 04 подгруппа ИСб-2201-04-00, 05 подгруппа ИСб-2201-04-00, 06 подгруппа ИСб-2201-04-00, 07 подгруппа</TD>
+<TD CLASS="R11C2">14-234 Социокультурное проектирование Лекция  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-113 Деловые коммуникации Практическое занятие  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-313 История искусств Лекция  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-119в Философия Практическое занятие  ЭБс-1601-01-00 ЭБс-1601-01-00, 01 подгруппа ЭБс-1601-01-00, 02 подгруппа ЭБс-1601-01-00, 03 подгруппа ЭБс-1601-01-00, 04 подгруппа ЭБс-1601-01-00, 05 подгруппа ЭБс-1601-01-00, 06 подгруппа ЭБс-1601-01-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">21-256 Культура Вятского края Практическое занятие  КТУб-1201-02-00 КТУб-1201-02-00, 01 подгруппа КТУб-1201-02-00, 02 подгруппа КТУб-1201-02-00, 03 подгруппа КТУб-1201-02-00, 04 подгруппа КТУб-1201-02-00, 05 подгруппа КТУб-1201-02-00, 06 подгруппа КТУб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-313 Социология Практическое занятие  ИСб-2202-04-00 ИСб-2202-04-00, 01 подгруппа ИСб-2202-04-00, 02 подгруппа ИСб-2202-04-00, 03 подгруппа ИСб-2202-04-00, 04 подгруппа ИСб-2202-04-00, 05 подгруппа ИСб-2202-04-00, 06 подгруппа ИСб-2202-04-00, 07 подгруппа</TD>
+<TD CLASS="R2C2">14-234 Социокультурное проектирование Практическое занятие  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-201 Философские аспекты конкретнонаучных дисциплин Лекция  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2">14-121 Культурная политика Практическое занятие  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">1-531 Социология образования Практическое занятие  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-313 История искусств Практическое занятие  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">21-256 Культура Вятского края Практическое занятие  МОб-1201-01-00 МОб-1201-01-00, 01 подгруппа МОб-1201-01-00, 02 подгруппа МОб-1201-01-00, 03 подгруппа МОб-1201-01-00, 04 подгруппа МОб-1201-01-00, 05 подгруппа МОб-1201-01-00, 06 подгруппа МОб-1201-01-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-222 Социология Лекция  ПОДб-5202-58-00 ПОДб-5202-58-00, 01 подгруппа ПОДб-5202-58-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-313 Социология Практическое занятие  ОРМб-2201-01-00 ОРМб-2201-01-00, 01 подгруппа ОРМб-2201-01-00, 02 подгруппа ОРМб-2201-01-00, 03 подгруппа ОРМб-2201-01-00, 04 подгруппа ОРМб-2201-01-00, 05 подгруппа ОРМб-2201-01-00, 06 подгруппа ОРМб-2201-01-00, 07 подгруппа</TD>
+<TD CLASS="R2C2">14-211 Социокультурное проектирование Практическое занятие  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-201 Философские аспекты конкретнонаучных дисциплин Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-531 Социология коммуникаций Лекция  СЦб-2201-02-00 СЦб-2201-02-00, 01 подгруппа СЦб-2201-02-00, 02 подгруппа СЦб-2201-02-00, 03 подгруппа СЦб-2201-02-00, 04 подгруппа СЦб-2201-02-00, 05 подгруппа СЦб-2201-02-00, 06 подгруппа СЦб-2201-02-00, 07 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-222 Социология Практическое занятие  ПОДб-5202-58-00 ПОДб-5202-58-00, 01 подгруппа ПОДб-5202-58-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-531 Социология коммуникаций Практическое занятие  СЦб-2201-02-00 СЦб-2201-02-00, 01 подгруппа СЦб-2201-02-00, 02 подгруппа СЦб-2201-02-00, 03 подгруппа СЦб-2201-02-00, 04 подгруппа СЦб-2201-02-00, 05 подгруппа СЦб-2201-02-00, 06 подгруппа СЦб-2201-02-00, 07 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R28>
+<TD CLASS="R28C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">14-211 Методика преподавания профильных дисциплин в области социальной философии Экзамен  ФСм-2201-51-00</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">1-242 Методология и методы научных исследований Лекция  ИВТа-1301-01-00 ИВТа-1302-02-00 ИСа-1201-51-00 ИСа-1202-52-00 ИСКа-1801-01-00 КТУа-1201-01-00 ММа-1301-51-00 МСа-1802-04-00 НЗа-1501-51-00 НЗа-1501-51-00, 01 подгруппа НЗа-1501-51-00, 02 подгруппа НЗа-1502-54-00 ПЛа-1701-53-00 ПОа-1301-57-00 ПОа-1302-60-00 ПОа-1303-60-00 ПОа-1701-01-00 ПОа-1702-51-00 ПОа-1703-59-00 СТа-1801-01-00 СТа-1802-02-00 ФЗа-1301-01-00 ХМа-1501-03-00 ХТа-1501-03-00 ЭиТа-1801-02-00 ЭиТа-1803-08-00 ЭКНа-1601-01-00 ЭКНа-1602-02-00 ЭКНа-1603-03-00 ЭКНа-1604-05-00 ЭКНа-1605-06-00 ЭКНа-1606-07-00 ЭКНа-1607-10-00 ЭКНа-1608-11-00 ЭРСа-1301-02-00 ЮРа-1901-01-00 ЮРа-1902-07-00 ЯЛа-1201-51-00</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">1-435 Философия Практическое занятие  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;20.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 Философия искусства Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-234 Массовая культура Лекция  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2">14-133 Методология и методы социологического исследования Практическое занятие  СЦб-1201-02-00 СЦб-1201-02-00, 01 подгруппа СЦб-1201-02-00, 02 подгруппа СЦб-1201-02-00, 03 подгруппа СЦб-1201-02-00, 04 подгруппа СЦб-1201-02-00, 05 подгруппа СЦб-1201-02-00, 06 подгруппа СЦб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-221 Медиакультура Лекция  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-401 Философия Практическое занятие  ПТКс-2801-02-00 ПТКс-2801-02-00, 01 подгруппа ПТКс-2801-02-00, 02 подгруппа ПТКс-2801-02-00, 03 подгруппа ПТКс-2801-02-00, 04 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-234 Массовая культура Практическое занятие  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-102 Философия Практическое занятие  ППОб-1701-01-00 ППОб-1701-01-00, 01 подгруппа ППОб-1701-01-00, 02 подгруппа</TD>
+<TD CLASS="R11C2">1-529 Философия Практическое занятие  СТб-2802-01-00 СТб-2802-01-00, 01 подгруппа СТб-2802-01-00, 02 подгруппа СТб-2802-01-00, 03 подгруппа СТб-2802-01-00, 04 подгруппа СТб-2802-01-00, 05 подгруппа СТб-2802-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-121 Философские аспекты конкретнонаучных дисциплин Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-104 Социология труда и занятости Лекция  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2">14-133 Визуальная социология Лекция  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2">17-457 История искусств Практическое занятие  КТУб-1201-02-00 КТУб-1201-02-00, 01 подгруппа КТУб-1201-02-00, 02 подгруппа КТУб-1201-02-00, 03 подгруппа КТУб-1201-02-00, 04 подгруппа КТУб-1201-02-00, 05 подгруппа КТУб-1201-02-00, 06 подгруппа КТУб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2">14-202 Медиакультура Практическое занятие  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-339 Философия Практическое занятие  ПОДб-1701-62-00 ПОДб-1701-62-00, 01 подгруппа ПОДб-1701-62-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-121 Философские аспекты конкретнонаучных дисциплин Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-219 Философская антропология Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-219 Философия Практическое занятие  ПОДб-1801-71-00 ПОДб-1801-71-00, 01 подгруппа ПОДб-1801-71-00, 02 подгруппа ПОДб-1801-71-00, 03 подгруппа ПОДб-1801-71-00, 04 подгруппа ПОДб-1801-71-00, 05 подгруппа ПОДб-1801-71-00, 06 подгруппа ПОДб-1801-71-00, 07 подгруппа ПОДб-1801-71-00, 08 подгруппа ПОДб-1801-71-00, 09 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-435 Философия Практическое занятие  СТб-2801-01-00 СТб-2801-01-00, 01 подгруппа СТб-2801-01-00, 02 подгруппа СТб-2801-01-00, 03 подгруппа СТб-2801-01-00, 04 подгруппа СТб-2801-01-00, 05 подгруппа СТб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;21.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-210 Печатные СМИ Лекция  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-117 Методология и методы научных исследований Практическое занятие  ИВТа-1301-01-00 ИВТа-1302-02-00 ММа-1301-51-00 МСа-1802-04-00 НЗа-1501-51-00 НЗа-1501-51-00, 01 подгруппа НЗа-1501-51-00, 02 подгруппа НЗа-1502-54-00 СТа-1801-01-00 СТа-1802-02-00 ФЗа-1301-01-00 ХМа-1501-03-00 ХТа-1501-03-00 ЭиТа-1801-02-00 ЭиТа-1803-08-00 ЭРСа-1301-02-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-210 Печатные СМИ Практическое занятие  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">1-117 Методология и методы научных исследований Практическое занятие  ИВТа-1301-01-00 ИВТа-1302-02-00 ММа-1301-51-00 МСа-1802-04-00 НЗа-1501-51-00 НЗа-1501-51-00, 01 подгруппа НЗа-1501-51-00, 02 подгруппа НЗа-1502-54-00 СТа-1801-01-00 СТа-1802-02-00 ФЗа-1301-01-00 ХМа-1501-03-00 ХТа-1501-03-00 ЭиТа-1801-02-00 ЭиТа-1803-08-00 ЭРСа-1301-02-00</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;23.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-114 Экскурсоведение Практическое занятие  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">21-264 Социология повседневности Лекция  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 История киноискусства Лекция  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R45>
+<TD CLASS="R45C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">14-113 Методы изучения культуры Лекция  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">14-208 Культура Вятского края Практическое занятие  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">14-201 Философия Практическое занятие  ПОДб-2301-03-00 ПОДб-2301-03-00, 01 подгруппа ПОДб-2301-03-00, 02 подгруппа ПОДб-2301-03-00, 03 подгруппа ПОДб-2301-03-00, 04 подгруппа ПОДб-2301-03-00, 05 подгруппа ПОДб-2301-03-00, 06 подгруппа ПОДб-2301-03-00, 07 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">21-264 Социология повседневности Практическое занятие  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">14-210 Деловые коммуникации Лекция  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-219 Философия Практическое занятие  ПОДб-2302-60-00 ПОДб-2302-60-00, 01 подгруппа ПОДб-2302-60-00, 02 подгруппа ПОДб-2302-60-00, 03 подгруппа ПОДб-2302-60-00, 04 подгруппа ПОДб-2302-60-00, 05 подгруппа ПОДб-2302-60-00, 06 подгруппа ПОДб-2302-60-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 Деловые коммуникации Практическое занятие  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">5-111 Философия Практическое занятие  ЛВб-2401-02-00 ЛВб-2401-02-00, 01 подгруппа ЛВб-2401-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-408 Профессиональная этика и служебный этикет Практическое занятие  ЭБс-1601-01-00 ЭБс-1601-01-00, 01 подгруппа ЭБс-1601-01-00, 02 подгруппа ЭБс-1601-01-00, 03 подгруппа ЭБс-1601-01-00, 04 подгруппа ЭБс-1601-01-00, 05 подгруппа ЭБс-1601-01-00, 06 подгруппа ЭБс-1601-01-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-408 Профессиональная этика и служебный этикет Практическое занятие  ЭБс-1602-01-00 ЭБс-1602-01-00, 01 подгруппа ЭБс-1602-01-00, 02 подгруппа ЭБс-1602-01-00, 03 подгруппа ЭБс-1602-01-00, 04 подгруппа ЭБс-1602-01-00, 05 подгруппа ЭБс-1602-01-00, 06 подгруппа ЭБс-1602-01-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R10>
+<TD CLASS="R10C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">1-514 Философские проблемы современной науки Практическое занятие  Бм-1101-01-00 Бм-1101-01-00, 01 подгруппа Бм-1101-01-00, 02 подгруппа Бм-1102-51-00 Бм-1102-51-00, 01 подгруппа Бм-1102-51-00, 02 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">1-236 История и философия науки Практическое занятие  ИВТа-1301-01-00 ИВТа-1302-02-00 ММа-1301-51-00 МСа-1802-04-00 НЗа-1501-51-00 НЗа-1501-51-00, 01 подгруппа НЗа-1501-51-00, 02 подгруппа НЗа-1502-54-00 СТа-1801-01-00 СТа-1802-02-00 ФЗа-1301-01-00 ХМа-1501-03-00 ХТа-1501-03-00 ЭиТа-1801-02-00 ЭиТа-1803-08-00 ЭРСа-1301-02-00</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">1-117а Методология и методы научных исследований Практическое занятие  ИСа-1201-51-00 ИСа-1202-52-00 ИСКа-1801-01-00 КТУа-1201-01-00 ПЛа-1701-53-00 ПОа-1301-57-00 ПОа-1302-60-00 ПОа-1303-60-00 ПОа-1701-01-00 ПОа-1702-51-00 ПОа-1703-59-00 ЭКНа-1601-01-00 ЭКНа-1602-02-00 ЭКНа-1603-03-00 ЭКНа-1604-05-00 ЭКНа-1605-06-00 ЭКНа-1606-07-00 ЭКНа-1607-10-00 ЭКНа-1608-11-00 ЮРа-1901-01-00 ЮРа-1902-07-00 ЯЛа-1201-51-00</TD>
+<TD CLASS="R10C2">14-133 Методы обработки социологических данных Лабораторная работа  СРм-1201-51-00 СРм-1201-51-00, 01 подгруппа СРм-1201-51-00, 02 подгруппа СЦм-1201-01-00 СЦм-1201-01-00, 01 подгруппа СЦм-1201-01-00, 02 подгруппа</TD>
+<TD CLASS="R10C2">14-211 Современные проблемы социальной философии Консультация  ФСм-2201-51-00</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R10>
+<TD CLASS="R50C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2">1-514 Философские проблемы современной науки Практическое занятие  БТм-1101-02-00 БТм-1101-02-00, 01 подгруппа БТм-1101-02-00, 02 подгруппа</TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2">1-236 История и философия науки Практическое занятие  ИСа-1201-51-00 ИСа-1202-52-00 ИСКа-1801-01-00 КТУа-1201-01-00 ПЛа-1701-53-00 ПОа-1301-57-00 ПОа-1302-60-00 ПОа-1303-60-00 ПОа-1701-01-00 ПОа-1702-51-00 ПОа-1703-59-00 ЭКНа-1601-01-00 ЭКНа-1602-02-00 ЭКНа-1603-03-00 ЭКНа-1604-05-00 ЭКНа-1605-06-00 ЭКНа-1606-07-00 ЭКНа-1607-10-00 ЭКНа-1608-11-00 ЮРа-1901-01-00 ЮРа-1902-07-00 ЯЛа-1201-51-00</TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2">1-117а Методология и методы научных исследований Практическое занятие  ИВТа-1301-01-00 ИВТа-1302-02-00 ММа-1301-51-00 МСа-1802-04-00 НЗа-1501-51-00 НЗа-1501-51-00, 01 подгруппа НЗа-1501-51-00, 02 подгруппа НЗа-1502-54-00 СТа-1801-01-00 СТа-1802-02-00 ФЗа-1301-01-00 ХМа-1501-03-00 ХТа-1501-03-00 ЭиТа-1801-02-00 ЭиТа-1803-08-00 ЭРСа-1301-02-00</TD>
+<TD CLASS="R50C2">14-133 Методы обработки социологических данных Лабораторная работа  СРм-1201-51-00 СРм-1201-51-00, 01 подгруппа СРм-1201-51-00, 02 подгруппа СЦм-1201-01-00 СЦм-1201-01-00, 01 подгруппа СЦм-1201-01-00, 02 подгруппа</TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD CLASS="R50C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;24.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-209 Театр в системе массовых коммуникаций Лекция  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-218 Философия Практическое занятие  ЛВб-2201-03-00 ЛВб-2201-03-00, 01 подгруппа ЛВб-2201-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-210 Театр в системе массовых коммуникаций Практическое занятие  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-218 Философия Практическое занятие  ЛВб-2202-03-00 ЛВб-2202-03-00, 01 подгруппа ЛВб-2202-03-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-114 История культуры Практическое занятие  КТУб-1201-02-00 КТУб-1201-02-00, 01 подгруппа КТУб-1201-02-00, 02 подгруппа КТУб-1201-02-00, 03 подгруппа КТУб-1201-02-00, 04 подгруппа КТУб-1201-02-00, 05 подгруппа КТУб-1201-02-00, 06 подгруппа КТУб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">15-332 Философия Практическое занятие  ПОДб-1203-51-00 ПОДб-1203-51-00, 01 подгруппа ПОДб-1203-51-00, 02 подгруппа ПОДб-1203-51-00, 03 подгруппа ПОДб-1203-51-00, 04 подгруппа ПОДб-1203-51-00, 05 подгруппа ПОДб-1203-51-00, 06 подгруппа ПОДб-1203-51-00, 07 подгруппа ПОДб-1203-51-00, 08 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-208 Актуальные проблемы современной культуры Лекция  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">14-319 История киноискусства Практическое занятие  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R45>
+<TD CLASS="R45C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">15-218 Философия Практическое занятие  ЛВб-2203-04-00 ЛВб-2203-04-00, 01 подгруппа ЛВб-2203-04-00, 02 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">14-221 Массовая культура Практическое занятие  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">15-332 Философия Практическое занятие  ПОДб-1201-01-00 ПОДб-1201-01-00, 01 подгруппа ПОДб-1201-01-00, 02 подгруппа ПОДб-1201-01-00, 03 подгруппа ПОДб-1201-01-00, 04 подгруппа ПОДб-1201-01-00, 05 подгруппа ПОДб-1201-01-00, 06 подгруппа ПОДб-1201-01-00, 07 подгруппа ПОДб-1201-01-00, 08 подгруппа ПОДб-1202-01-00 ПОДб-1202-01-00, 02 подгруппа</TD>
+<TD CLASS="R45C2">1-312 Философия Практическое занятие  СТб-2803-01-00 СТб-2803-01-00, 01 подгруппа СТб-2803-01-00, 02 подгруппа СТб-2803-01-00, 03 подгруппа СТб-2803-01-00, 04 подгруппа СТб-2803-01-00, 05 подгруппа СТб-2803-01-00, 06 подгруппа</TD>
+<TD CLASS="R45C2">14-210 Организация, подготовка и презентация социологических исследований Лекция  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">14-208 Актуальные проблемы современной культуры Практическое занятие  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2">14-133 Метод экспертных оценок Лекция  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-218 Философия Практическое занятие  ЛВб-2204-03-00 ЛВб-2204-03-00, 01 подгруппа ЛВб-2204-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-102 Философия Практическое занятие  ПОДб-1704-68-00 ПОДб-1704-68-00, 01 подгруппа ПОДб-1704-68-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 Организация, подготовка и презентация социологических исследований Практическое занятие  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2">14-133 Метод экспертных оценок Практическое занятие  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-119 Философия Практическое занятие  ПОДб-1101-53-00 ПОДб-1101-53-00, 01 подгруппа ПОДб-1101-53-00, 02 подгруппа ПОДб-1101-53-00, 03 подгруппа ПОДб-1101-53-00, 04 подгруппа ПОДб-1101-53-00, 05 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-234 Фокус-группа и открытая групповая дискуссия Практическое занятие  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2">14-133 Научно-исследовательский семинар "Комплексный социальный анализ" Практическое занятие  СЦм-1201-01-00 СЦм-1201-01-00, 01 подгруппа СЦм-1201-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">14-211 Современные проблемы социальной философии Экзамен  ФСм-2201-51-00</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R57C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R57C2">14-133 Научно-исследовательский семинар "Комплексный социальный анализ" Практическое занятие  СЦм-1201-01-00 СЦм-1201-01-00, 01 подгруппа СЦм-1201-01-00, 02 подгруппа</TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;25.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2">14-133 Визуальная социология Лекция  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-208 История культуры Лекция  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-313 Социология семьи Лекция  СЦб-1201-02-00 СЦб-1201-02-00, 01 подгруппа СЦб-1201-02-00, 02 подгруппа СЦб-1201-02-00, 03 подгруппа СЦб-1201-02-00, 04 подгруппа СЦб-1201-02-00, 05 подгруппа СЦб-1201-02-00, 06 подгруппа СЦб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-337 Философия Практическое занятие  ПОДб-2203-58-00 ПОДб-2203-58-00, 01 подгруппа ПОДб-2203-58-00, 02 подгруппа ПОДб-2203-58-00, 03 подгруппа ПОДб-2203-58-00, 04 подгруппа ПОДб-2203-58-00, 05 подгруппа ПОДб-2203-58-00, 06 подгруппа ПОДб-2203-58-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-202 Культурная политика Лекция  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2">14-133 Визуальная социология Практическое занятие  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">17-267 История литературы Практическое занятие  КТУб-1201-02-00 КТУб-1201-02-00, 01 подгруппа КТУб-1201-02-00, 02 подгруппа КТУб-1201-02-00, 03 подгруппа КТУб-1201-02-00, 04 подгруппа КТУб-1201-02-00, 05 подгруппа КТУб-1201-02-00, 06 подгруппа КТУб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-218 Философия Практическое занятие  ЖКб-2202-02-00 ЖКб-2202-02-00, 01 подгруппа ЖКб-2202-02-00, 02 подгруппа ЖКб-2202-02-00, 03 подгруппа ЖКб-2202-02-00, 04 подгруппа ЖКб-2202-02-00, 05 подгруппа ЖКб-2202-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-102 Социология Практическое занятие  СДОб-3701-51-20</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-208 История культуры Практическое занятие  КТУб-2201-02-00 КТУб-2201-02-00, 01 подгруппа КТУб-2201-02-00, 02 подгруппа КТУб-2201-02-00, 03 подгруппа КТУб-2201-02-00, 04 подгруппа КТУб-2201-02-00, 05 подгруппа КТУб-2201-02-00, 06 подгруппа КТУб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2">14-123 Ницше и современная философия Лекция  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-337 Философия Практическое занятие  ПОДб-2204-64-00 ПОДб-2204-64-00, 01 подгруппа ПОДб-2204-64-00, 02 подгруппа ПОДб-2204-64-00, 03 подгруппа ПОДб-2204-64-00, 04 подгруппа ПОДб-2204-64-00, 05 подгруппа ПОДб-2204-64-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 Культурная политика Практическое занятие  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-202 Медиакультура Практическое занятие  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-218 Философия Практическое занятие  ЖКб-2201-02-00 ЖКб-2201-02-00, 01 подгруппа ЖКб-2201-02-00, 02 подгруппа ЖКб-2201-02-00, 03 подгруппа ЖКб-2201-02-00, 04 подгруппа ЖКб-2201-02-00, 05 подгруппа ЖКб-2201-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-102 Социология Зачет  СДОб-3701-51-20</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-123 Ницше и современная философия Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-202 Медиакультура Практическое занятие  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-218 Философия Практическое занятие  РСОб-2201-03-00 РСОб-2201-03-00, 01 подгруппа РСОб-2201-03-00, 02 подгруппа РСОб-2201-03-00, 03 подгруппа РСОб-2201-03-00, 04 подгруппа РСОб-2201-03-00, 05 подгруппа РСОб-2201-03-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-102 Социология Зачет  СДОб-3701-51-20</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">14-221 Теория и история культуры Лекция  КТУа-2201-01-00</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">14-221 Теория и история культуры Практическое занятие  КТУа-2201-01-00</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;26.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R9C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R9C2">14-133 Метод экспертных оценок Лекция  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">14-210 Печатные СМИ Практическое занятие  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">14-334 Культура Вятского края Лекция  ИСб-1201-04-00 ИСб-1201-04-00, 01 подгруппа ИСб-1201-04-00, 02 подгруппа ИСб-1201-04-00, 03 подгруппа ИСб-1201-04-00, 04 подгруппа ИСб-1201-04-00, 05 подгруппа ИСб-1201-04-00, 06 подгруппа ИСб-1201-04-00, 07 подгруппа ИСб-1202-04-00 ИСб-1202-04-00, 01 подгруппа ИСб-1202-04-00, 02 подгруппа ИСб-1202-04-00, 03 подгруппа ИСб-1202-04-00, 04 подгруппа ИСб-1202-04-00, 05 подгруппа КТУб-1201-02-00 КТУб-1201-02-00, 01 подгруппа КТУб-1201-02-00, 02 подгруппа КТУб-1201-02-00, 03 подгруппа КТУб-1201-02-00, 04 подгруппа КТУб-1201-02-00, 05 подгруппа КТУб-1201-02-00, 06 подгруппа КТУб-1201-02-00, 07 подгруппа МОб-1201-01-00 МОб-1201-01-00, 01 подгруппа МОб-1201-01-00, 02 подгруппа МОб-1201-01-00, 03 подгруппа МОб-1201-01-00, 04 подгруппа МОб-1201-01-00, 05 подгруппа МОб-1201-01-00, 06 подгруппа МОб-1201-01-00, 07 подгруппа ОРМб-1201-01-00 ОРМб-1201-01-00, 01 подгруппа ОРМб-1201-01-00, 02 подгруппа ОРМб-1201-01-00, 03 подгруппа ОРМб-1201-01-00, 04 подгруппа ОРМб-1201-01-00, 05 подгруппа ОРМб-1201-01-00, 06 подгруппа ОРМб-1201-01-00, 07 подгруппа СЦб-1201-02-00 СЦб-1201-02-00, 01 подгруппа СЦб-1201-02-00, 02 подгруппа СЦб-1201-02-00, 03 подгруппа СЦб-1201-02-00, 04 подгруппа СЦб-1201-02-00, 05 подгруппа СЦб-1201-02-00, 06 подгруппа СЦб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">14-221 Деловые коммуникации Практическое занятие  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2">15-116 Философия Практическое занятие  ПОДб-2201-01-00 ПОДб-2201-01-00, 01 подгруппа ПОДб-2201-01-00, 02 подгруппа</TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD CLASS="R9C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2">14-133 Метод экспертных оценок Практическое занятие  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 Основы журналистики Практическое занятие  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-211 Культура Вятского края Практическое занятие  СЦб-1201-02-00 СЦб-1201-02-00, 01 подгруппа СЦб-1201-02-00, 02 подгруппа СЦб-1201-02-00, 03 подгруппа СЦб-1201-02-00, 04 подгруппа СЦб-1201-02-00, 05 подгруппа СЦб-1201-02-00, 06 подгруппа СЦб-1201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-210 Философия Практическое занятие  ПОДб-2701-62-00 ПОДб-2701-62-00, 01 подгруппа ПОДб-2701-62-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-208 Актуальные проблемы современной культуры Лекция  КТУб-4201-02-00 КТУб-4201-02-00, 01 подгруппа КТУб-4201-02-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">15-102 Философия Практическое занятие  ПОДб-2801-71-00 ПОДб-2801-71-00, 01 подгруппа ПОДб-2801-71-00, 02 подгруппа ПОДб-2801-71-00, 03 подгруппа ПОДб-2801-71-00, 04 подгруппа</TD>
+<TD CLASS="R2C2">14-314 Зарубежная феноменология Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">14-114 Философия искусства Лекция  ФСб-4201-51-00</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">15-210 Философия Практическое занятие  ПОДб-2702-62-00</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">15-116 Философия Практическое занятие  ПОДб-2202-51-00 ПОДб-2202-51-00, 01 подгруппа ПОДб-2202-51-00, 02 подгруппа ПОДб-2203-51-00 ПОДб-2203-51-00, 01 подгруппа ПОДб-2203-51-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">17-152 Социология труда и занятости Лекция  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R13>
+<TD CLASS="R13C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2">14-114 Философия искусства Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2">15-119 Философия Практическое занятие  ПОДб-2101-53-00 ПОДб-2101-53-00, 01 подгруппа ПОДб-2101-53-00, 02 подгруппа ПОДб-2101-53-00, 03 подгруппа</TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2">17-152 Социология труда и занятости Практическое занятие  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;27.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 Основы журналистики Лекция  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2">14-209 Социология гендера Практическое занятие  СЦб-2201-02-00 СЦб-2201-02-00, 01 подгруппа СЦб-2201-02-00, 02 подгруппа СЦб-2201-02-00, 03 подгруппа СЦб-2201-02-00, 04 подгруппа СЦб-2201-02-00, 05 подгруппа СЦб-2201-02-00, 06 подгруппа СЦб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-210 Основы журналистики Практическое занятие  КТУб-3201-02-00 КТУб-3201-02-00, 01 подгруппа КТУб-3201-02-00, 02 подгруппа КТУб-3201-02-00, 03 подгруппа КТУб-3201-02-00, 04 подгруппа КТУб-3201-02-00, 05 подгруппа КТУб-3201-02-00, 06 подгруппа</TD>
+<TD CLASS="R2C2">14-209 Социология гендера Практическое занятие  СЦб-2201-02-00 СЦб-2201-02-00, 01 подгруппа СЦб-2201-02-00, 02 подгруппа СЦб-2201-02-00, 03 подгруппа СЦб-2201-02-00, 04 подгруппа СЦб-2201-02-00, 05 подгруппа СЦб-2201-02-00, 06 подгруппа СЦб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2">14-130 Конфликтология Практическое занятие  СЦб-2201-02-00 СЦб-2201-02-00, 01 подгруппа СЦб-2201-02-00, 02 подгруппа СЦб-2201-02-00, 03 подгруппа СЦб-2201-02-00, 04 подгруппа СЦб-2201-02-00, 05 подгруппа СЦб-2201-02-00, 06 подгруппа СЦб-2201-02-00, 07 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 Социология гендера Лекция  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-201 Философия Практическое занятие  ФЛб-2202-51-00 ФЛб-2202-51-00, 01 подгруппа ФЛб-2202-51-00, 02 подгруппа ФЛб-2202-51-00, 03 подгруппа ФЛб-2202-51-00, 04 подгруппа ФЛб-2202-51-00, 05 подгруппа ФЛб-2202-51-00, 06 подгруппа</TD>
+<TD CLASS="R2C2">8-507 Философия Практическое занятие  ТБб-2801-01-00 ТБб-2801-01-00, 01 подгруппа ТБб-2801-01-00, 02 подгруппа ТБб-2801-01-00, 03 подгруппа ТБб-2801-01-00, 04 подгруппа ТБб-2801-01-00, 05 подгруппа ТБб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2">14-133 Визуальная социология Практическое занятие  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-221 Социология гендера Практическое занятие  СЦб-3201-01-00 СЦб-3201-01-00, 01 подгруппа СЦб-3201-01-00, 02 подгруппа СЦб-3201-01-00, 03 подгруппа СЦб-3201-01-00, 04 подгруппа СЦб-3201-01-00, 05 подгруппа СЦб-3201-01-00, 06 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-201 Философия Практическое занятие  ФЛб-2201-51-00 ФЛб-2201-51-00, 01 подгруппа ФЛб-2201-51-00, 02 подгруппа ФЛб-2201-51-00, 03 подгруппа ФЛб-2201-51-00, 04 подгруппа ФЛб-2201-51-00, 05 подгруппа ФЛб-2201-51-00, 06 подгруппа</TD>
+<TD CLASS="R2C2">8-507 Философия Практическое занятие  ТиТб-2801-01-00 ТиТб-2801-01-00, 01 подгруппа ТиТб-2801-01-00, 02 подгруппа ТиТб-2801-01-00, 03 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-311 Ницше и современная философия Лекция  ФСб-4201-51-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R13>
+<TD CLASS="R13C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R13C2">14-133 Визуальная социология Практическое занятие  СЦб-4201-51-00 СЦб-4201-51-00, 01 подгруппа СЦб-4201-51-00, 02 подгруппа</TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2">14-311 Ницше и современная философия Практическое занятие  ФСб-4201-51-00</TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD CLASS="R13C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2">14-130 Качественные методы в комплексном социологическом исследовании Практическое занятие  СЦм-1201-01-00 СЦм-1201-01-00, 01 подгруппа СЦм-1201-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R57C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R57C2">14-130 Качественные методы в комплексном социологическом исследовании Практическое занятие  СЦм-1201-01-00 СЦм-1201-01-00, 01 подгруппа СЦм-1201-01-00, 02 подгруппа</TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD CLASS="R57C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R79C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;28.03.20&nbsp;</SPAN></TD>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R45>
+<TD CLASS="R45C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2">14-221 Факультативная дисциплина "Профессии будущего" Чтение лекций  СРм-1201-51-00 СРм-1201-51-00, 01 подгруппа СРм-1201-51-00, 02 подгруппа СЦм-1201-01-00 СЦм-1201-01-00, 01 подгруппа СЦм-1201-01-00, 02 подгруппа ЮРм-1901-01-00 ЮРм-1901-01-00, 01 подгруппа ЮРм-1901-01-00, 02 подгруппа ЮРм-1902-10-00 ЮРм-1902-10-00, 01 подгруппа ЮРм-1902-10-00, 02 подгруппа ЮРм-1903-39-00 ЮРм-1903-39-00, 01 подгруппа ЮРм-1903-39-00, 02 подгруппа</TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD CLASS="R45C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R10>
+<TD CLASS="R10C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2">14-221 Факультативная дисциплина "Профессии будущего" Проведение практических занятий, семинаров  СРм-1201-51-00 СРм-1201-51-00, 01 подгруппа СРм-1201-51-00, 02 подгруппа СЦм-1201-01-00 СЦм-1201-01-00, 01 подгруппа СЦм-1201-01-00, 02 подгруппа ЮРм-1901-01-00 ЮРм-1901-01-00, 01 подгруппа ЮРм-1901-01-00, 02 подгруппа ЮРм-1902-10-00 ЮРм-1902-10-00, 01 подгруппа ЮРм-1902-10-00, 02 подгруппа ЮРм-1903-39-00 ЮРм-1903-39-00, 01 подгруппа ЮРм-1903-39-00, 02 подгруппа</TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD CLASS="R10C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R10>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R86C3"><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:99px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

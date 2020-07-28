@@ -1,0 +1,2022 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 25px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 14pt; font-style: normal; font-weight: bold; background-color: #ffffff; }
+tr.R1{ height: 21px; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C2{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; text-align: center; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11{ height: 71px; }
+tr.R11 td.R11C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R11C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R19C14{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R29C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R11 td.R29C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R11 td.R51C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R12{ height: 99px; }
+tr.R12 td.R12C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R12 td.R12C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R12 td.R12C3{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R12 td.R86C3{ font-family: Arial; font-size: 8pt; font-style: normal; text-align: center; vertical-align: middle; }
+tr.R14{ height: 85px; }
+tr.R14 td.R14C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14 td.R14C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14 td.R14C9{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R14 td.R37C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R16{ height: 15px; }
+tr.R16 td.R16C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R16 td.R16C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R16 td.R16C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 29px; }
+tr.R2 td.R15C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R2 td.R15C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R24{ height: 113px; }
+tr.R24 td.R24C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R24 td.R24C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R27{ height: 127px; }
+tr.R27 td.R27C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R27 td.R27C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R27 td.R69C8{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R28{ height: 155px; }
+tr.R28 td.R28C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R28 td.R28C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5{ height: 43px; }
+tr.R5 td.R36C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R5 td.R36C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R5 td.R5C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R5C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R5 td.R9C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6{ height: 57px; }
+tr.R6 td.R68C8{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R6C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R6C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R71C6{ background-color: #87ceeb; text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R6 td.R8C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R6 td.R8C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:100%; height:0px; " CELLSPACING=0>
+<COL WIDTH=31>
+<COL WIDTH=89>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=63>
+<COL>
+<TR CLASS=R0>
+<TD CLASS="R0C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;max-width:0px;">Обновление&nbsp;04.06.2020</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">День</SPAN></TD>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">Интервал</SPAN></TD>
+<TD CLASS="R1C2"><SPAN></SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Бузиков&nbsp;Ш.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Вологжанина&nbsp;С.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Крутикова&nbsp;М.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Лихачев&nbsp;В.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Мокрушин&nbsp;С.Л.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Мочалов&nbsp;С.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Никулин&nbsp;А.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Новосельцев&nbsp;Ю.П.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Новосельцева&nbsp;Е.Л.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Перевощикова&nbsp;О.Г.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Преподаватель&nbsp;К.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Прозоров&nbsp;В.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Прозоров&nbsp;В.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Чаганов&nbsp;А.Б.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Черепанов&nbsp;А.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Шалагинова&nbsp;Е.В.</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;25.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2">6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2">6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2">6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2">6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">6-210 Землеустройство Лекция  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">6-309 Контроль технических и технологических решений в строительстве Практическое занятие  СТм-1802-03-20 СТм-1802-03-20, 01 подгруппа СТм-1802-03-20, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2">6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-210 Землеустройство Практическое занятие  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-309 Контроль технических и технологических решений в строительстве Практическое занятие  СТм-1802-03-20 СТм-1802-03-20, 01 подгруппа СТм-1802-03-20, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-306 Технология строительного производства Экзамен  СТб-2801-01-64 (https://teams.microsoft.com/l/channel/19:97c45f649f2142cba1b9330f502b0ac6@thread.tacv2/conversations?groupId=4e188371-6f89-4666-86b2-297d48797eed&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-210 Землеустройство Практическое занятие  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2">6-204 Основания и фундаменты Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-409 Геодезия и картография Практическое занятие  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">6-306 Технология строительного производства Экзамен  СТб-2801-01-64 (https://teams.microsoft.com/l/channel/19:97c45f649f2142cba1b9330f502b0ac6@thread.tacv2/conversations?groupId=4e188371-6f89-4666-86b2-297d48797eed&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">6-204 Основания и фундаменты Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">6-409 Геодезия и картография Практическое занятие  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;26.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R5C2">6-101 Учебная практика  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2">6-101 Учебная практика  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-310 Технология строительного производства Практическое занятие  СТб-3802-12-00 СТб-3802-12-00, 01 подгруппа СТб-3802-12-00, 02 подгруппа СТб-3802-12-00, 03 подгруппа СТб-3802-12-00, 04 подгруппа СТб-3802-12-00, 05 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-306 Государственный экзамен  СТб-5801-01-20 СТб-5801-01-20, 01 подгруппа СТб-5801-01-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:896af634a65d40a3bdbcb1bfd6f9f7cd@thread.tacv2/conversations?groupId=9cc4dc44-e7aa-417b-ab76-ccba37dff904&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R12C2">6-101 Учебная практика  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа</TD>
+<TD CLASS="R12C3">6-210 Технология строительного производства (Модуль 1, 2, 3) Лекция  СТб-3801-01-00 СТб-3801-01-00, 01 подгруппа СТб-3801-01-00, 02 подгруппа СТб-3801-01-00, 03 подгруппа СТб-3801-01-00, 04 подгруппа СТб-3801-01-00, 05 подгруппа<BR>6-301 Технология строительного производства Лекция  СТб-3802-12-00 СТб-3802-12-00, 01 подгруппа СТб-3802-12-00, 02 подгруппа СТб-3802-12-00, 03 подгруппа СТб-3802-12-00, 04 подгруппа СТб-3802-12-00, 05 подгруппа</TD>
+<TD CLASS="R12C2">6-311 Организация и планирование в строительстве Практическое занятие  СТб-3801-01-24 СТб-3803-01-24</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">6-306 Государственный экзамен  СТб-5801-01-20 СТб-5801-01-20, 01 подгруппа СТб-5801-01-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:896af634a65d40a3bdbcb1bfd6f9f7cd@thread.tacv2/conversations?groupId=9cc4dc44-e7aa-417b-ab76-ccba37dff904&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R12C2">6-409 Инженерные изыскания Лабораторная работа  СТб-2801-01-00 СТб-2801-01-00, 01 подгруппа</TD>
+<TD CLASS="R12C2">6-309 Контроль технических и технологических решений в строительстве Практическое занятие  СТм-1802-03-20 СТм-1802-03-20, 01 подгруппа СТм-1802-03-20, 02 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-311 Организация и планирование в строительстве Практическое занятие  СТб-3801-01-24 СТб-3803-01-24</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-306 Государственный экзамен  СТб-5801-01-20 СТб-5801-01-20, 01 подгруппа СТб-5801-01-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:896af634a65d40a3bdbcb1bfd6f9f7cd@thread.tacv2/conversations?groupId=9cc4dc44-e7aa-417b-ab76-ccba37dff904&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2">6-409 Инженерные изыскания Лабораторная работа  СТб-2801-01-00 СТб-2801-01-00, 01 подгруппа</TD>
+<TD CLASS="R11C2">6-309 Контроль технических и технологических решений в строительстве Практическое занятие  СТм-1802-03-20 СТм-1802-03-20, 01 подгруппа СТм-1802-03-20, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-409 Инженерные изыскания Лабораторная работа  Зб-2801-01-00 Зб-2801-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C9">6-203 Основания и фундаменты Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64<BR>6-301 Основания и фундаменты Практическое занятие  СТб-3802-12-00 СТб-3802-12-00, 01 подгруппа СТб-3802-12-00, 02 подгруппа СТб-3802-12-00, 03 подгруппа СТб-3802-12-00, 04 подгруппа СТб-3802-12-00, 05 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-309 Контроль технических и технологических решений в строительстве Консультация  СТм-1802-03-20 СТм-1802-03-20, 01 подгруппа СТм-1802-03-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:94949cb51e414ccf992cce8424367752@thread.tacv2/conversations?groupId=c7576314-a5fa-4aa7-89cd-d31dacf625db&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">6-409 Инженерные изыскания Лабораторная работа  Зб-2801-01-00 Зб-2801-01-00, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">6-203 Основания и фундаменты Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;27.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-311 Контроль технических и технологических решений в строительстве Экзамен  СТм-1802-03-20 СТм-1802-03-20, 01 подгруппа СТм-1802-03-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:3557c213fe324ced870c066a6017b239@thread.tacv2/conversations?groupId=89cd32a9-e874-4373-a0eb-44d4e68409c0&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-311 Контроль технических и технологических решений в строительстве Экзамен  СТм-1802-03-20 СТм-1802-03-20, 01 подгруппа СТм-1802-03-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:3557c213fe324ced870c066a6017b239@thread.tacv2/conversations?groupId=89cd32a9-e874-4373-a0eb-44d4e68409c0&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C9">6-306 Государственный экзамен  СТб-5801-01-60<BR>6-306 Государственный экзамен  СТб-5802-01-20 (https://teams.microsoft.com/l/channel/19:2b2c098e11ef48f7bc9e6ebe38bed7b7@thread.tacv2/conversations?groupId=1c16a669-8a35-4ec2-9789-9750317385c9&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R19C14">6-306 Государственный экзамен  СТб-5801-01-60<BR>6-306 Государственный экзамен  СТб-5802-01-20 (https://teams.microsoft.com/l/channel/19:2b2c098e11ef48f7bc9e6ebe38bed7b7@thread.tacv2/conversations?groupId=1c16a669-8a35-4ec2-9789-9750317385c9&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">6-301 Инженерные изыскания Лабораторная работа  СТб-1801-01-60 СТб-1801-01-60, 01 подгруппа СТб-1801-01-60, 02 подгруппа СТб-1802-01-60</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">6-204 Основания и фундаменты Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">6-306 Исполнительная документация в строительстве (Модуль 1) Практическое занятие  СТб-3801-01-24 СТб-3803-01-24</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">6-301 Инженерные изыскания Лабораторная работа  СТб-1801-01-60 СТб-1801-01-60, 01 подгруппа СТб-1801-01-60, 02 подгруппа СТб-1802-01-60</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">6-204 Основания и фундаменты Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">6-306 Исполнительная документация в строительстве (Модуль 1) Практическое занятие  СТб-3801-01-24 СТб-3803-01-24</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;28.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R5C2">6-101 Учебная практика  СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R24>
+<TD CLASS="R24C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R24C2">6-101 Учебная практика  СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2">6-311 Основания и фундаменты Лекция  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа СТб-3801-01-00 СТб-3801-01-00, 01 подгруппа СТб-3801-01-00, 02 подгруппа СТб-3801-01-00, 03 подгруппа СТб-3801-01-00, 04 подгруппа СТб-3801-01-00, 05 подгруппа СТб-3802-12-00 СТб-3802-12-00, 01 подгруппа СТб-3802-12-00, 02 подгруппа СТб-3802-12-00, 03 подгруппа СТб-3802-12-00, 04 подгруппа СТб-3802-12-00, 05 подгруппа</TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD CLASS="R24C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-301 Основания и фундаменты Практическое занятие  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-203 Основы кадастра недвижимости и мониторинг земель Практическое занятие  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-306 Государственный экзамен  СТб-5801-01-20 СТб-5801-01-20, 01 подгруппа СТб-5801-01-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:896af634a65d40a3bdbcb1bfd6f9f7cd@thread.tacv2/conversations?groupId=9cc4dc44-e7aa-417b-ab76-ccba37dff904&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-301 Основания и фундаменты Лабораторная работа  ПВб-3801-03-00 ПВб-3801-03-00, 01 подгруппа ПВб-3801-03-00, 02 подгруппа ПВб-3801-03-00, 03 подгруппа ПВб-3801-03-00, 04 подгруппа ПВб-3801-03-00, 05 подгруппа</TD>
+<TD CLASS="R11C2">1-514 Строительные материалы и технология строительных материалов Практическое занятие  СТб-2803-01-00 СТб-2803-01-00, 01 подгруппа СТб-2803-01-00, 02 подгруппа СТб-2803-01-00, 03 подгруппа СТб-2803-01-00, 04 подгруппа СТб-2803-01-00, 05 подгруппа СТб-2803-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-202 Основы кадастра недвижимости и мониторинг земель Лекция  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-311 Исполнительная документация в строительстве (Модуль 1) Практическое занятие  СТб-3801-01-00 СТб-3801-01-00, 01 подгруппа СТб-3801-01-00, 02 подгруппа СТб-3801-01-00, 03 подгруппа СТб-3801-01-00, 04 подгруппа СТб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-306 Государственный экзамен  СТб-5801-01-20 СТб-5801-01-20, 01 подгруппа СТб-5801-01-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:896af634a65d40a3bdbcb1bfd6f9f7cd@thread.tacv2/conversations?groupId=9cc4dc44-e7aa-417b-ab76-ccba37dff904&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R27>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R27C2">6-101 Учебная практика  СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа</TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2">1-242 Строительные материалы и технология строительных материалов Лекция  СТб-2801-01-00 СТб-2801-01-00, 01 подгруппа СТб-2801-01-00, 02 подгруппа СТб-2801-01-00, 03 подгруппа СТб-2801-01-00, 04 подгруппа СТб-2801-01-00, 05 подгруппа СТб-2801-01-00, 06 подгруппа СТб-2802-01-00 СТб-2802-01-00, 01 подгруппа СТб-2802-01-00, 02 подгруппа СТб-2802-01-00, 03 подгруппа СТб-2802-01-00, 04 подгруппа СТб-2802-01-00, 05 подгруппа СТб-2802-01-00, 06 подгруппа СТб-2803-01-00 СТб-2803-01-00, 01 подгруппа СТб-2803-01-00, 02 подгруппа СТб-2803-01-00, 03 подгруппа СТб-2803-01-00, 04 подгруппа СТб-2803-01-00, 05 подгруппа СТб-2803-01-00, 06 подгруппа</TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2">6-206 Основания и фундаменты Защита курсовых проектов  СТб-3802-01-64</TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2">6-306 Государственный экзамен  СТб-5801-01-20 СТб-5801-01-20, 01 подгруппа СТб-5801-01-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:896af634a65d40a3bdbcb1bfd6f9f7cd@thread.tacv2/conversations?groupId=9cc4dc44-e7aa-417b-ab76-ccba37dff904&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R28>
+<TD CLASS="R28C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">6-204 Сертификация строительной продукции Лекция  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">1-534 Инженерные изыскания Лекция  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа СТб-2801-01-00 СТб-2801-01-00, 01 подгруппа СТб-2801-01-00, 02 подгруппа СТб-2801-01-00, 03 подгруппа СТб-2801-01-00, 04 подгруппа СТб-2801-01-00, 05 подгруппа СТб-2801-01-00, 06 подгруппа СТб-2802-01-00 СТб-2802-01-00, 01 подгруппа СТб-2802-01-00, 02 подгруппа СТб-2802-01-00, 03 подгруппа СТб-2802-01-00, 04 подгруппа СТб-2802-01-00, 05 подгруппа СТб-2802-01-00, 06 подгруппа СТб-2803-01-00 СТб-2803-01-00, 01 подгруппа СТб-2803-01-00, 02 подгруппа СТб-2803-01-00, 03 подгруппа СТб-2803-01-00, 04 подгруппа СТб-2803-01-00, 05 подгруппа СТб-2803-01-00, 06 подгруппа</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">6-206 Основания и фундаменты Защита курсовых проектов  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа (https://teams.microsoft.com/l/channel/19:fc56dface0ed4a1abb19ac440048024b@thread.tacv2/conversations?groupId=aac68795-5833-4b2f-81c6-8d5ab8fc1e8b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">6-306 Исполнительная документация в строительстве (Модуль 1) Зачет  СТб-3801-01-24 СТб-3803-01-24 (https://teams.microsoft.com/l/channel/19:a1b7e86557ea4ec0a20ebcc88acc7b64@thread.tacv2/conversations?groupId=0cd4ea76-6883-4693-81ef-9fb49df9b016&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">6-306 Сертификация строительной продукции Практическое занятие  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">6-206 Основания и фундаменты Консультация  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64 (https://teams.microsoft.com/l/channel/19:ebd46354279649e0b7554b13bf562859@thread.tacv2/conversations?groupId=639cd652-c45f-4380-ad4b-fc998bc9cc3b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;29.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R5C2">6-101 Учебная практика  СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD CLASS="R12C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R12C2">6-101 Учебная практика  СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2">6-409 Инженерные изыскания Лабораторная работа  СТб-2803-01-00 СТб-2803-01-00, 02 подгруппа</TD>
+<TD CLASS="R12C2">6-311 Обследование и контроль качества строительных материалов и конструкций, мониторинг зданий и сооружений Защита курсовых проектов  СТм-1802-03-20 СТм-1802-03-20, 01 подгруппа СТм-1802-03-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:245c66c2caff4349a894274066175b91@thread.tacv2/conversations?groupId=64104098-ffe1-4d50-9701-64cd968d47d5&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD CLASS="R12C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R14C2">6-101 Учебная практика  СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">1-514 Строительные материалы и технология строительных материалов Практическое занятие  СТб-2801-01-00 СТб-2801-01-00, 01 подгруппа СТб-2801-01-00, 02 подгруппа СТб-2801-01-00, 03 подгруппа СТб-2801-01-00, 04 подгруппа СТб-2801-01-00, 05 подгруппа СТб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-210 Технология и организация в строительстве (Модуль 1) Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-409 Инженерные изыскания Лабораторная работа  СТб-2803-01-00 СТб-2803-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2">6-311 Обследование и контроль качества строительных материалов и конструкций, мониторинг зданий и сооружений Консультация  СТм-1802-03-20 СТм-1802-03-20, 01 подгруппа СТм-1802-03-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:16bdd451a9d5432aac04910fe26cdf77@thread.tacv2/conversations?groupId=91ea4b0c-c198-4c10-818c-d2c16c4a50c5&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R6C2">6-101 Учебная практика  СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-510 Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2801-01-64</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-210 Технология и организация в строительстве (Модуль 1) Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R6C2">6-306 Государственный экзамен  СТб-5803-03-20 (https://teams.microsoft.com/l/channel/19:7960cbc138064931829ea120828c868f@thread.tacv2/conversations?groupId=fd135a89-6fd8-44a2-bdcc-ff749ea1261c&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2">6-101 Учебная практика  СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">1-510 Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2801-01-64</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-306 Государственный экзамен  СТб-5803-03-20 (https://teams.microsoft.com/l/channel/19:7960cbc138064931829ea120828c868f@thread.tacv2/conversations?groupId=fd135a89-6fd8-44a2-bdcc-ff749ea1261c&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-306 Государственный экзамен  СТб-5803-03-20 (https://teams.microsoft.com/l/channel/19:7960cbc138064931829ea120828c868f@thread.tacv2/conversations?groupId=fd135a89-6fd8-44a2-bdcc-ff749ea1261c&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R36C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2">6-206 Контроль проектной документации, строящихся и реконструируемых объектов в части выполнения требований пожарной безопасности Лекция  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD CLASS="R36C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R37C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;30.05.20&nbsp;</SPAN></TD>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R14C2">6-101 Учебная практика  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">1-510 Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2801-01-64</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-306 Контроль проектной документации, строящихся и реконструируемых объектов в части выполнения требований пожарной безопасности Практическое занятие  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-210 Геодезия и картография Лекция  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-311 Обследование и контроль качества строительных материалов и конструкций, мониторинг зданий и сооружений Экзамен  СТм-1802-03-20 СТм-1802-03-20, 01 подгруппа СТм-1802-03-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:bed067b737bc49949a0031e8554449f6@thread.tacv2/conversations?groupId=e79457d0-eedb-4566-bb50-d47d57c8c9fa&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R14C2">6-101 Учебная практика  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-301 Основания и фундаменты Практическое занятие  СТб-3801-01-00 СТб-3801-01-00, 01 подгруппа СТб-3801-01-00, 02 подгруппа СТб-3801-01-00, 03 подгруппа СТб-3801-01-00, 04 подгруппа СТб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R14C2">1-510 Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2801-01-64</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-306 Контроль проектной документации, строящихся и реконструируемых объектов в части выполнения требований пожарной безопасности Практическое занятие  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-409 Геодезия и картография Практическое занятие  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-311 Обследование и контроль качества строительных материалов и конструкций, мониторинг зданий и сооружений Экзамен  СТм-1802-03-20 СТм-1802-03-20, 01 подгруппа СТм-1802-03-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:bed067b737bc49949a0031e8554449f6@thread.tacv2/conversations?groupId=e79457d0-eedb-4566-bb50-d47d57c8c9fa&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-301 Основания и фундаменты Практическое занятие  СТб-3801-01-00 СТб-3801-01-00, 01 подгруппа СТб-3801-01-00, 02 подгруппа СТб-3801-01-00, 03 подгруппа СТб-3801-01-00, 04 подгруппа СТб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R11C2">1-510 Строительные материалы и технология строительных материалов Зачет  СТб-2801-01-64 (https://teams.microsoft.com/l/channel/19:5b302fbff2084d9ab61c131c67afd70f@thread.tacv2/conversations?groupId=f83d5a8a-640d-4cbc-9896-15e763e76d86&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-409 Геодезия и картография Практическое занятие  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-301 Инженерные изыскания Лабораторная работа  СТб-1801-01-60 СТб-1801-01-60, 01 подгруппа СТб-1801-01-60, 02 подгруппа СТб-1802-01-60</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-201 Основания и фундаменты Экзамен  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64 (https://teams.microsoft.com/l/channel/19:e3538de16e0549e991417f1e6b10c095@thread.tacv2/conversations?groupId=e9ca2eef-2bcb-47ae-80e9-afa66337837e&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-301 Инженерные изыскания Лабораторная работа  СТб-1801-01-60 СТб-1801-01-60, 01 подгруппа СТб-1801-01-60, 02 подгруппа СТб-1802-01-60</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-201 Основания и фундаменты Экзамен  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64 (https://teams.microsoft.com/l/channel/19:e3538de16e0549e991417f1e6b10c095@thread.tacv2/conversations?groupId=e9ca2eef-2bcb-47ae-80e9-afa66337837e&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-301 Инженерные изыскания Зачет  СТб-1801-01-60 СТб-1801-01-60, 01 подгруппа СТб-1801-01-60, 02 подгруппа (https://teams.microsoft.com/l/channel/19:a14dce3268384e0c91e65a00d17b8b03@thread.tacv2/conversations?groupId=311f6319-8101-4fc8-acb0-103c85a92267&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">6-301 Инженерные изыскания Зачет  СТб-1802-01-60 (https://teams.microsoft.com/l/channel/19:aa05b91f11de4138b290a9fa5578ff25@thread.tacv2/conversations?groupId=cb4fef21-6534-4613-9a48-7855d84746c5&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;01.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2">6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2">6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">6-311 Организация и планирование в строительстве Практическое занятие  СТб-3801-01-24 СТб-3803-01-24</TD>
+<TD CLASS="R2C2">6-305 Технология и организация в строительстве (Модуль 1) Лабораторная работа  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2">6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">6-311 Организация и планирование в строительстве Практическое занятие  СТб-3801-01-24 СТб-3803-01-24</TD>
+<TD CLASS="R2C2">6-305 Технология и организация в строительстве (Модуль 1) Лабораторная работа  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2">6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2">6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R28>
+<TD CLASS="R28C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">6-210 Инженерные изыскания Лекция  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа СТб-2801-01-00 СТб-2801-01-00, 01 подгруппа СТб-2801-01-00, 02 подгруппа СТб-2801-01-00, 03 подгруппа СТб-2801-01-00, 04 подгруппа СТб-2801-01-00, 05 подгруппа СТб-2801-01-00, 06 подгруппа СТб-2802-01-00 СТб-2802-01-00, 01 подгруппа СТб-2802-01-00, 02 подгруппа СТб-2802-01-00, 03 подгруппа СТб-2802-01-00, 04 подгруппа СТб-2802-01-00, 05 подгруппа СТб-2802-01-00, 06 подгруппа СТб-2803-01-00 СТб-2803-01-00, 01 подгруппа СТб-2803-01-00, 02 подгруппа СТб-2803-01-00, 03 подгруппа СТб-2803-01-00, 04 подгруппа СТб-2803-01-00, 05 подгруппа СТб-2803-01-00, 06 подгруппа</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">6-409 Инженерные изыскания Практическое занятие  СТб-2801-01-24 СТб-2801-01-24, 01 подгруппа СТб-2801-01-24, 02 подгруппа</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">6-409 Инженерные изыскания Практическое занятие  СТб-2801-01-24 СТб-2801-01-24, 01 подгруппа СТб-2801-01-24, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R51C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;02.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R19C14">6-101 Учебная практика  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа<BR>6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R19C14">6-101 Учебная практика  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа<BR>6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-311 Организация и планирование в строительстве Защита курсовых проектов  СТб-3801-01-24 (https://teams.microsoft.com/l/channel/19:628dbbabe5d84a648f23ef9e0d2655ea@thread.tacv2/conversations?groupId=56b84aec-f7c2-4980-95f6-c0bca14397c8&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2">6-305 Технология и организация в строительстве (Модуль 1) Лабораторная работа  СТб-3801-01-64 СТб-3801-01-64, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R19C14">6-101 Учебная практика  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа<BR>6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-311 Организация и планирование в строительстве Защита курсовых проектов  СТб-3803-01-24 (https://teams.microsoft.com/l/channel/19:b91fb453706b47909a1b0a352c8239cb@thread.tacv2/conversations?groupId=744f5186-bc6a-45b7-97f6-04935e03a505&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2">6-305 Технология и организация в строительстве (Модуль 1) Лабораторная работа  СТб-3801-01-64 СТб-3801-01-64, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R19C14">6-101 Учебная практика  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа<BR>6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-311 Организация и планирование в строительстве Консультация  СТб-3801-01-24 СТб-3803-01-24 (https://teams.microsoft.com/l/channel/19:d1d4f9a98d0f4432a4eaccd330aba48c@thread.tacv2/conversations?groupId=4404ebbd-b681-4a6e-b262-0d6edfb5bb9b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R19C14">1-510 Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2801-01-00 СТб-2801-01-00, 01 подгруппа<BR>1-510_ Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2801-01-00 СТб-2801-01-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R19C14">6-101 Учебная практика  СТб-1801-01-00 СТб-1801-01-00, 01 подгруппа СТб-1801-01-00, 02 подгруппа СТб-1801-01-00, 03 подгруппа СТб-1801-01-00, 04 подгруппа СТб-1801-01-00, 05 подгруппа СТб-1801-01-00, 06 подгруппа<BR>6-306 Учебная практика  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R19C14">1-510 Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2801-01-00 СТб-2801-01-00, 01 подгруппа<BR>1-510_ Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2801-01-00 СТб-2801-01-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">6-301 Инженерные изыскания Практическое занятие  СТб-2802-01-24 СТб-2802-01-24, 01 подгруппа СТб-2802-01-24, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">6-301 Инженерные изыскания Практическое занятие  СТб-2802-01-24 СТб-2802-01-24, 01 подгруппа СТб-2802-01-24, 02 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;03.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">6-204 Технология и организация в строительстве (Модуль 1) Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">6-204 Технология и организация в строительстве (Модуль 1) Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-204 Технология и организация в строительстве (Модуль 1) Зачет  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64 (https://teams.microsoft.com/l/channel/19:c1d3862f1e7d43cdbaefebcde34ac167@thread.tacv2/conversations?groupId=af93ec81-ac8f-4214-8f8d-37aed65ff868&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-206 Технология и организация в строительстве Лекция  СТб-2801-01-24 СТб-2801-01-24, 01 подгруппа СТб-2801-01-24, 02 подгруппа СТб-2802-01-24 СТб-2802-01-24, 01 подгруппа СТб-2802-01-24, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">6-204 Технология строительного производства (Модуль 1, 2, 3) Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">6-206 Технология и организация в строительстве Лекция  СТб-2801-01-24 СТб-2801-01-24, 01 подгруппа СТб-2801-01-24, 02 подгруппа СТб-2802-01-24 СТб-2802-01-24, 01 подгруппа СТб-2802-01-24, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">6-301 Инженерные изыскания Лабораторная работа  СТб-2801-01-24 СТб-2801-01-24, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">6-301 Инженерные изыскания Лабораторная работа  СТб-2801-01-24 СТб-2801-01-24, 01 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;04.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R5C2">6-101 Учебная практика  СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2">6-204 Технология строительного производства (Модуль 1, 2, 3) Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R11C2">6-311 Организация и планирование в строительстве Экзамен  СТб-3801-01-24 СТб-3803-01-24 (https://teams.microsoft.com/l/channel/19:72320ffa385647238d236b9eda5f5d59@thread.tacv2/conversations?groupId=e56a573d-e9b8-4ceb-8190-a2f93a303ec9&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R19C14">1-510 Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2803-01-00 СТб-2803-01-00, 01 подгруппа<BR>1-510_ Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2803-01-00 СТб-2803-01-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-306 Основы кадастра недвижимости и мониторинг земель Лекция  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-310 Исполнительная документация в строительстве (Модуль 1) Зачет  СТб-3801-01-00 СТб-3801-01-00, 01 подгруппа (https://teams.microsoft.com/l/channel/19:a9e53760a8d442d3bfc5a4e36563b0fa@thread.tacv2/conversations?groupId=1872bf3b-1287-493f-b0cf-f4bd55bdfb20&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2">6-204 Технология строительного производства (Модуль 1, 2, 3) Практическое занятие  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64</TD>
+<TD CLASS="R11C2">6-311 Организация и планирование в строительстве Экзамен  СТб-3801-01-24 СТб-3803-01-24 (https://teams.microsoft.com/l/channel/19:72320ffa385647238d236b9eda5f5d59@thread.tacv2/conversations?groupId=e56a573d-e9b8-4ceb-8190-a2f93a303ec9&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R19C14">1-510 Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2803-01-00 СТб-2803-01-00, 01 подгруппа<BR>1-510_ Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2803-01-00 СТб-2803-01-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-306 Основы кадастра недвижимости и мониторинг земель Практическое занятие  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-310 Исполнительная документация в строительстве (Модуль 1) Зачет  СТб-3801-01-00 СТб-3801-01-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:a9e53760a8d442d3bfc5a4e36563b0fa@thread.tacv2/conversations?groupId=1872bf3b-1287-493f-b0cf-f4bd55bdfb20&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R6C2">6-101 Учебная практика  СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-311 Организация и планирование в строительстве Защита курсовых проектов  СТб-3802-01-64</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R68C8">6-305_ Основы кадастра недвижимости и мониторинг земель Лабораторная работа  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа<BR>6-305 Основы кадастра недвижимости и мониторинг земель Лабораторная работа  Зб-2801-01-00 Зб-2801-01-00, 02 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">6-206 Технология строительного производства Практическое занятие  СТб-2802-01-24 СТб-2802-01-24, 01 подгруппа СТб-2802-01-24, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R27>
+<TD CLASS="R27C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R27C2">6-101 Учебная практика  СТб-1802-01-00 СТб-1802-01-00, 01 подгруппа СТб-1802-01-00, 02 подгруппа СТб-1802-01-00, 03 подгруппа СТб-1802-01-00, 04 подгруппа СТб-1802-01-00, 05 подгруппа СТб-1802-01-00, 06 подгруппа</TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2">6-311 Организация и планирование в строительстве Защита курсовых проектов  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа (https://teams.microsoft.com/l/channel/19:39e43242561849d3a77f8cb936f18ba9@thread.tacv2/conversations?groupId=3d182b01-147e-4ba3-9051-5a8915d21c4b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2">1-242 Строительные материалы и технология строительных материалов Лекция  СТб-2801-01-00 СТб-2801-01-00, 01 подгруппа СТб-2801-01-00, 02 подгруппа СТб-2801-01-00, 03 подгруппа СТб-2801-01-00, 04 подгруппа СТб-2801-01-00, 05 подгруппа СТб-2801-01-00, 06 подгруппа СТб-2802-01-00 СТб-2802-01-00, 01 подгруппа СТб-2802-01-00, 02 подгруппа СТб-2802-01-00, 03 подгруппа СТб-2802-01-00, 04 подгруппа СТб-2802-01-00, 05 подгруппа СТб-2802-01-00, 06 подгруппа СТб-2803-01-00 СТб-2803-01-00, 01 подгруппа СТб-2803-01-00, 02 подгруппа СТб-2803-01-00, 03 подгруппа СТб-2803-01-00, 04 подгруппа СТб-2803-01-00, 05 подгруппа СТб-2803-01-00, 06 подгруппа</TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R69C8">6-305_ Основы кадастра недвижимости и мониторинг земель Лабораторная работа  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа<BR>6-305 Основы кадастра недвижимости и мониторинг земель Лабораторная работа  Зб-2801-01-00 Зб-2801-01-00, 02 подгруппа</TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2"><SPAN></SPAN></TD>
+<TD CLASS="R27C2">6-206 Технология строительного производства Практическое занятие  СТб-2802-01-24 СТб-2802-01-24, 01 подгруппа СТб-2802-01-24, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-311 Организация и планирование в строительстве Консультация  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64 (https://teams.microsoft.com/l/channel/19:5cf29d12712d49d88db3f3b23e76b113@thread.tacv2/conversations?groupId=9c6a43aa-da6d-4261-b0b2-98c0f27b920d&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C9">1-510 Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2802-01-00 СТб-2802-01-00, 01 подгруппа<BR>1-510_ Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2802-01-00 СТб-2802-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-301 Инженерные изыскания Лабораторная работа  СТб-2801-01-24 СТб-2801-01-24, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R71C6">1-510 Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2802-01-00 СТб-2802-01-00, 01 подгруппа<BR>1-510_ Строительные материалы и технология строительных материалов Лабораторная работа  СТб-2802-01-00 СТб-2802-01-00, 02 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2">6-301 Инженерные изыскания Лабораторная работа  СТб-2801-01-24 СТб-2801-01-24, 02 подгруппа</TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;05.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R5C2">6-101 Учебная практика  СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2">6-204 Технология строительного производства (Модуль 1, 2, 3) Защита курсовых проектов  СТб-3802-01-64</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R14C2">6-101 Учебная практика  СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R14C2">6-204 Технология строительного производства (Модуль 1, 2, 3) Защита курсовых проектов  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа (https://teams.microsoft.com/l/channel/19:c18d464224674aa98f9b8b55f644d921@thread.tacv2/conversations?groupId=f2365e3b-1b6d-479c-8d42-c583163ae748&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">1-435 Строительные материалы и технология строительных материалов Практическое занятие  СТб-2802-01-00 СТб-2802-01-00, 01 подгруппа СТб-2802-01-00, 02 подгруппа СТб-2802-01-00, 03 подгруппа СТб-2802-01-00, 04 подгруппа СТб-2802-01-00, 05 подгруппа СТб-2802-01-00, 06 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-301 Технология и организация в строительстве (Модуль 1) Зачет  СТб-3801-01-00 СТб-3801-01-00, 01 подгруппа (https://teams.microsoft.com/l/channel/19:c95ebe1d71874baa9956625fc0d9e62e@thread.tacv2/conversations?groupId=721c8de0-9f04-49b3-9c4c-ba9b1dab6b44&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R14>
+<TD CLASS="R14C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R14C2">6-101 Учебная практика  СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R14C2">6-204 Технология строительного производства (Модуль 1, 2, 3) Консультация  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64 (https://teams.microsoft.com/l/channel/19:d2993fd43f2b4a85aa11d13b8f88e175@thread.tacv2/conversations?groupId=9e85d699-c5b9-44ad-af4d-e8d1995bcafd&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-301 Технология и организация в строительстве (Модуль 1) Зачет  СТб-3801-01-00 СТб-3801-01-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:c95ebe1d71874baa9956625fc0d9e62e@thread.tacv2/conversations?groupId=721c8de0-9f04-49b3-9c4c-ba9b1dab6b44&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2">6-409 Инженерные изыскания Лабораторная работа  СТб-2801-01-00 СТб-2801-01-00, 02 подгруппа</TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD CLASS="R14C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-409 Инженерные изыскания Лабораторная работа  СТб-2801-01-00 СТб-2801-01-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-306 Консультация перед государственным экзаменом  СТб-4801-01-00 СТб-4801-01-00, 01 подгруппа СТб-4801-01-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:e376419ca77f456dac9ec11e0eed04ac@thread.tacv2/conversations?groupId=e097704d-b9be-4579-9c87-dfd06b1700e4&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2">6-101 Учебная практика  СТб-1803-01-00 СТб-1803-01-00, 01 подгруппа СТб-1803-01-00, 02 подгруппа СТб-1803-01-00, 03 подгруппа СТб-1803-01-00, 04 подгруппа СТб-1803-01-00, 05 подгруппа СТб-1803-01-00, 06 подгруппа</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">6-409 Инженерные изыскания Лабораторная работа  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">6-301 Инженерные изыскания Лабораторная работа  СТб-2802-01-24 СТб-2802-01-24, 01 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">6-409 Инженерные изыскания Лабораторная работа  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">6-301 Инженерные изыскания Лабораторная работа  СТб-2802-01-24 СТб-2802-01-24, 01 подгруппа</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R9C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;06.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R5C2">6-101 Учебная практика  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">6-301 Инженерные изыскания Практическое занятие  СТб-2801-01-24 СТб-2801-01-24, 01 подгруппа СТб-2801-01-24, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">6-210 Геодезия и картография Лекция  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2">6-204 Обследование и контроль качества строительных материалов и конструкций, мониторинг зданий и сооружений Лекция  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-311 Организация и планирование в строительстве Экзамен  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64 (https://teams.microsoft.com/l/channel/19:398bec74a02c48bd9c771d083ffb9f67@thread.tacv2/conversations?groupId=06b405a7-8700-4534-bea9-24122106e78e&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-301 Инженерные изыскания Практическое занятие  СТб-2801-01-24 СТб-2801-01-24, 01 подгруппа СТб-2801-01-24, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-409 Геодезия и картография Практическое занятие  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-306 Обследование и контроль качества строительных материалов и конструкций, мониторинг зданий и сооружений Практическое занятие  СТм-1802-03-00 СТм-1802-03-00, 01 подгруппа СТм-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R11C2">6-101 Учебная практика  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-311 Организация и планирование в строительстве Экзамен  СТб-3801-01-64 СТб-3801-01-64, 01 подгруппа СТб-3801-01-64, 02 подгруппа СТб-3802-01-64 (https://teams.microsoft.com/l/channel/19:398bec74a02c48bd9c771d083ffb9f67@thread.tacv2/conversations?groupId=06b405a7-8700-4534-bea9-24122106e78e&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-301 Инженерные изыскания Консультация  СТб-2801-01-24 СТб-2801-01-24, 01 подгруппа СТб-2801-01-24, 02 подгруппа (https://teams.microsoft.com/l/channel/19:a89982e2654c469bbfb30d52b7e2a2fe@thread.tacv2/conversations?groupId=e9409752-0d2b-4b1b-8f01-1abc997c5d75&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2">6-409 Геодезия и картография Практическое занятие  ГСб-3801-01-00 ГСб-3801-01-00, 01 подгруппа ГСб-3801-01-00, 02 подгруппа ГСб-3801-01-00, 03 подгруппа ГСб-3801-01-00, 04 подгруппа ГСб-3801-01-00, 05 подгруппа</TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD CLASS="R11C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R5C2">6-101 Учебная практика  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R5>
+<TD CLASS="R5C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R5C2">6-101 Учебная практика  Зб-2801-01-00 Зб-2801-01-00, 01 подгруппа Зб-2801-01-00, 02 подгруппа Зб-2801-01-00, 03 подгруппа Зб-2801-01-00, 04 подгруппа Зб-2801-01-00, 05 подгруппа Зб-2801-01-00, 06 подгруппа</TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD CLASS="R5C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R12>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R86C3"><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:99px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

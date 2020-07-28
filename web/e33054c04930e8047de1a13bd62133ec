@@ -1,0 +1,2004 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 25px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 14pt; font-style: normal; font-weight: bold; background-color: #ffffff; }
+tr.R1{ height: 21px; }
+tr.R1 td.R16C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R16C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R16C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R1C2{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; background-color: #fcfaeb; text-align: center; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R1 td.R22C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R1 td.R22C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R15{ height: 57px; }
+tr.R15 td.R15C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R15 td.R15C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R15 td.R28C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R15 td.R28C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 99px; }
+tr.R2 td.R2C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R2C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2 td.R86C3{ font-family: Arial; font-size: 8pt; font-style: normal; text-align: center; vertical-align: middle; }
+tr.R32{ height: 113px; }
+tr.R32 td.R32C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R32 td.R32C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R32 td.R37C0{ font-family: Arial; font-size: 14pt; font-style: normal; text-align: center; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R33{ height: 85px; }
+tr.R33 td.R33C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R33 td.R33C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6{ height: 15px; }
+tr.R6 td.R6C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R6C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R6 td.R8C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R6 td.R8C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R7{ height: 71px; }
+tr.R7 td.R29C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R7 td.R29C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 3px solid; border-right: #000000 1px solid; }
+tr.R7 td.R7C1{ border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R7 td.R7C2{ text-align: left; vertical-align: middle; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:100%; height:0px; " CELLSPACING=0>
+<COL WIDTH=31>
+<COL WIDTH=89>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=420>
+<COL WIDTH=63>
+<COL>
+<TR CLASS=R0>
+<TD CLASS="R0C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;max-width:0px;">Обновление&nbsp;01.07.2020</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">День</SPAN></TD>
+<TD CLASS="R1C0"><SPAN STYLE="white-space:nowrap;max-width:0px;">Интервал</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Варанкина&nbsp;В.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Вечтомов&nbsp;Е.М.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Зеленина&nbsp;Н.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Калинин&nbsp;С.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Крутихина&nbsp;М.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Лубягина&nbsp;Е.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Малыгина&nbsp;Л.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Марков&nbsp;Р.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Петров&nbsp;А.А.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Тимшина&nbsp;Л.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Торопова&nbsp;С.И.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Трефилова&nbsp;Е.С.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Чермных&nbsp;О.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Чиркова&nbsp;Л.Н.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Чупраков&nbsp;Д.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Шилова&nbsp;З.В.</SPAN></TD>
+<TD CLASS="R1C2"><SPAN STYLE="white-space:nowrap;max-width:0px;">Широков&nbsp;Д.В.</SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;22.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2">2-101 Математический анализ Консультация  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:25fdb1ef1dda4112bdfb2926c79d97b1@thread.tacv2/conversations?groupId=d71c9cc0-351f-43d5-826a-775acf4c5540&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-234 Математика Экзамен  ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:d79385c8018f445f8c325a8aaf4fc035@thread.tacv2/conversations?groupId=88cd2d8c-1b0d-44ad-a425-e7d7f2f47111&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-312 Математика Экзамен  ЭиЭб-1804-01-00 ЭиЭб-1804-01-00, 01 подгруппа ЭиЭб-1804-01-00, 02 подгруппа ЭиЭб-1804-01-00, 03 подгруппа ЭиЭб-1804-01-00, 04 подгруппа ЭиЭб-1804-01-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:3fa0037d4de04491b22d54b945ccf0a6@thread.tacv2/conversations?groupId=d02567e1-36f7-40bf-b761-53bcecbb92fe&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2">2-101 Математический анализ Экзамен  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа МКб-1301-51-00, 02 подгруппа МКб-1301-51-00, 03 подгруппа МКб-1301-51-00, 04 подгруппа МКб-1301-51-00, 05 подгруппа МКб-1301-51-00, 06 подгруппа МКб-1301-51-00, 07 подгруппа МКб-1301-51-00, 08 подгруппа (https://teams.microsoft.com/l/channel/19:1abec43ef1574a33b406c0c9c4f9c25b@thread.tacv2/conversations?groupId=4f19346e-76cc-45f8-9b49-a1743ba252b5&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-206 Математический анализ Лекция  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа ПОДб-1303-60-00, 02 подгруппа ПОДб-1303-60-00, 03 подгруппа ПОДб-1303-60-00, 04 подгруппа ПОДб-1303-60-00, 05 подгруппа ПОДб-1303-60-00, 06 подгруппа ПОДб-1303-60-00, 07 подгруппа ПОДб-1303-60-00, 08 подгруппа</TD>
+<TD CLASS="R2C2">1-222 Теория и методика обучения математике Лекция  ПОДб-4301-60-00</TD>
+<TD CLASS="R2C2">14-234 Математика Экзамен  ФИб-2302-51-00 ФИб-2302-51-00, 01 подгруппа ФИб-2302-51-00, 02 подгруппа ФИб-2302-51-00, 03 подгруппа ФИб-2302-51-00, 04 подгруппа ФИб-2302-51-00, 05 подгруппа ФИб-2302-51-00, 06 подгруппа ФИб-2302-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:d79385c8018f445f8c325a8aaf4fc035@thread.tacv2/conversations?groupId=88cd2d8c-1b0d-44ad-a425-e7d7f2f47111&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-409 Математика Практическое занятие  ЭиЭб-1804-09-20 ЭиЭб-1804-09-20, 01 подгруппа ЭиЭб-1804-09-20, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-312 Математика Экзамен  ЭиЭб-1804-01-00 ЭиЭб-1804-01-00, 01 подгруппа ЭиЭб-1804-01-00, 02 подгруппа ЭиЭб-1804-01-00, 03 подгруппа ЭиЭб-1804-01-00, 04 подгруппа ЭиЭб-1804-01-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:3fa0037d4de04491b22d54b945ccf0a6@thread.tacv2/conversations?groupId=d02567e1-36f7-40bf-b761-53bcecbb92fe&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-217 Теория алгоритмов Зачет  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:fe2f08263dc24ff1a763313355a63ce3@thread.tacv2/conversations?groupId=86af89f0-b5b8-4590-9400-55f473096890&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2">2-101 Математический анализ Экзамен  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа МКб-1301-51-00, 02 подгруппа МКб-1301-51-00, 03 подгруппа МКб-1301-51-00, 04 подгруппа МКб-1301-51-00, 05 подгруппа МКб-1301-51-00, 06 подгруппа МКб-1301-51-00, 07 подгруппа МКб-1301-51-00, 08 подгруппа (https://teams.microsoft.com/l/channel/19:1abec43ef1574a33b406c0c9c4f9c25b@thread.tacv2/conversations?groupId=4f19346e-76cc-45f8-9b49-a1743ba252b5&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-206 Математический анализ Практическое занятие  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа ПОДб-1303-60-00, 02 подгруппа ПОДб-1303-60-00, 03 подгруппа ПОДб-1303-60-00, 04 подгруппа ПОДб-1303-60-00, 05 подгруппа ПОДб-1303-60-00, 06 подгруппа ПОДб-1303-60-00, 07 подгруппа ПОДб-1303-60-00, 08 подгруппа</TD>
+<TD CLASS="R2C2">1-227 Теория и методика обучения математике Практическое занятие  ПОДб-4301-60-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-409 Математика Практическое занятие  ЭиЭб-1804-09-20 ЭиЭб-1804-09-20, 01 подгруппа ЭиЭб-1804-09-20, 02 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">4-602 Математика Практическое занятие  БТб-1101-02-00 БТб-1101-02-00, 01 подгруппа БТб-1101-02-00, 02 подгруппа БТб-1101-02-00, 03 подгруппа БТб-1101-02-00, 04 подгруппа БТб-1101-02-00, 05 подгруппа</TD>
+<TD CLASS="R2C2">1-312 Специальные главы математики Экзамен  МСб-2801-03-20 МСб-2801-03-20, 01 подгруппа МСб-2801-03-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:6c99191c6d264625b368e7423f6fe485@thread.tacv2/conversations?groupId=6efe3682-be7e-4f5f-aea3-f22d93e8dd96&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-217 Теория алгоритмов Зачет  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:fe2f08263dc24ff1a763313355a63ce3@thread.tacv2/conversations?groupId=86af89f0-b5b8-4590-9400-55f473096890&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2">2-101 Математический анализ Экзамен  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа МКб-1301-51-00, 02 подгруппа МКб-1301-51-00, 03 подгруппа МКб-1301-51-00, 04 подгруппа МКб-1301-51-00, 05 подгруппа МКб-1301-51-00, 06 подгруппа МКб-1301-51-00, 07 подгруппа МКб-1301-51-00, 08 подгруппа (https://teams.microsoft.com/l/channel/19:1abec43ef1574a33b406c0c9c4f9c25b@thread.tacv2/conversations?groupId=4f19346e-76cc-45f8-9b49-a1743ba252b5&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">4-602 Математика Практическое занятие  БТб-1102-03-00 БТб-1102-03-00, 01 подгруппа БТб-1102-03-00, 02 подгруппа БТб-1102-03-00, 03 подгруппа БТб-1102-03-00, 04 подгруппа БТб-1102-03-00, 05 подгруппа</TD>
+<TD CLASS="R2C2">1-312 Специальные главы математики Экзамен  МСб-2801-03-20 МСб-2801-03-20, 01 подгруппа МСб-2801-03-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:6c99191c6d264625b368e7423f6fe485@thread.tacv2/conversations?groupId=6efe3682-be7e-4f5f-aea3-f22d93e8dd96&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2">2-206 Дифференциальные уравнения Лекция  ПОДб-4301-60-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2">2-206 Дифференциальные уравнения Практическое занятие  ПОДб-4301-60-00</TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">11-24 История и методология математики Зачет  МКм-1301-51-00 ПОм-1301-56-00 (https://teams.microsoft.com/l/channel/19:2bc1d51a2293491aa6dfe1f222cba92d@thread.tacv2/conversations?groupId=a65165c5-09cc-46cd-b67b-85bc2612634b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;23.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2">2-404 Математический анализ Экзамен  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:c9606ce0de844b6ab9ecce5d108eed04@thread.tacv2/conversations?groupId=3b55a40a-ff48-4b42-8289-79f9c96b0284&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-407 Геометрия Зачет  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:c32bcb7eaa674d78afd06e30a2de3bc1@thread.tacv2/conversations?groupId=a3b23459-576e-4ec0-9a17-ffae9024bc4c&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2">2-404 Математический анализ Экзамен  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:c9606ce0de844b6ab9ecce5d108eed04@thread.tacv2/conversations?groupId=3b55a40a-ff48-4b42-8289-79f9c96b0284&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-300 Алгебра Лекция  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа ПОДб-1303-60-00, 02 подгруппа ПОДб-1303-60-00, 03 подгруппа ПОДб-1303-60-00, 04 подгруппа ПОДб-1303-60-00, 05 подгруппа ПОДб-1303-60-00, 06 подгруппа ПОДб-1303-60-00, 07 подгруппа ПОДб-1303-60-00, 08 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-407 Геометрия Зачет  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:c32bcb7eaa674d78afd06e30a2de3bc1@thread.tacv2/conversations?groupId=a3b23459-576e-4ec0-9a17-ffae9024bc4c&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-206 Дифференциальные уравнения Практическое занятие  ПОДб-4301-60-00</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2">2-404 Математический анализ Экзамен  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:c9606ce0de844b6ab9ecce5d108eed04@thread.tacv2/conversations?groupId=3b55a40a-ff48-4b42-8289-79f9c96b0284&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-300 Алгебра Практическое занятие  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа ПОДб-1303-60-00, 02 подгруппа ПОДб-1303-60-00, 03 подгруппа ПОДб-1303-60-00, 04 подгруппа ПОДб-1303-60-00, 05 подгруппа ПОДб-1303-60-00, 06 подгруппа ПОДб-1303-60-00, 07 подгруппа ПОДб-1303-60-00, 08 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-407 Геометрия Зачет  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:c32bcb7eaa674d78afd06e30a2de3bc1@thread.tacv2/conversations?groupId=a3b23459-576e-4ec0-9a17-ffae9024bc4c&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">11-24 Проектная и научно-исследовательская деятельность Защита курсовых работ  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:0a1a8b993e7241729d828ce528e5a04f@thread.tacv2/conversations?groupId=934bb205-ff38-484c-a163-439000638139&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2">1-311 Математическая логика Лекция  ПОДб-4301-60-00</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-311 Математика Экзамен  МСб-1801-03-24 МСб-1801-03-24, 01 подгруппа МСб-1801-03-24, 02 подгруппа (https://teams.microsoft.com/l/channel/19:00618b65ee9f42f8af06c004999a25a9@thread.tacv2/conversations?groupId=87cb2a51-440f-4816-a2c9-2f2009f911c7&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2">16-417 Проектная деятельность по методике обучения математике Зачет  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:933b2e069da948c5ab1ea95fa937db41@thread.tacv2/conversations?groupId=fd8f2aba-91ac-49de-b330-9e521812388b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2">1-311 Математическая логика Практическое занятие  ПОДб-4301-60-00</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-300 Математика Лекция  ГСб-1801-04-00 ГСб-1801-04-00, 01 подгруппа ГСб-1801-04-00, 02 подгруппа ГСб-1801-04-00, 03 подгруппа ГСб-1801-04-00, 04 подгруппа ГСб-1801-04-00, 05 подгруппа ГСб-1801-04-00, 06 подгруппа ГСб-1801-04-00, 07 подгруппа ГСб-1801-04-00, 08 подгруппа ГСб-1801-04-00, 09 подгруппа</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-311 Математика Экзамен  МСб-1801-03-24 МСб-1801-03-24, 01 подгруппа МСб-1801-03-24, 02 подгруппа (https://teams.microsoft.com/l/channel/19:00618b65ee9f42f8af06c004999a25a9@thread.tacv2/conversations?groupId=87cb2a51-440f-4816-a2c9-2f2009f911c7&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2">16-417 Проектная деятельность по методике обучения математике Зачет  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:933b2e069da948c5ab1ea95fa937db41@thread.tacv2/conversations?groupId=fd8f2aba-91ac-49de-b330-9e521812388b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">2-300 Математика Практическое занятие  ГСб-1801-04-00 ГСб-1801-04-00, 01 подгруппа ГСб-1801-04-00, 02 подгруппа ГСб-1801-04-00, 03 подгруппа ГСб-1801-04-00, 04 подгруппа ГСб-1801-04-00, 05 подгруппа ГСб-1801-04-00, 06 подгруппа ГСб-1801-04-00, 07 подгруппа ГСб-1801-04-00, 08 подгруппа ГСб-1801-04-00, 09 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">11-24 Интерактивные образовательные технологии в профильной подготовке Зачет  ПОм-1301-56-00 (https://teams.microsoft.com/l/channel/19:8c547851ad98464b9e81f47c94580869@thread.tacv2/conversations?groupId=0740948c-cdf3-413c-8d67-a7e20a781f76&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">11-34 Конечные алгебраические системы Консультация  МКм-1301-51-00 (https://teams.microsoft.com/l/channel/19:f34548d6f99b4e72a8caaaa3bbc7f6f8@thread.tacv2/conversations?groupId=db9c3c2c-fac2-4535-8b3b-893b6e0642cc&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R15C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD CLASS="R15C2">16-417 Управление педагогическим проектом Консультация  ПОм-1301-56-00 (https://teams.microsoft.com/l/channel/19:e701b34cbf474a32b3274fb28055b851@thread.tacv2/conversations?groupId=96879d20-aaca-4dee-b507-972e09f2f84a&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R15C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;24.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R22C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;25.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-101 Математика Консультация  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:290c51b71c5f4185b7f8e50665cc5bed@thread.tacv2/conversations?groupId=78d8c8b1-5753-44e6-b190-fdcb5228daee&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-206 Математика Консультация  ЭиЭб-1803-01-00 ЭиЭб-1803-01-00, 01 подгруппа ЭиЭб-1803-01-00, 02 подгруппа ЭиЭб-1803-01-00, 03 подгруппа ЭиЭб-1803-01-00, 04 подгруппа ЭиЭб-1803-01-00, 05 подгруппа ЭиЭб-1803-01-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:3a69d8e87af34482813d1cabfb848cb6@thread.tacv2/conversations?groupId=e47246eb-9f96-4cac-a7cf-98c0a237cad8&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-303 Математика Консультация  ЭиЭб-1805-01-00 ЭиЭб-1805-01-00, 01 подгруппа ЭиЭб-1805-01-00, 02 подгруппа ЭиЭб-1805-01-00, 03 подгруппа ЭиЭб-1805-01-00, 04 подгруппа ЭиЭб-1805-01-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:115f47c8458941a990671db007404d24@thread.tacv2/conversations?groupId=1c9654bc-3151-4603-8855-067325d0df17&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-101 Теория вероятностей и математическая статистика Зачет  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:ed127e48d49943839674bae0e120820d@thread.tacv2/conversations?groupId=c7389584-1056-4147-a572-015717a09de9&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-247 Математика Зачет  СЦб-1201-02-00 СЦб-1201-02-00, 01 подгруппа СЦб-1201-02-00, 02 подгруппа СЦб-1201-02-00, 03 подгруппа СЦб-1201-02-00, 04 подгруппа СЦб-1201-02-00, 05 подгруппа СЦб-1201-02-00, 06 подгруппа СЦб-1201-02-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:6874725692294f3baf8f77f63877765e@thread.tacv2/conversations?groupId=7c3af81d-1500-4d5b-b39d-7d90630b2268&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-101 Теория вероятностей и математическая статистика Зачет  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:ed127e48d49943839674bae0e120820d@thread.tacv2/conversations?groupId=c7389584-1056-4147-a572-015717a09de9&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-247 Математика Зачет  СЦб-1201-02-00 СЦб-1201-02-00, 01 подгруппа СЦб-1201-02-00, 02 подгруппа СЦб-1201-02-00, 03 подгруппа СЦб-1201-02-00, 04 подгруппа СЦб-1201-02-00, 05 подгруппа СЦб-1201-02-00, 06 подгруппа СЦб-1201-02-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:6874725692294f3baf8f77f63877765e@thread.tacv2/conversations?groupId=7c3af81d-1500-4d5b-b39d-7d90630b2268&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">11-34 Проектная и научно-исследовательская деятельность Зачет  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:92a937ad9b2744108a5fe577efa2d33e@thread.tacv2/conversations?groupId=07a7127b-db01-4ae8-a021-938163f618bd&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">11-34 Проектная и научно-исследовательская деятельность Зачет  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:92a937ad9b2744108a5fe577efa2d33e@thread.tacv2/conversations?groupId=07a7127b-db01-4ae8-a021-938163f618bd&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R28C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">1-534 Математика Лекция  ТБб-1801-01-24 ТБб-1801-01-24, 01 подгруппа ТБб-1801-01-24, 02 подгруппа (https://e.vyatsu.ru/course/view.php?id=164&section=19)</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">11-30 Конечные алгебраические системы Экзамен  МКм-1301-51-00 (https://teams.microsoft.com/l/channel/19:3a3eac313f7842ea81ee4e469f9ac548@thread.tacv2/conversations?groupId=8921e955-2c58-4417-b950-a6ca2c936c9e&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R28C2">11-34 Управление педагогическим проектом Экзамен  ПОм-1301-56-00 (https://teams.microsoft.com/l/channel/19:c4acdcd0a3f046d7989f7562f97bb648@thread.tacv2/conversations?groupId=8e4fd847-9c98-403d-aeb5-11636c8371ba&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R29C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2">1-534 Математика Консультация  ТБб-1801-01-24 ТБб-1801-01-24, 01 подгруппа ТБб-1801-01-24, 02 подгруппа (https://teams.microsoft.com/l/channel/19:7a99996217dc40c7ae7b3d65e8d0448b@thread.tacv2/conversations?groupId=7c8e2485-dfc5-4ba4-93b2-4617816c5bbd&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD CLASS="R29C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;26.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-404 Внеклассная работа по математике Лекция  ПОДб-4301-60-00 (https://e.vyatsu.ru/mod/assign/view.php?id=189492)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-101 Теория вероятностей и математическая статистика Консультация  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:d4f649d91c8f42379b6bd5c369308ee1@thread.tacv2/conversations?groupId=785899ef-a17f-4b9e-8807-10bdee8f00e6&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-206 Математика Экзамен  ЭиЭб-1803-01-00 ЭиЭб-1803-01-00, 01 подгруппа ЭиЭб-1803-01-00, 02 подгруппа ЭиЭб-1803-01-00, 03 подгруппа ЭиЭб-1803-01-00, 04 подгруппа ЭиЭб-1803-01-00, 05 подгруппа ЭиЭб-1803-01-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:47c1bb0e38894facbbb402258c6e13e3@thread.tacv2/conversations?groupId=360cf94b-6010-4726-9fc5-1793808317d8&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-303 Математика Консультация  ЭиЭб-1806-01-00 ЭиЭб-1806-01-00, 01 подгруппа ЭиЭб-1806-01-00, 02 подгруппа ЭиЭб-1806-01-00, 03 подгруппа ЭиЭб-1806-01-00, 04 подгруппа ЭиЭб-1806-01-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:70231e3fcf2849f4b402b6860275c3a9@thread.tacv2/conversations?groupId=fcee5de5-4c65-4592-822f-3ffc32cda2f1&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-409 Внеклассная работа по математике Лекция  ПОДб-4301-60-00 (https://e.vyatsu.ru/mod/assign/view.php?id=189492)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-101 Математика Экзамен  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:7e583129b1724a1eb99d0e79808e3cb4@thread.tacv2/conversations?groupId=b675a37d-2b9d-4ebb-b26e-cdf0a949f8f8&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-206 Математика Экзамен  ЭиЭб-1803-01-00 ЭиЭб-1803-01-00, 01 подгруппа ЭиЭб-1803-01-00, 02 подгруппа ЭиЭб-1803-01-00, 03 подгруппа ЭиЭб-1803-01-00, 04 подгруппа ЭиЭб-1803-01-00, 05 подгруппа ЭиЭб-1803-01-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:47c1bb0e38894facbbb402258c6e13e3@thread.tacv2/conversations?groupId=360cf94b-6010-4726-9fc5-1793808317d8&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-303 Математика Экзамен  ЭиЭб-1805-01-00 ЭиЭб-1805-01-00, 01 подгруппа ЭиЭб-1805-01-00, 02 подгруппа ЭиЭб-1805-01-00, 03 подгруппа ЭиЭб-1805-01-00, 04 подгруппа ЭиЭб-1805-01-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:0d6b0aab1c3f4b9d8d6264c34f4be8fa@thread.tacv2/conversations?groupId=f81a4a57-806e-4ad8-93a5-c932dbb7102c&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-300 Математика Консультация  ТХОб-1801-01-00 ТХОб-1801-01-00, 01 подгруппа ТХОб-1801-01-00, 02 подгруппа ТХОб-1801-01-00, 03 подгруппа ТХОб-1801-01-00, 04 подгруппа ТХОб-1801-01-00, 05 подгруппа ТХОб-1801-01-00, 06 подгруппа ТХОб-1801-01-00, 07 подгруппа ТХОб-1801-01-00, 08 подгруппа ТХОб-1801-01-00, 09 подгруппа (https://teams.microsoft.com/l/channel/19:0e40da5c17dd42409bd8968f73aa6b2c@thread.tacv2/conversations?groupId=bbb184b7-ee47-4531-9b07-819e22f8f2fd&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-101 Математика Экзамен  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:7e583129b1724a1eb99d0e79808e3cb4@thread.tacv2/conversations?groupId=b675a37d-2b9d-4ebb-b26e-cdf0a949f8f8&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-303 Математика Экзамен  ЭиЭб-1805-01-00 ЭиЭб-1805-01-00, 01 подгруппа ЭиЭб-1805-01-00, 02 подгруппа ЭиЭб-1805-01-00, 03 подгруппа ЭиЭб-1805-01-00, 04 подгруппа ЭиЭб-1805-01-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:0d6b0aab1c3f4b9d8d6264c34f4be8fa@thread.tacv2/conversations?groupId=f81a4a57-806e-4ad8-93a5-c932dbb7102c&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R33>
+<TD CLASS="R33C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2">2-101 Математика Экзамен  ФИб-2301-51-00 ФИб-2301-51-00, 01 подгруппа ФИб-2301-51-00, 02 подгруппа ФИб-2301-51-00, 03 подгруппа ФИб-2301-51-00, 04 подгруппа ФИб-2301-51-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:7e583129b1724a1eb99d0e79808e3cb4@thread.tacv2/conversations?groupId=b675a37d-2b9d-4ebb-b26e-cdf0a949f8f8&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD CLASS="R33C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R28C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">11-34 Дискретная математика Консультация  МКм-1301-51-00 ПОм-1301-56-00 (https://teams.microsoft.com/l/channel/19:3181ae26864548148e9061109f2dd856@thread.tacv2/conversations?groupId=04df7a97-efc2-4eed-aa08-c93c4dbedee9&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R37C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;27.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-300 Математика Экзамен  ТХОб-1801-01-00 ТХОб-1801-01-00, 01 подгруппа ТХОб-1801-01-00, 02 подгруппа ТХОб-1801-01-00, 03 подгруппа ТХОб-1801-01-00, 04 подгруппа ТХОб-1801-01-00, 05 подгруппа ТХОб-1801-01-00, 06 подгруппа ТХОб-1801-01-00, 07 подгруппа ТХОб-1801-01-00, 08 подгруппа ТХОб-1801-01-00, 09 подгруппа (https://teams.microsoft.com/l/channel/19:3c09954269064f148227bf7149fe1865@thread.tacv2/conversations?groupId=08031917-8e96-4a68-87d1-c2984fe6d3f0&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-100 Теория вероятностей и математическая статистика Экзамен  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:be26d8567dc34933bff74984fd7799bc@thread.tacv2/conversations?groupId=763f91ac-4081-4e27-b06f-91b6791c3dde&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">1-534 Математика Экзамен  ТБб-1801-01-24 ТБб-1801-01-24, 01 подгруппа ТБб-1801-01-24, 02 подгруппа (https://teams.microsoft.com/l/channel/19:fa05a8eddfd4466388b92c3093ab59f9@thread.tacv2/conversations?groupId=dc2764f3-94c9-45c3-8480-9c39a4615ecc&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">14-234 Стохастический анализ Консультация  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:a4426554763f49f9af469620c1c43810@thread.tacv2/conversations?groupId=169a4d21-e46f-40fd-8ce1-e87c9f359cea&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2">2-311 Математика Экзамен  ЭиЭб-1806-01-00 ЭиЭб-1806-01-00, 01 подгруппа ЭиЭб-1806-01-00, 02 подгруппа ЭиЭб-1806-01-00, 03 подгруппа ЭиЭб-1806-01-00, 04 подгруппа ЭиЭб-1806-01-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:5343fef065594740bf64a4db614b0b78@thread.tacv2/conversations?groupId=d65a186f-e0e9-4525-9c59-c0619b7f60cb&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-300 Математика Экзамен  ТХОб-1801-01-00 ТХОб-1801-01-00, 01 подгруппа ТХОб-1801-01-00, 02 подгруппа ТХОб-1801-01-00, 03 подгруппа ТХОб-1801-01-00, 04 подгруппа ТХОб-1801-01-00, 05 подгруппа ТХОб-1801-01-00, 06 подгруппа ТХОб-1801-01-00, 07 подгруппа ТХОб-1801-01-00, 08 подгруппа ТХОб-1801-01-00, 09 подгруппа (https://teams.microsoft.com/l/channel/19:3c09954269064f148227bf7149fe1865@thread.tacv2/conversations?groupId=08031917-8e96-4a68-87d1-c2984fe6d3f0&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-100 Теория вероятностей и математическая статистика Экзамен  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:be26d8567dc34933bff74984fd7799bc@thread.tacv2/conversations?groupId=763f91ac-4081-4e27-b06f-91b6791c3dde&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">11-34 Дискретная математика Экзамен  МКм-1301-51-00 ПОм-1301-56-00 (https://teams.microsoft.com/l/channel/19:49bde05a5e064964bcec43652a14de64@thread.tacv2/conversations?groupId=fa8d4965-3983-4c20-80a1-81362accf60b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">1-534 Математика Экзамен  ТБб-1801-01-24 ТБб-1801-01-24, 01 подгруппа ТБб-1801-01-24, 02 подгруппа (https://teams.microsoft.com/l/channel/19:fa05a8eddfd4466388b92c3093ab59f9@thread.tacv2/conversations?groupId=dc2764f3-94c9-45c3-8480-9c39a4615ecc&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-311 Математика Экзамен  ЭиЭб-1806-01-00 ЭиЭб-1806-01-00, 01 подгруппа ЭиЭб-1806-01-00, 02 подгруппа ЭиЭб-1806-01-00, 03 подгруппа ЭиЭб-1806-01-00, 04 подгруппа ЭиЭб-1806-01-00, 05 подгруппа (https://teams.microsoft.com/l/channel/19:5343fef065594740bf64a4db614b0b78@thread.tacv2/conversations?groupId=d65a186f-e0e9-4525-9c59-c0619b7f60cb&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-100 Теория вероятностей и математическая статистика Экзамен  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:be26d8567dc34933bff74984fd7799bc@thread.tacv2/conversations?groupId=763f91ac-4081-4e27-b06f-91b6791c3dde&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-300 Математика Консультация  КТМб-1801-04-00 КТМб-1801-04-00, 01 подгруппа КТМб-1801-04-00, 02 подгруппа КТМб-1801-04-00, 03 подгруппа КТМб-1801-04-00, 04 подгруппа КТМб-1801-04-00, 05 подгруппа КТМб-1801-04-00, 06 подгруппа КТМб-1801-04-00, 07 подгруппа КТМб-1801-04-00, 08 подгруппа КТМб-1801-04-00, 09 подгруппа (https://teams.microsoft.com/l/channel/19:0158f6b2a343450f973e1691d5a464a8@thread.tacv2/conversations?groupId=d7132667-a0bf-43c0-8af1-b47f058b7d53&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-311 Математическая логика Консультация  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:e9cff818211643d287b61b366a8e3736@thread.tacv2/conversations?groupId=272be588-a87b-4fa1-88dd-89e63b374c9b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">2-300 Математика Консультация  КТМб-1802-04-00 КТМб-1802-04-00, 01 подгруппа КТМб-1802-04-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:f89f7039b3354734ab609759c5e55821@thread.tacv2/conversations?groupId=520ca593-e37a-4b16-97f2-93dcd82fb68a&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">понедельник&nbsp;29.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-300 Математика Экзамен  КТМб-1802-04-00 КТМб-1802-04-00, 01 подгруппа КТМб-1802-04-00, 02 подгруппа (https://teams.microsoft.com/l/channel/19:71b1cab9aae345be9b019929f5a2ef15@thread.tacv2/conversations?groupId=83719285-f1a8-44f5-ba16-d08cdec1ea16&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2">14-222 Стохастический анализ Экзамен  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:65602b5cb87442f7a46dfc998b0d2475@thread.tacv2/conversations?groupId=cb8608db-c843-4a3f-b945-9db4f62dd317&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">14-202 Линейная алгебра Консультация  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа МКб-1301-51-00, 02 подгруппа МКб-1301-51-00, 03 подгруппа МКб-1301-51-00, 04 подгруппа МКб-1301-51-00, 05 подгруппа МКб-1301-51-00, 06 подгруппа МКб-1301-51-00, 07 подгруппа МКб-1301-51-00, 08 подгруппа (https://teams.microsoft.com/l/channel/19:d159485e0a874b1b9ee294e4ee4d3bf0@thread.tacv2/conversations?groupId=edfc9ae9-86e9-4f93-9bbc-dd6922442cad&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-300 Математика Экзамен  КТМб-1801-04-00 КТМб-1801-04-00, 01 подгруппа КТМб-1801-04-00, 02 подгруппа КТМб-1801-04-00, 03 подгруппа КТМб-1801-04-00, 04 подгруппа КТМб-1801-04-00, 05 подгруппа КТМб-1801-04-00, 06 подгруппа КТМб-1801-04-00, 07 подгруппа КТМб-1801-04-00, 08 подгруппа КТМб-1801-04-00, 09 подгруппа (https://teams.microsoft.com/l/channel/19:dda912a16aba4bbdb8f0312aec7115e2@thread.tacv2/conversations?groupId=73268ea8-16a0-4a39-96b1-44dbb80aed1b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2">14-222 Стохастический анализ Экзамен  МКб-3301-51-00 МКб-3301-51-00, 01 подгруппа МКб-3301-51-00, 02 подгруппа МКб-3301-51-00, 03 подгруппа МКб-3301-51-00, 04 подгруппа МКб-3301-51-00, 05 подгруппа МКб-3301-51-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:65602b5cb87442f7a46dfc998b0d2475@thread.tacv2/conversations?groupId=cb8608db-c843-4a3f-b945-9db4f62dd317&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2">14-234 Математическая логика Экзамен  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:04e62ba2c306455681b519f891938d3a@thread.tacv2/conversations?groupId=5411ee6a-c2b3-454d-b6ca-a11ff56f2823&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-300 Математика Экзамен  КТМб-1801-04-00 КТМб-1801-04-00, 01 подгруппа КТМб-1801-04-00, 02 подгруппа КТМб-1801-04-00, 03 подгруппа КТМб-1801-04-00, 04 подгруппа КТМб-1801-04-00, 05 подгруппа КТМб-1801-04-00, 06 подгруппа КТМб-1801-04-00, 07 подгруппа КТМб-1801-04-00, 08 подгруппа КТМб-1801-04-00, 09 подгруппа (https://teams.microsoft.com/l/channel/19:dda912a16aba4bbdb8f0312aec7115e2@thread.tacv2/conversations?groupId=73268ea8-16a0-4a39-96b1-44dbb80aed1b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">14-234 Математическая логика Экзамен  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:04e62ba2c306455681b519f891938d3a@thread.tacv2/conversations?groupId=5411ee6a-c2b3-454d-b6ca-a11ff56f2823&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">11-24 Программные средства в обучении математике Зачет  ПОДб-4301-60-00 (https://teams.microsoft.com/l/channel/19:972ee056a7db4d8daedce989d28ac3cd@thread.tacv2/conversations?groupId=08b07bfe-04f2-40d8-b5ce-26f859eb06ba&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-234 Математическая логика Экзамен  ПОДб-3301-60-00 ПОДб-3301-60-00, 01 подгруппа ПОДб-3301-60-00, 02 подгруппа ПОДб-3301-60-00, 03 подгруппа ПОДб-3301-60-00, 04 подгруппа ПОДб-3301-60-00, 05 подгруппа ПОДб-3301-60-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:04e62ba2c306455681b519f891938d3a@thread.tacv2/conversations?groupId=5411ee6a-c2b3-454d-b6ca-a11ff56f2823&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R15>
+<TD CLASS="R28C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2">11-24 Программные средства в обучении математике Зачет  ПОДб-4301-60-00 (https://teams.microsoft.com/l/channel/19:972ee056a7db4d8daedce989d28ac3cd@thread.tacv2/conversations?groupId=08b07bfe-04f2-40d8-b5ce-26f859eb06ba&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD CLASS="R28C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">вторник&nbsp;30.06.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-206 Математика Консультация  ЭиЭб-1802-01-00 ЭиЭб-1802-01-00, 01 подгруппа ЭиЭб-1802-01-00, 02 подгруппа ЭиЭб-1802-01-00, 03 подгруппа ЭиЭб-1802-01-00, 04 подгруппа ЭиЭб-1802-01-00, 05 подгруппа ЭиЭб-1802-01-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:749ca8204c9545d9ac0d4c35d92db445@thread.tacv2/conversations?groupId=e59d2a7c-51a0-42b7-8ad4-cb6a9de63b03&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-108 Линейная алгебра Экзамен  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа МКб-1301-51-00, 02 подгруппа МКб-1301-51-00, 03 подгруппа МКб-1301-51-00, 04 подгруппа МКб-1301-51-00, 05 подгруппа МКб-1301-51-00, 06 подгруппа МКб-1301-51-00, 07 подгруппа МКб-1301-51-00, 08 подгруппа (https://teams.microsoft.com/l/channel/19:5b3c322c1c17429387868c04a7afb247@thread.tacv2/conversations?groupId=512d70bb-ab47-491e-87d8-70c8d9c5b4d1&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-206 Математика Консультация  ЭиЭб-1801-01-00 ЭиЭб-1801-01-00, 01 подгруппа ЭиЭб-1801-01-00, 02 подгруппа ЭиЭб-1801-01-00, 03 подгруппа ЭиЭб-1801-01-00, 04 подгруппа ЭиЭб-1801-01-00, 05 подгруппа ЭиЭб-1801-01-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:ef61231f37f14a2cb28a6ee1d6d232be@thread.tacv2/conversations?groupId=9d905c6d-d9f4-4f2f-a869-ed1412f75c02&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-405 Внеклассная работа по математике Зачет  ПОДб-4301-60-00 (https://teams.microsoft.com/l/channel/19:1f7bc2a0243e4e8c843d172a5ece0aa2@thread.tacv2/conversations?groupId=a0243678-ab99-499a-8c59-98ac0a724393&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-108 Линейная алгебра Экзамен  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа МКб-1301-51-00, 02 подгруппа МКб-1301-51-00, 03 подгруппа МКб-1301-51-00, 04 подгруппа МКб-1301-51-00, 05 подгруппа МКб-1301-51-00, 06 подгруппа МКб-1301-51-00, 07 подгруппа МКб-1301-51-00, 08 подгруппа (https://teams.microsoft.com/l/channel/19:5b3c322c1c17429387868c04a7afb247@thread.tacv2/conversations?groupId=512d70bb-ab47-491e-87d8-70c8d9c5b4d1&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-405 Внеклассная работа по математике Зачет  ПОДб-4301-60-00 (https://teams.microsoft.com/l/channel/19:1f7bc2a0243e4e8c843d172a5ece0aa2@thread.tacv2/conversations?groupId=a0243678-ab99-499a-8c59-98ac0a724393&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-108 Линейная алгебра Экзамен  МКб-1301-51-00 МКб-1301-51-00, 01 подгруппа МКб-1301-51-00, 02 подгруппа МКб-1301-51-00, 03 подгруппа МКб-1301-51-00, 04 подгруппа МКб-1301-51-00, 05 подгруппа МКб-1301-51-00, 06 подгруппа МКб-1301-51-00, 07 подгруппа МКб-1301-51-00, 08 подгруппа (https://teams.microsoft.com/l/channel/19:5b3c322c1c17429387868c04a7afb247@thread.tacv2/conversations?groupId=512d70bb-ab47-491e-87d8-70c8d9c5b4d1&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R7>
+<TD CLASS="R7C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2">2-300 Математика Практическое занятие  ГСб-1801-04-00 ГСб-1801-04-00, 01 подгруппа ГСб-1801-04-00, 02 подгруппа ГСб-1801-04-00, 03 подгруппа ГСб-1801-04-00, 04 подгруппа ГСб-1801-04-00, 05 подгруппа ГСб-1801-04-00, 06 подгруппа ГСб-1801-04-00, 07 подгруппа ГСб-1801-04-00, 08 подгруппа ГСб-1801-04-00, 09 подгруппа</TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD CLASS="R7C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">среда&nbsp;01.07.20&nbsp;</SPAN></TD>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R16C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD CLASS="R16C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R22C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD CLASS="R22C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">четверг&nbsp;02.07.20&nbsp;</SPAN></TD>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">14-234 Защита выпускной квалификационной работы  ПОб-5301-59-20 ПОб-5340-59-20 (https://teams.microsoft.com/l/channel/19:dc360dec6bdb45ab818089e5d1f94397@thread.tacv2/conversations?groupId=9fc44dac-3ba1-49a6-b373-eb7af2e32e0a&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">1-516 Математика Зачет  ЭиЭб-1804-09-20 ЭиЭб-1804-09-20, 01 подгруппа (https://teams.microsoft.com/l/channel/19:8a8f3ba62bc5441281a0f8100e8eac70@thread.tacv2/conversations?groupId=518a974d-fb52-4896-948e-0fe8127a3b18&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-206 Математика Экзамен  ЭиЭб-1801-01-00 ЭиЭб-1801-01-00, 01 подгруппа ЭиЭб-1801-01-00, 02 подгруппа ЭиЭб-1801-01-00, 03 подгруппа ЭиЭб-1801-01-00, 04 подгруппа ЭиЭб-1801-01-00, 05 подгруппа ЭиЭб-1801-01-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:f576b057080647a4a1087a28aef33b13@thread.tacv2/conversations?groupId=9cb37e57-fce5-4ba8-b5da-9be8a7409f0a&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">14-234 Защита выпускной квалификационной работы  ПОб-5301-59-20 ПОб-5340-59-20 (https://teams.microsoft.com/l/channel/19:dc360dec6bdb45ab818089e5d1f94397@thread.tacv2/conversations?groupId=9fc44dac-3ba1-49a6-b373-eb7af2e32e0a&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">1-516 Математика Зачет  ЭиЭб-1804-09-20 ЭиЭб-1804-09-20, 02 подгруппа (https://teams.microsoft.com/l/channel/19:8a8f3ba62bc5441281a0f8100e8eac70@thread.tacv2/conversations?groupId=518a974d-fb52-4896-948e-0fe8127a3b18&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">14-234 Элементарная геометрия Зачет  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа ПОДб-1303-60-00, 02 подгруппа ПОДб-1303-60-00, 03 подгруппа ПОДб-1303-60-00, 04 подгруппа ПОДб-1303-60-00, 05 подгруппа ПОДб-1303-60-00, 06 подгруппа ПОДб-1303-60-00, 07 подгруппа ПОДб-1303-60-00, 08 подгруппа (https://teams.microsoft.com/l/channel/19:01cf3af273144118a2d5918edbb0198d@thread.tacv2/conversations?groupId=3dd9f2d2-ca7c-4f62-92e2-7f088303ece1&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2">16-405 Дифференциальные уравнения Зачет  ПОДб-4301-60-00 (https://teams.microsoft.com/l/channel/19:3a21b52badc84226a0ebefe467d959ad@thread.tacv2/conversations?groupId=f495827d-102a-4fb4-9c56-66bb78c8b73f&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2">2-206 Математика Экзамен  ЭиЭб-1801-01-00 ЭиЭб-1801-01-00, 01 подгруппа ЭиЭб-1801-01-00, 02 подгруппа ЭиЭб-1801-01-00, 03 подгруппа ЭиЭб-1801-01-00, 04 подгруппа ЭиЭб-1801-01-00, 05 подгруппа ЭиЭб-1801-01-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:f576b057080647a4a1087a28aef33b13@thread.tacv2/conversations?groupId=9cb37e57-fce5-4ba8-b5da-9be8a7409f0a&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">14-234 Защита выпускной квалификационной работы  ПОб-5301-59-20 ПОб-5340-59-20 (https://teams.microsoft.com/l/channel/19:dc360dec6bdb45ab818089e5d1f94397@thread.tacv2/conversations?groupId=9fc44dac-3ba1-49a6-b373-eb7af2e32e0a&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">14-234 Элементарная геометрия Зачет  ПОДб-1303-60-00 ПОДб-1303-60-00, 01 подгруппа ПОДб-1303-60-00, 02 подгруппа ПОДб-1303-60-00, 03 подгруппа ПОДб-1303-60-00, 04 подгруппа ПОДб-1303-60-00, 05 подгруппа ПОДб-1303-60-00, 06 подгруппа ПОДб-1303-60-00, 07 подгруппа ПОДб-1303-60-00, 08 подгруппа (https://teams.microsoft.com/l/channel/19:01cf3af273144118a2d5918edbb0198d@thread.tacv2/conversations?groupId=3dd9f2d2-ca7c-4f62-92e2-7f088303ece1&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2">16-405 Дифференциальные уравнения Зачет  ПОДб-4301-60-00 (https://teams.microsoft.com/l/channel/19:3a21b52badc84226a0ebefe467d959ad@thread.tacv2/conversations?groupId=f495827d-102a-4fb4-9c56-66bb78c8b73f&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2">2-206 Математика Экзамен  ЭиЭб-1802-01-00 ЭиЭб-1802-01-00, 01 подгруппа ЭиЭб-1802-01-00, 02 подгруппа ЭиЭб-1802-01-00, 03 подгруппа ЭиЭб-1802-01-00, 04 подгруппа ЭиЭб-1802-01-00, 05 подгруппа ЭиЭб-1802-01-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:6bde0eb0eb3a45b38b287265e8edb071@thread.tacv2/conversations?groupId=db18014f-14d1-4d90-8c6b-eca613a7c9a6&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-103 Алгебра Консультация  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:3789991d036a4444a577b126ca3629a2@thread.tacv2/conversations?groupId=1d1b4a68-a8fb-4714-a1c1-de24ae0bad7b&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-206 Математика Экзамен  ЭиЭб-1802-01-00 ЭиЭб-1802-01-00, 01 подгруппа ЭиЭб-1802-01-00, 02 подгруппа ЭиЭб-1802-01-00, 03 подгруппа ЭиЭб-1802-01-00, 04 подгруппа ЭиЭб-1802-01-00, 05 подгруппа ЭиЭб-1802-01-00, 06 подгруппа (https://teams.microsoft.com/l/channel/19:6bde0eb0eb3a45b38b287265e8edb071@thread.tacv2/conversations?groupId=db18014f-14d1-4d90-8c6b-eca613a7c9a6&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R37C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">пятница&nbsp;03.07.20&nbsp;</SPAN></TD>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">16-217 Алгебра Экзамен  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:5868f61392e34e5286c44b921a629399@thread.tacv2/conversations?groupId=ed33bdf2-0e65-470c-ba63-9310f28cb6fe&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-209 Математика Консультация  МСб-1801-03-00 МСб-1801-03-00, 01 подгруппа МСб-1801-03-00, 02 подгруппа МСб-1801-03-00, 03 подгруппа МСб-1801-03-00, 04 подгруппа МСб-1801-03-00, 05 подгруппа МСб-1801-03-00, 06 подгруппа МСб-1801-03-00, 07 подгруппа МСб-1801-03-00, 08 подгруппа МСб-1801-03-00, 09 подгруппа (https://teams.microsoft.com/l/channel/19:ebfbd753c2854e78ac2e52dc55505f6d@thread.tacv2/conversations?groupId=4559ece5-8e6a-4a9f-8544-5e20e2fe6d82&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-209 Математика Консультация  МТб-1801-01-00 МТб-1801-01-00, 01 подгруппа МТб-1801-01-00, 02 подгруппа МТб-1801-01-00, 03 подгруппа МТб-1801-01-00, 04 подгруппа МТб-1801-01-00, 05 подгруппа МТб-1801-01-00, 06 подгруппа МТб-1801-01-00, 07 подгруппа МТб-1801-01-00, 08 подгруппа МТб-1801-01-00, 09 подгруппа (https://teams.microsoft.com/l/channel/19:ca0e24f8e33147208b3826a2936ff588@thread.tacv2/conversations?groupId=d2eed390-9994-4426-8876-cc7c0b42196d&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">16-217 Алгебра Экзамен  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:5868f61392e34e5286c44b921a629399@thread.tacv2/conversations?groupId=ed33bdf2-0e65-470c-ba63-9310f28cb6fe&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD CLASS="R2C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">16-217 Алгебра Экзамен  МКб-2301-51-00 МКб-2301-51-00, 01 подгруппа МКб-2301-51-00, 02 подгруппа МКб-2301-51-00, 03 подгруппа МКб-2301-51-00, 04 подгруппа МКб-2301-51-00, 05 подгруппа МКб-2301-51-00, 06 подгруппа МКб-2301-51-00, 07 подгруппа (https://teams.microsoft.com/l/channel/19:5868f61392e34e5286c44b921a629399@thread.tacv2/conversations?groupId=ed33bdf2-0e65-470c-ba63-9310f28cb6fe&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2"><SPAN></SPAN></TD>
+<TD CLASS="R2C2">2-209 Математика Консультация  МСб-1802-03-00 МСб-1802-03-00, 02 подгруппа</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R8C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD CLASS="R8C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R37C0" ROWSPAN=7><div style="margin: 0 -17px;-moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg)"><SPAN STYLE="max-width:0px;">суббота&nbsp;04.07.20&nbsp;</SPAN></TD>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">08:20-09:50</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-300 Математика Экзамен  МТб-1801-01-00 МТб-1801-01-00, 01 подгруппа МТб-1801-01-00, 02 подгруппа МТб-1801-01-00, 03 подгруппа МТб-1801-01-00, 04 подгруппа МТб-1801-01-00, 05 подгруппа МТб-1801-01-00, 06 подгруппа МТб-1801-01-00, 07 подгруппа МТб-1801-01-00, 08 подгруппа МТб-1801-01-00, 09 подгруппа (https://teams.microsoft.com/l/channel/19:d01a6702577a4714b79f5ba2dd37c7b2@thread.tacv2/conversations?groupId=b3ec6eba-a287-4bd5-96d4-de6671c518d5&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-209 Математика Экзамен  МСб-1801-03-00 МСб-1801-03-00, 01 подгруппа МСб-1801-03-00, 02 подгруппа МСб-1801-03-00, 03 подгруппа МСб-1801-03-00, 04 подгруппа МСб-1801-03-00, 05 подгруппа МСб-1801-03-00, 06 подгруппа МСб-1801-03-00, 07 подгруппа МСб-1801-03-00, 08 подгруппа МСб-1801-03-00, 09 подгруппа (https://teams.microsoft.com/l/channel/19:33e5c84485d34da784af7f98b083958e@thread.tacv2/conversations?groupId=657f68d7-c61a-4a1c-8858-1a8c151d4a60&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R32>
+<TD CLASS="R32C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">10:00-11:30</SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-300 Математика Экзамен  МТб-1801-01-00 МТб-1801-01-00, 01 подгруппа МТб-1801-01-00, 02 подгруппа МТб-1801-01-00, 03 подгруппа МТб-1801-01-00, 04 подгруппа МТб-1801-01-00, 05 подгруппа МТб-1801-01-00, 06 подгруппа МТб-1801-01-00, 07 подгруппа МТб-1801-01-00, 08 подгруппа МТб-1801-01-00, 09 подгруппа (https://teams.microsoft.com/l/channel/19:d01a6702577a4714b79f5ba2dd37c7b2@thread.tacv2/conversations?groupId=b3ec6eba-a287-4bd5-96d4-de6671c518d5&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD CLASS="R32C2">2-209 Математика Экзамен  МСб-1802-03-00 МСб-1802-03-00, 02 подгруппа</TD>
+<TD CLASS="R32C2">14-247 Математика Консультация  ПМИб-2301-52-00 ПМИб-2301-52-00, 01 подгруппа ПМИб-2301-52-00, 02 подгруппа ПМИб-2301-52-00, 03 подгруппа ПМИб-2301-52-00, 04 подгруппа ПМИб-2301-52-00, 05 подгруппа ПМИб-2301-52-00, 06 подгруппа ПМИб-2301-52-00, 07 подгруппа ПМИб-2302-52-00 (https://teams.microsoft.com/l/channel/19:d6e6873583cf4d00a37ae55a4b6c1b13@thread.tacv2/conversations?groupId=52b7bb3b-5a48-45a3-9c50-5006e61f6bf6&tenantId=9feed2cc-ba06-4560-9d13-954ee5d83983)</TD>
+<TD CLASS="R32C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">11:45-13:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">14:00-15:30</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">15:45-17:15</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">17:20-18:50</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R6>
+<TD CLASS="R6C1"><SPAN STYLE="white-space:nowrap;max-width:0px;">18:55-20:25</SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD CLASS="R6C2"><SPAN></SPAN></TD>
+<TD COLSPAN=2><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R86C3"><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="position:relative; height:99px;width: 100%; overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:99px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
